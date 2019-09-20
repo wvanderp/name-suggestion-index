@@ -195,15 +195,28 @@
       "tourism": "hotel"
     }
   },
-  "tourism/hotel|Hampton": {
+  "tourism/hotel|Hampton Inn & Suites": {
     "countryCodes": ["us"],
-    "matchNames": ["hampton inn and suites"],
     "tags": {
-      "alt_name": "Hampton Inn",
-      "brand": "Hampton",
+      "brand": "Hampton Inn & Suites",
       "brand:wikidata": "Q5646230",
       "brand:wikipedia": "en:Hampton by Hilton",
-      "name": "Hampton",
+      "name": "Hampton Inn & Suites",
+      "tourism": "hotel"
+    }
+  },
+  "tourism/hotel|Hampton by Hilton": {
+    "countryCodes": ["us"],
+    "matchNames": [
+      "hampton",
+      "hampton inn and suites"
+    ],
+    "tags": {
+      "alt_name": "Hampton Inn",
+      "brand": "Hampton by Hilton",
+      "brand:wikidata": "Q5646230",
+      "brand:wikipedia": "en:Hampton by Hilton",
+      "name": "Hampton by Hilton",
       "tourism": "hotel"
     }
   },
