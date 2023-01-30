@@ -936,8 +936,10 @@
     },
     {
       "displayName": "Burgermeister",
-      "id": "burgermeister-6ea233",
-      "locationSet": {"include": ["de-be.geojson"]},
+      "id": "burgermeister-1123e2",
+      "locationSet": {
+        "include": ["de-be.geojson"]
+      },
       "tags": {
         "amenity": "fast_food",
         "brand": "Burgermeister",
@@ -8058,7 +8060,7 @@
       "displayName": "Вкусно — и точка",
       "id": "vkusnoitochka-7582d1",
       "locationSet": {"include": ["ru"]},
-      "matchNames": ["макдоналдс"],
+      "matchNames": ["макдоналдс", "макдональдс","McDonald's"],
       "tags": {
         "amenity": "fast_food",
         "brand": "Вкусно — и точка",

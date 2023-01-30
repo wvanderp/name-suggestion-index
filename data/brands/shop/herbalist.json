@@ -32,6 +32,17 @@
       }
     },
     {
+      "displayName": "L'Erbolario",
+      "id": "lerbolario-ed4a79",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "L'Erbolario",
+        "brand:wikidata": "Q116304294",
+        "name": "L'Erbolario",
+        "shop": "herbalist"
+      }
+    },
+    {
       "displayName": "余仁生",
       "id": "euyansang-5606dd",
       "locationSet": {

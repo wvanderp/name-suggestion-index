@@ -125,6 +125,17 @@
       }
     },
     {
+      "displayName": "Archive",
+      "id": "archive-067547",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Archive",
+        "brand:wikidata": "Q116431114",
+        "name": "Archive",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Arezzo",
       "id": "arezzo-7c075c",
       "locationSet": {"include": ["br"]},
@@ -1405,6 +1416,19 @@
         "brand": "Runners Point",
         "brand:wikidata": "Q2176418",
         "name": "Runners Point",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Sacha",
+      "id": "sacha-854638",
+      "locationSet": {
+        "include": ["be", "lu", "nl"]
+      },
+      "tags": {
+        "brand": "Sacha",
+        "brand:wikidata": "Q116414246",
+        "name": "Sacha",
         "shop": "shoes"
       }
     },

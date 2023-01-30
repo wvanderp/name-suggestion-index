@@ -73,6 +73,19 @@
       }
     },
     {
+      "displayName": "American Swiss",
+      "id": "americanswiss-45575e",
+      "locationSet": {
+        "include": ["bw", "ls", "na", "za", "zm"]
+      },
+      "tags": {
+        "brand": "American Swiss",
+        "brand:wikidata": "Q116430764",
+        "name": "American Swiss",
+        "shop": "jewelry"
+      }
+    },
+    {
       "displayName": "Angus and Coote",
       "id": "angusandcoote-0359a8",
       "locationSet": {"include": ["au"]},
@@ -825,6 +838,17 @@
         "brand": "Shane Co.",
         "brand:wikidata": "Q7488019",
         "name": "Shane Co.",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "displayName": "Sterns",
+      "id": "sterns-d5d8d2",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Sterns",
+        "brand:wikidata": "Q116430300",
+        "name": "Sterns",
         "shop": "jewelry"
       }
     },

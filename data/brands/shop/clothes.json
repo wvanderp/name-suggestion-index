@@ -38,6 +38,16 @@
       }
     },
     {
+      "displayName": "Clothing Junction",
+      "locationSet": {"include": ["gb-eng","gb-sct","us","za"]},
+      "tags": {
+        "brand": "Clothing Junction",
+        "brand:wikidata": "Q116474981",
+        "name": "Clothing Junction",
+        "shop": "clothes"
+      }
+    },
+    {
       "displayName": "7 For All Mankind",
       "id": "7forallmankind-0615dc",
       "locationSet": {"include": ["ca", "us"]},
@@ -2821,6 +2831,7 @@
       "tags": {
         "brand": "Fabiani",
         "brand:wikidata": "Q116379050",
+        "clothes": "men",
         "name": "Fabiani",
         "shop": "clothes"
       }
@@ -2980,6 +2991,28 @@
         "brand": "Forever 21",
         "brand:wikidata": "Q1060537",
         "name": "Forever 21",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Foschini",
+      "id": "foschini-560ac2",
+      "locationSet": {
+        "include": [
+          "bw",
+          "ke",
+          "ls",
+          "na",
+          "sz",
+          "za",
+          "zm"
+        ]
+      },
+      "tags": {
+        "brand": "Foschini",
+        "brand:wikidata": "Q116391780",
+        "clothes": "women",
+        "name": "Foschini",
         "shop": "clothes"
       }
     },
@@ -3310,6 +3343,17 @@
       "tags": {
         "brand": "Glamour",
         "name": "Glamour",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "Globo",
+      "id": "globo-8f2dbd",
+      "locationSet": {"include": ["es", "it"]},
+      "tags": {
+        "brand": "Globo",
+        "brand:wikidata": "Q115774790",
+        "name": "Globo",
         "shop": "clothes"
       }
     },
@@ -6863,6 +6907,18 @@
         "brand": "Reserved",
         "brand:wikidata": "Q21809354",
         "name": "Reserved",
+        "shop": "clothes"
+      }
+    },
+    {
+      "displayName": "RFO",
+      "id": "rfo-bd328b",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Renegade Fashion Outlet",
+        "brand:wikidata": "Q116457467",
+        "name": "RFO",
+        "official_name": "Renegade Fashion Outlet",
         "shop": "clothes"
       }
     },

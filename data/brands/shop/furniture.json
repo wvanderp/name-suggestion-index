@@ -19,6 +19,46 @@
       }
     },
     {
+      "displayName": "OK Furniture",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "OK Furniture",
+        "brand:wikidata": "Q116474866",
+        "name": "OK Furniture",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Bradlows",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Bradlows",
+        "brand:wikidata": "Q116474883",
+        "name": "Bradlows",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Beares",
+      "locationSet": {"include": ["za", "ls", "sz", "na", "bw"]},
+      "tags": {
+        "brand": "Beares",
+        "brand:wikidata": "Q116474908",
+        "name": "Beares",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Lewis",
+      "locationSet": {"include": ["za", "ls", "sz", "na", "bw"]},
+      "tags": {
+        "brand": "Lewsi Stores",
+        "brand:wikidata": "",
+        "name": "Lewis",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Aaron's",
       "id": "aarons-a694b9",
       "locationSet": {"include": ["ca", "us"]},
@@ -342,6 +382,19 @@
         "brand": "Conforama",
         "brand:wikidata": "Q541134",
         "name": "Conforama",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Coricraft",
+      "id": "coricraft-0ebee2",
+      "locationSet": {
+        "include": ["bw", "na", "za"]
+      },
+      "tags": {
+        "brand": "Coricraft",
+        "brand:wikidata": "Q116428628",
+        "name": "Coricraft",
         "shop": "furniture"
       }
     },
