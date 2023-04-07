@@ -5,7 +5,7 @@
 
 # name-suggestion-index ("NSI")
 
-Canonical features for OpenStreetMap
+Canonical features for OpenStreetMap, collected manually and via the [NSI Collector](https://github.com/ideditor/nsi-collector) planet scan.
 
 ## What is it?
 
@@ -49,6 +49,7 @@ Currently used in:
 - [Go Map!!](https://github.com/bryceco/GoMap)
 - [StreetComplete](https://github.com/streetcomplete/StreetComplete/blob/master/buildSrc/src/main/java/UpdateNsiPresetsTask.kt)
 - [Every Door](https://github.com/Zverik/every_door)
+- [All The Places](https://github.com/alltheplaces/alltheplaces)
 
 ## About the index
 

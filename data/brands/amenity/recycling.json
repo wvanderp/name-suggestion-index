@@ -318,11 +318,25 @@
       }
     },
     {
+      "displayName": "Емаус-Оселя",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["emmaus"],
+      "tags": {
+        "amenity": "recycling",
+        "brand": "Емаус-Оселя",
+        "brand:wikidata": "Q116964445",
+        "recycling_type": "container",
+        "recycling:books": "yes",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes"
+      }
+    },
+    {
       "displayName": "Лѣпта",
       "id": "b6327b-f85e9d",
       "locationSet": {"include": ["ru"]},
-      "matchNames": ["лепта"],
       "tags": {
+        "alt_name": "Лепта",
         "amenity": "recycling",
         "brand": "Лѣпта",
         "brand:wikidata": "Q110234180",
@@ -330,8 +344,10 @@
         "operator": "Лѣпта",
         "operator:wikidata": "Q110234180",
         "recycling_type": "container",
+        "recycling:bags": "yes",
         "recycling:clothes": "yes",
-        "recycling:shoes": "yes"
+        "recycling:shoes": "yes",
+        "recycling:toys": "yes"
       }
     },
     {

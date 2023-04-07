@@ -293,15 +293,16 @@
       }
     },
     {
-      "displayName": "Alnatura",
-      "id": "alnatura-f97a5b",
+      "displayName": "Alnatura Super Natur Markt",
+      "id": "alnaturasupernaturmarkt-f97a5b",
       "locationSet": {"include": ["ch", "de"]},
       "tags": {
         "brand": "Alnatura",
         "brand:wikidata": "Q876811",
-        "name": "Alnatura",
+        "name": "Alnatura Super Natur Markt",
         "organic": "only",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "short_name": "Alnatura"
       }
     },
     {
@@ -789,6 +790,17 @@
       }
     },
     {
+      "displayName": "Boxer",
+      "id": "boxer-a11024",
+      "locationSet": {"include": ["sz", "za"]},
+      "tags": {
+        "brand": "Boxer",
+        "brand:wikidata": "Q116586275",
+        "name": "Boxer",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Bravo",
       "id": "bravo-dde59d",
       "locationSet": {"include": ["us"]},
@@ -1105,6 +1117,17 @@
         "brand": "Checkers",
         "brand:wikidata": "Q5089126",
         "name": "Checkers",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Checkers Hyper",
+      "id": "checkershyper-f9f648",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Checkers Hyper",
+        "brand:wikidata": "Q116518886",
+        "name": "Checkers Hyper",
         "shop": "supermarket"
       }
     },
@@ -2377,6 +2400,19 @@
       }
     },
     {
+      "displayName": "Food Lover's Market",
+      "id": "foodloversmarket-a0d53f",
+      "locationSet": {
+        "include": ["bw", "na", "za"]
+      },
+      "tags": {
+        "brand": "Food Lover's Market",
+        "brand:wikidata": "Q65071570",
+        "name": "Food Lover's Market",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Foodland (Australia)",
       "id": "foodland-c254c9",
       "locationSet": {"include": ["au"]},
@@ -2483,6 +2519,7 @@
       "displayName": "Four Square",
       "id": "foursquare-5dc426",
       "locationSet": {"include": ["nz"]},
+      "matchNames": ["4 square"],
       "tags": {
         "brand": "Four Square",
         "brand:wikidata": "Q5475558",
@@ -2806,6 +2843,7 @@
       "displayName": "Grocery Outlet",
       "id": "groceryoutlet-dde59d",
       "locationSet": {"include": ["us"]},
+      "preserveTags": ["^official_name"],
       "tags": {
         "brand": "Grocery Outlet",
         "brand:wikidata": "Q5609934",
@@ -3209,6 +3247,7 @@
       "displayName": "IGA",
       "id": "iga-166dbe",
       "locationSet": {"include": ["ca", "us"]},
+      "preserveTags": ["^name"],
       "tags": {
         "brand": "IGA",
         "brand:wikidata": "Q3146662",
@@ -3335,6 +3374,17 @@
         "brand": "Interspar",
         "brand:wikidata": "Q15820339",
         "name": "Interspar",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Iperal",
+      "id": "iperal-0cb133",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Iperal",
+        "brand:wikidata": "Q3801481",
+        "name": "Iperal",
         "shop": "supermarket"
       }
     },
@@ -3580,6 +3630,18 @@
       }
     },
     {
+      "displayName": "Klas",
+      "id": "klas-4ccde8",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["klas potraviny"],
+      "tags": {
+        "brand": "Klas",
+        "brand:wikidata": "Q116718756",
+        "name": "Klas",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Konsum (Dresden)",
       "id": "konsum-c00dcd",
       "locationSet": {
@@ -3773,17 +3835,6 @@
         "brand": "La Plaza de DIA",
         "brand:wikidata": "Q58904673",
         "name": "La Plaza de DIA",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "displayName": "La Sirena",
-      "id": "lasirena-0513f1",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "brand": "La Sirena",
-        "brand:wikidata": "Q21034458",
-        "name": "La Sirena",
         "shop": "supermarket"
       }
     },
@@ -4446,13 +4497,13 @@
     },
     {
       "displayName": "MaxValu",
-      "id": "maxvalu-fc749a",
+      "id": "maxvalu-f485f2",
       "locationSet": {
-        "include": ["cn", "jp", "my", "th"]
+        "include": ["cn", "my", "th"]
       },
       "tags": {
         "brand": "MaxValu",
-        "brand:wikidata": "Q1960109",
+        "brand:wikidata": "Q11340427",
         "name": "MaxValu",
         "shop": "supermarket"
       }
@@ -4498,6 +4549,19 @@
         "brand": "Mega Image",
         "brand:wikidata": "Q6808085",
         "name": "Mega Image",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Megasave",
+      "id": "megasave-6d06e8",
+      "locationSet": {
+        "include": ["na", "sz", "za"]
+      },
+      "tags": {
+        "brand": "Megasave",
+        "brand:wikidata": "Q116520541",
+        "name": "Megasave",
         "shop": "supermarket"
       }
     },
@@ -4550,12 +4614,12 @@
     },
     {
       "displayName": "mein real",
-      "id": "real-0a839e",
+      "id": "meinreal-0a839e",
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "mein real",
         "brand:wikidata": "Q698473",
-        "name": "real",
+        "name": "mein real",
         "shop": "supermarket"
       }
     },
@@ -5132,6 +5196,20 @@
       }
     },
     {
+      "displayName": "Novus",
+      "id": "novus-94881c",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["billa", "білла", "новус"],
+      "matchTags": ["shop/convenience"],
+      "tags": {
+        "brand": "Novus",
+        "brand:wikidata": "Q116748340",
+        "name": "Novus",
+        "name:en": "Novus",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "NP",
       "id": "np-0a839e",
       "locationSet": {"include": ["de"]},
@@ -5163,6 +5241,33 @@
         "brand": "NTUC Fairprice",
         "brand:wikidata": "Q6955519",
         "name": "NTUC Fairprice",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "OK Foods",
+      "id": "okfoods-6d06e8",
+      "locationSet": {
+        "include": ["na", "sz", "za"]
+      },
+      "matchNames": ["ok food"],
+      "tags": {
+        "brand": "OK Foods",
+        "brand:wikidata": "Q116520377",
+        "name": "OK Foods",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "OK Minimark",
+      "id": "okminimark-6d06e8",
+      "locationSet": {
+        "include": ["na", "sz", "za"]
+      },
+      "tags": {
+        "brand": "OK Minimark",
+        "brand:wikidata": "Q116520457",
+        "name": "OK Minimark",
         "shop": "supermarket"
       }
     },
@@ -5534,6 +5639,26 @@
       }
     },
     {
+      "displayName": "Profi Loco",
+      "id": "profiloco-986a24",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Profi Loco",
+        "name": "Profi Loco",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "Profi Super",
+      "id": "profisuper-986a24",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Profi Super",
+        "name": "Profi Super",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Provigo",
       "id": "provigo-76454b",
       "locationSet": {"include": ["ca"]},
@@ -5738,18 +5863,17 @@
       }
     },
     {
-      "displayName": "Rewe",
+      "displayName": "REWE",
       "id": "rewe-0a839e",
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "REWE",
         "brand:wikidata": "Q16968817",
-        "name": "REWE",
         "shop": "supermarket"
       }
     },
     {
-      "displayName": "Rewe City",
+      "displayName": "REWE City",
       "id": "rewecity-0a839e",
       "locationSet": {"include": ["de"]},
       "tags": {
@@ -6312,6 +6436,17 @@
       }
     },
     {
+      "displayName": "SPAR Gourmet",
+      "id": "spargourmet-1eef1d",
+      "locationSet": {"include": ["at"]},
+      "tags": {
+        "brand": "SPAR Gourmet",
+        "brand:wikidata": "Q610492",
+        "name": "SPAR Gourmet",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Społem",
       "id": "spolem-986a24",
       "locationSet": {"include": ["001"]},
@@ -6604,6 +6739,17 @@
       }
     },
     {
+      "displayName": "Superconti",
+      "id": "superconti-0cb133",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Superconti",
+        "brand:wikidata": "Q69381940",
+        "name": "Superconti",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "Supercor",
       "id": "supercor-d9bffc",
       "locationSet": {"include": ["es", "pt"]},
@@ -6703,17 +6849,6 @@
         "brand": "SuperValue",
         "brand:wikidata": "Q7642080",
         "name": "SuperValue",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "displayName": "SuperVerd",
-      "id": "superverd-0513f1",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "brand": "Superverd",
-        "brand:wikidata": "Q11950546",
-        "name": "Superverd",
         "shop": "supermarket"
       }
     },
@@ -7216,6 +7351,28 @@
       }
     },
     {
+      "displayName": "Usave",
+      "id": "usave-1d4ed7",
+      "locationSet": {
+        "include": [
+          "ao",
+          "bw",
+          "ls",
+          "mw",
+          "mz",
+          "na",
+          "sz",
+          "za"
+        ]
+      },
+      "tags": {
+        "brand": "Usave",
+        "brand:wikidata": "Q115696368",
+        "name": "Usave",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "U購Select U Select",
       "id": "uselect-745f9c",
       "locationSet": {"include": ["hk"]},
@@ -7277,8 +7434,10 @@
       "displayName": "Varus",
       "id": "varus-94881c",
       "locationSet": {"include": ["ua"]},
+      "matchNames": ["варус"],
       "tags": {
         "brand": "Varus",
+        "brand:wikidata": "Q114944216",
         "name": "Varus",
         "shop": "supermarket"
       }
@@ -7467,24 +7626,6 @@
         "brand": "Whole Foods Market",
         "brand:wikidata": "Q1809448",
         "name": "Whole Foods Market",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "displayName": "Wilco",
-      "id": "wilco-a4e693",
-      "locationSet": {
-        "include": [
-          "us-ca.geojson",
-          "us-or.geojson",
-          "us-wa.geojson"
-        ]
-      },
-      "tags": {
-        "alt_name": "Wilco Farm Stores",
-        "brand": "Wilco",
-        "brand:wikidata": "Q8000290",
-        "name": "Wilco",
         "shop": "supermarket"
       }
     },
@@ -8351,6 +8492,16 @@
         "brand:wikidata": "Q4371080",
         "name": "Полушка",
         "name:en": "Polushka",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "displayName": "ПУД",
+      "id": "1ee305-986a24",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "ПУД",
+        "name": "ПУД",
         "shop": "supermarket"
       }
     },
@@ -9831,6 +9982,25 @@
       }
     },
     {
+      "displayName": "农工商超市",
+      "id": "ngs-eda947",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "brand": "农工商超市",
+        "brand:en": "NGS",
+        "brand:wikidata": "Q15923587",
+        "brand:zh": "农工商超市",
+        "brand:zh-Hans": "农工商超市",
+        "brand:zh-Hant": "農工商超市",
+        "name": "农工商超市",
+        "name:en": "NGS",
+        "name:zh": "农工商超市",
+        "name:zh-Hans": "农工商超市",
+        "name:zh-Hant": "農工商超市",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "北京华联",
       "id": "bhg-9c949f",
       "locationSet": {
@@ -9851,8 +10021,11 @@
     },
     {
       "displayName": "华润万家",
-      "id": "vanguard-eda947",
-      "locationSet": {"include": ["cn"]},
+      "id": "vanguard-85bacf",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk"]
+      },
       "matchNames": ["华润万家超市"],
       "tags": {
         "brand": "华润万家",
@@ -10198,15 +10371,17 @@
     },
     {
       "displayName": "盒马鲜生",
-      "id": "hema-eda947",
+      "id": "freshhema-eda947",
       "locationSet": {"include": ["cn"]},
+      "matchNames": ["盒马"],
+      "matchTags": ["shop/convenience"],
       "tags": {
         "brand": "盒马鲜生",
-        "brand:en": "Hema",
+        "brand:en": "Fresh Hema",
         "brand:wikidata": "Q58617964",
         "brand:zh": "盒马鲜生",
         "name": "盒马鲜生",
-        "name:en": "Hema",
+        "name:en": "Fresh Hema",
         "name:zh": "盒马鲜生",
         "shop": "supermarket"
       }
@@ -10251,6 +10426,21 @@
       }
     },
     {
+      "displayName": "華潤萬家 Vanguard",
+      "id": "vanguard-745f9c",
+      "locationSet": {"include": ["hk"]},
+      "tags": {
+        "brand": "華潤萬家 Vanguard",
+        "brand:en": "Vanguard",
+        "brand:wikidata": "Q5099892",
+        "brand:zh": "華潤萬家",
+        "name": "華潤萬家 Vanguard",
+        "name:en": "Vanguard",
+        "name:zh": "華潤萬家",
+        "shop": "supermarket"
+      }
+    },
+    {
       "displayName": "西友",
       "id": "seiyu-fe0970",
       "locationSet": {"include": ["jp"]},
@@ -10283,12 +10473,15 @@
     },
     {
       "displayName": "関西スーパー",
-      "id": "a5ba4a-fe0970",
+      "id": "kansaisuper-fe0970",
       "locationSet": {"include": ["jp"]},
       "tags": {
         "brand": "関西スーパー",
+        "brand:en": "Kansai Super",
         "brand:ja": "関西スーパー",
+        "brand:wikidata": "Q11656215",
         "name": "関西スーパー",
+        "name:en": "Kansai Super",
         "name:ja": "関西スーパー",
         "shop": "supermarket"
       }

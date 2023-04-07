@@ -7,6 +7,7 @@
         "^containere textile$",
         "^d[ée]ch[èe]tt?erie$",
         "^illegal$",
+        "^public$",
         "^recycling$",
         "^verre$",
         "^waste management$",
@@ -423,6 +424,15 @@
       }
     },
     {
+      "displayName": "Asekol",
+      "id": "asekol-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Asekol"
+      }
+    },
+    {
       "displayName": "ASEKOL PL",
       "id": "asekolpl-f1a5a5",
       "locationSet": {"include": ["pl"]},
@@ -811,12 +821,30 @@
       }
     },
     {
+      "displayName": "CCPOP",
+      "id": "ccpop-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "CCPOP"
+      }
+    },
+    {
       "displayName": "CCPRO",
       "id": "ccpro-59e4c1",
       "locationSet": {"include": ["fx"]},
       "tags": {
         "amenity": "recycling",
         "operator": "CCPRO"
+      }
+    },
+    {
+      "displayName": "CCTVI",
+      "id": "cctvi-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "CCTVI"
       }
     },
     {
@@ -865,6 +893,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Circulus"
+      }
+    },
+    {
+      "displayName": "Citeo",
+      "id": "citeo-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Citeo"
       }
     },
     {
@@ -999,6 +1036,24 @@
       "tags": {
         "amenity": "recycling",
         "operator": "COLLECTIVITE DE SAINT-MARTIN DCV"
+      }
+    },
+    {
+      "displayName": "COLLECTIVITE TERRITORIALE DE SAINT MARTIN - CORBEILLES DE TRI SELECTIF",
+      "id": "collectiviteterritorialedesaintmartincorbeillesdetriselectif-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "COLLECTIVITE TERRITORIALE DE SAINT MARTIN - CORBEILLES DE TRI SELECTIF"
+      }
+    },
+    {
+      "displayName": "COLLECTIVITE TERRITORIALE DE SAINT MARTIN - CORBEILLES DE TRI SELECTIF DCV",
+      "id": "collectiviteterritorialedesaintmartincorbeillesdetriselectifdcv-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "COLLECTIVITE TERRITORIALE DE SAINT MARTIN - CORBEILLES DE TRI SELECTIF DCV"
       }
     },
     {
@@ -1155,7 +1210,9 @@
       "locationSet": {"include": ["ie"]},
       "tags": {
         "amenity": "recycling",
-        "operator": "Cork County Council"
+        "operator": "Cork County Council",
+        "operator:ga": "Comhairle Contae Chorcia",
+        "operator:wikidata": "Q5170774"
       }
     },
     {
@@ -1246,11 +1303,14 @@
     },
     {
       "displayName": "Devon County Council",
-      "id": "devoncountycouncil-91c985",
-      "locationSet": {"include": ["001"]},
+      "id": "devoncountycouncil-ad06a1",
+      "locationSet": {
+        "include": ["gb-dev.geojson"]
+      },
       "tags": {
         "amenity": "recycling",
-        "operator": "Devon County Council"
+        "operator": "Devon County Council",
+        "operator:wikidata": "Q6385990"
       }
     },
     {
@@ -1335,7 +1395,11 @@
       "locationSet": {"include": ["sk"]},
       "tags": {
         "amenity": "recycling",
-        "operator": "Ekocharita"
+        "operator": "Ekocharita",
+        "operator:wikidata": "Q116681206",
+        "recycling_type": "container",
+        "recycling:clothes": "yes",
+        "recycling:shoes": "yes"
       }
     },
     {
@@ -1474,6 +1538,15 @@
       }
     },
     {
+      "displayName": "Faircollect",
+      "id": "faircollect-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Faircollect"
+      }
+    },
+    {
       "displayName": "FBH-NP Nonprofit Kft.",
       "id": "fbhnpnonprofitkft-b316be",
       "locationSet": {"include": ["hu"]},
@@ -1551,6 +1624,15 @@
       }
     },
     {
+      "displayName": "Fundacja Eco Textil",
+      "id": "fundacjaecotextil-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Fundacja Eco Textil"
+      }
+    },
+    {
       "displayName": "Fundacja Uśmiechu",
       "id": "fundacjausmiechu-91c985",
       "locationSet": {"include": ["001"]},
@@ -1593,6 +1675,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Gemeente Amsterdam"
+      }
+    },
+    {
+      "displayName": "Gemeente Assen",
+      "id": "gemeenteassen-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Gemeente Assen"
       }
     },
     {
@@ -2031,6 +2122,15 @@
       }
     },
     {
+      "displayName": "Jura Nature Environnement",
+      "id": "juranatureenvironnement-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Jura Nature Environnement"
+      }
+    },
+    {
       "displayName": "Kapaklı Belediyesi",
       "id": "kapaklibelediyesi-65a8bd",
       "locationSet": {"include": ["tr"]},
@@ -2064,6 +2164,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Kent State University"
+      }
+    },
+    {
+      "displayName": "Kleine Patienten in Not e.V.",
+      "id": "kleinepatienteninnotev-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Kleine Patienten in Not e.V."
       }
     },
     {
@@ -2248,6 +2357,15 @@
       }
     },
     {
+      "displayName": "Les Alchimistes",
+      "id": "lesalchimistes-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Les Alchimistes"
+      }
+    },
+    {
       "displayName": "Les Petits Riens - Spullenhulp",
       "id": "lespetitsriensspullenhulp-980be7",
       "locationSet": {"include": ["be"]},
@@ -2362,6 +2480,24 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Mairie de Paris"
+      }
+    },
+    {
+      "displayName": "Marius Pedersen,a.s.",
+      "id": "mariuspedersenas-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Marius Pedersen,a.s."
+      }
+    },
+    {
+      "displayName": "MB Recycling",
+      "id": "mbrecycling-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "MB Recycling"
       }
     },
     {
@@ -2543,6 +2679,15 @@
       }
     },
     {
+      "displayName": "Orléans Métropole",
+      "id": "orleansmetropole-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Orléans Métropole"
+      }
+    },
+    {
       "displayName": "Parish of St. Helier",
       "id": "parishofsthelier-ca1d6d",
       "locationSet": {"include": ["je"]},
@@ -2633,6 +2778,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "RAD"
+      }
+    },
+    {
+      "displayName": "RAD HW B.V.",
+      "id": "radhwbv-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "RAD HW B.V."
       }
     },
     {
@@ -2969,6 +3123,15 @@
       }
     },
     {
+      "displayName": "SIETOM",
+      "id": "sietom-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "SIETOM"
+      }
+    },
+    {
       "displayName": "SIETOM de Chalosse",
       "id": "sietomdechalosse-59e4c1",
       "locationSet": {"include": ["fx"]},
@@ -3029,6 +3192,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Sitcom du Marsan"
+      }
+    },
+    {
+      "displayName": "Sivalor",
+      "id": "sivalor-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Sivalor"
       }
     },
     {
@@ -3101,6 +3273,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "SMIRCTOM"
+      }
+    },
+    {
+      "displayName": "Smitom-Lombric",
+      "id": "smitomlombric-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Smitom-Lombric"
       }
     },
     {
@@ -3178,6 +3359,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "SP Textilverwertung"
+      }
+    },
+    {
+      "displayName": "Stad Halle",
+      "id": "stadhalle-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Stad Halle"
       }
     },
     {
@@ -3409,6 +3599,15 @@
       "tags": {
         "amenity": "recycling",
         "operator": "Suma"
+      }
+    },
+    {
+      "displayName": "Suomen Pakkauskierrätys RINKI Oy",
+      "id": "suomenpakkauskierratysrinkioy-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Suomen Pakkauskierrätys RINKI Oy"
       }
     },
     {
@@ -3999,6 +4198,15 @@
       }
     },
     {
+      "displayName": "YouthMappersUMSA",
+      "id": "youthmappersumsa-91c985",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "recycling",
+        "operator": "YouthMappersUMSA"
+      }
+    },
+    {
       "displayName": "ZAW",
       "id": "zaw-6737d9",
       "locationSet": {"include": ["de"]},
@@ -4120,12 +4328,85 @@
       }
     },
     {
+      "displayName": "Булекопак",
+      "id": "c51e34-f11175",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": [
+        "bulecopack",
+        "bulecopak",
+        "bulekopack",
+        "bulekopak"
+      ],
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Булекопак",
+        "operator:wikidata": "Q116687113"
+      }
+    },
+    {
+      "displayName": "БЧК",
+      "id": "9906a9-f11175",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": ["български червен кръст"],
+      "tags": {
+        "amenity": "recycling",
+        "operator": "БЧК",
+        "operator:wikidata": "Q4996223"
+      }
+    },
+    {
       "displayName": "Втормет",
       "id": "b8aefb-7bdc35",
       "locationSet": {"include": ["ru"]},
       "tags": {
         "amenity": "recycling",
         "operator": "Втормет"
+      }
+    },
+    {
+      "displayName": "Еко Партнърс",
+      "id": "bd1461-f11175",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": [
+        "eco partners",
+        "eko partners"
+      ],
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Еко Партнърс",
+        "operator:wikidata": "Q116687227"
+      }
+    },
+    {
+      "displayName": "Екобулпак",
+      "id": "9f09a5-f11175",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": [
+        "ecobulpack",
+        "ecobulpak",
+        "ekobulpack",
+        "ekobulpak",
+        "екобулпак българия"
+      ],
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Екобулпак",
+        "operator:wikidata": "Q116687156"
+      }
+    },
+    {
+      "displayName": "Екопак",
+      "id": "aa0e2d-f11175",
+      "locationSet": {"include": ["bg"]},
+      "matchNames": [
+        "ecopack",
+        "ekopak",
+        "екопак българия"
+      ],
+      "tags": {
+        "amenity": "recycling",
+        "operator": "Екопак",
+        "operator:wikidata": "Q116687081"
       }
     },
     {

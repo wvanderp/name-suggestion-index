@@ -19,46 +19,6 @@
       }
     },
     {
-      "displayName": "OK Furniture",
-      "locationSet": {"include": ["za"]},
-      "tags": {
-        "brand": "OK Furniture",
-        "brand:wikidata": "Q116474866",
-        "name": "OK Furniture",
-        "shop": "furniture"
-      }
-    },
-    {
-      "displayName": "Bradlows",
-      "locationSet": {"include": ["za"]},
-      "tags": {
-        "brand": "Bradlows",
-        "brand:wikidata": "Q116474883",
-        "name": "Bradlows",
-        "shop": "furniture"
-      }
-    },
-    {
-      "displayName": "Beares",
-      "locationSet": {"include": ["za", "ls", "sz", "na", "bw"]},
-      "tags": {
-        "brand": "Beares",
-        "brand:wikidata": "Q116474908",
-        "name": "Beares",
-        "shop": "furniture"
-      }
-    },
-    {
-      "displayName": "Lewis",
-      "locationSet": {"include": ["za", "ls", "sz", "na", "bw"]},
-      "tags": {
-        "brand": "Lewsi Stores",
-        "brand:wikidata": "",
-        "name": "Lewis",
-        "shop": "furniture"
-      }
-    },
-    {
       "displayName": "Aaron's",
       "id": "aarons-a694b9",
       "locationSet": {"include": ["ca", "us"]},
@@ -100,6 +60,17 @@
         "brand": "Aiko XXXL",
         "brand:wikidata": "Q110614670",
         "name": "Aiko XXXL",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Akhona",
+      "id": "akhona-4d9761",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Akhona",
+        "brand:wikidata": "Q116620476",
+        "name": "Akhona",
         "shop": "furniture"
       }
     },
@@ -185,11 +156,25 @@
       }
     },
     {
+      "displayName": "Beares",
+      "id": "beares-084a8f",
+      "locationSet": {
+        "include": ["bw", "ls", "na", "sz", "za"]
+      },
+      "tags": {
+        "brand": "Beares",
+        "brand:wikidata": "Q116474908",
+        "name": "Beares",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Bellona",
-      "id": "bellona-12c613",
-      "locationSet": {"include": ["001"]},
+      "id": "bellona-a88d0c",
+      "locationSet": {"include": ["tr"]},
       "tags": {
         "brand": "Bellona",
+        "brand:wikidata": "Q6042498",
         "name": "Bellona",
         "shop": "furniture"
       }
@@ -270,6 +255,17 @@
         "brand": "Bolia",
         "brand:wikidata": "Q11961809",
         "name": "Bolia",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Bradlows",
+      "id": "bradlows-4d9761",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Bradlows",
+        "brand:wikidata": "Q116474883",
+        "name": "Bradlows",
         "shop": "furniture"
       }
     },
@@ -487,6 +483,16 @@
       }
     },
     {
+      "displayName": "Divan.ru",
+      "id": "divanru-12c613",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Divan.ru",
+        "name": "Divan.ru",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Domayne",
       "id": "domayne-0da980",
       "locationSet": {"include": ["au"]},
@@ -571,6 +577,21 @@
         "brand": "Fly",
         "brand:wikidata": "Q1389184",
         "name": "Fly",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Forma ideale",
+      "id": "660dda-7d4b0a",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "brand": "Форма идеале",
+        "brand:sr": "Форма идеале",
+        "brand:sr-Latn": "Forma ideale",
+        "brand:wikidata": "Q65079416",
+        "name": "Форма идеале",
+        "name:sr": "Форма идеале",
+        "name:sr-Latn": "Forma ideale",
         "shop": "furniture"
       }
     },
@@ -719,6 +740,19 @@
         "brand": "home24",
         "brand:wikidata": "Q17322325",
         "name": "home24",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "House & Home",
+      "id": "houseandhome-0ebee2",
+      "locationSet": {
+        "include": ["bw", "na", "za"]
+      },
+      "tags": {
+        "brand": "House & Home",
+        "brand:wikidata": "Q116520162",
+        "name": "House & Home",
         "shop": "furniture"
       }
     },
@@ -887,8 +921,8 @@
     },
     {
       "displayName": "Kwantum",
-      "id": "kwantum-e8ade6",
-      "locationSet": {"include": ["nl"]},
+      "id": "kwantum-2b79f5",
+      "locationSet": {"include": ["be", "nl"]},
       "tags": {
         "brand": "Kwantum",
         "brand:wikidata": "Q2262591",
@@ -973,6 +1007,19 @@
         "brand": "Leon's",
         "brand:wikidata": "Q6524456",
         "name": "Leon's",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Lewis",
+      "id": "lewis-084a8f",
+      "locationSet": {
+        "include": ["bw", "ls", "na", "sz", "za"]
+      },
+      "tags": {
+        "brand": "Lewis Stores",
+        "brand:wikidata": "Q116474928",
+        "name": "Lewis",
         "shop": "furniture"
       }
     },
@@ -1218,6 +1265,17 @@
       }
     },
     {
+      "displayName": "Next Home",
+      "id": "nexthome-5a41a5",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Next Home",
+        "brand:wikidata": "Q116897680",
+        "name": "Next Home",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Nick Scali",
       "id": "nickscali-0da980",
       "locationSet": {"include": ["au"]},
@@ -1236,6 +1294,28 @@
         "brand": "Oak Furnitureland",
         "brand:wikidata": "Q16959724",
         "name": "Oak Furnitureland",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "OK Furniture",
+      "id": "okfurniture-e98456",
+      "locationSet": {
+        "include": [
+          "ao",
+          "bw",
+          "ls",
+          "mz",
+          "na",
+          "sz",
+          "za",
+          "zm"
+        ]
+      },
+      "tags": {
+        "brand": "OK Furniture",
+        "brand:wikidata": "Q116474866",
+        "name": "OK Furniture",
         "shop": "furniture"
       }
     },
@@ -1475,6 +1555,17 @@
         "brand": "Rooms To Go",
         "brand:wikidata": "Q7366329",
         "name": "Rooms To Go",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Russells",
+      "id": "russells-4d9761",
+      "locationSet": {"include": ["za"]},
+      "tags": {
+        "brand": "Russells",
+        "brand:wikidata": "Q116620465",
+        "name": "Russells",
         "shop": "furniture"
       }
     },
@@ -1776,6 +1867,16 @@
       }
     },
     {
+      "displayName": "Мебель Шара",
+      "id": "558937-12c613",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Мебель Шара",
+        "name": "Мебель Шара",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Много мебели",
       "id": "c3b771-e999c2",
       "locationSet": {"include": ["ru"]},
@@ -1833,19 +1934,6 @@
       "tags": {
         "brand": "Уют",
         "name": "Уют",
-        "shop": "furniture"
-      }
-    },
-    {
-      "displayName": "Форма идеале",
-      "id": "660dda-7d4b0a",
-      "locationSet": {"include": ["rs"]},
-      "tags": {
-        "brand": "Форма идеале",
-        "brand:wikidata": "Q65079416",
-        "name": "Форма идеале",
-        "name:sr": "Форма идеале",
-        "name:sr-Latn": "Forma ideale",
         "shop": "furniture"
       }
     },

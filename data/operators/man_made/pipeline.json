@@ -190,6 +190,15 @@
       }
     },
     {
+      "displayName": "APLNG",
+      "id": "aplng-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "APLNG"
+      }
+    },
+    {
       "displayName": "Arrowhead Gas Services, LLC",
       "id": "arrowheadgasservicesllc-46297b",
       "locationSet": {
@@ -531,6 +540,15 @@
       }
     },
     {
+      "displayName": "BTC Co",
+      "id": "btcco-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "BTC Co"
+      }
+    },
+    {
       "displayName": "Buckeye Development & Logistics, LLC",
       "id": "buckeyedevelopmentandlogisticsllc-143312",
       "locationSet": {"include": ["001"]},
@@ -576,6 +594,17 @@
       }
     },
     {
+      "displayName": "Cadent",
+      "id": "cadent-0affc0",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Cadent",
+        "operator:wikidata": "Q30688985",
+        "substance": "gas"
+      }
+    },
+    {
       "displayName": "CAGEPA",
       "id": "cagepa-143312",
       "locationSet": {"include": ["001"]},
@@ -604,11 +633,15 @@
     },
     {
       "displayName": "Caltex",
-      "id": "caltex-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "caltex-b8bcc2",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["nz"]
+      },
       "tags": {
         "man_made": "pipeline",
-        "operator": "Caltex"
+        "operator": "Caltex",
+        "operator:wikidata": "Q277470"
       }
     },
     {
@@ -1375,6 +1408,15 @@
       }
     },
     {
+      "displayName": "Eastward Energy",
+      "id": "eastwardenergy-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Eastward Energy"
+      }
+    },
+    {
       "displayName": "Echo Canyon Pipeline, LLC",
       "id": "echocanyonpipelinellc-143312",
       "locationSet": {"include": ["001"]},
@@ -1610,6 +1652,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Energy Transfer Partners"
+      }
+    },
+    {
+      "displayName": "Engie",
+      "id": "engie-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Engie"
       }
     },
     {
@@ -3512,12 +3563,15 @@
       }
     },
     {
-      "displayName": "National Grid",
-      "id": "nationalgrid-143312",
-      "locationSet": {"include": ["001"]},
+      "displayName": "National Gas",
+      "id": "nationalgas-f2d4b6",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": ["national grid", "transco"],
       "tags": {
         "man_made": "pipeline",
-        "operator": "National Grid"
+        "operator": "National Gas",
+        "operator:wikidata": "Q116544806",
+        "substance": "gas"
       }
     },
     {
@@ -3706,6 +3760,17 @@
         "operator": "Nord-West Oelleitung GmbH",
         "operator:short": "NWO",
         "operator:wikidata": "Q1997452"
+      }
+    },
+    {
+      "displayName": "Northern Gas Networks",
+      "id": "northerngasnetworks-0affc0",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Northern Gas Networks",
+        "operator:wikidata": "Q7058365",
+        "substance": "gas"
       }
     },
     {
@@ -4300,6 +4365,15 @@
       }
     },
     {
+      "displayName": "QGC",
+      "id": "qgc-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "QGC"
+      }
+    },
+    {
       "displayName": "Quail Creek Oil Corporation",
       "id": "quailcreekoilcorporation-143312",
       "locationSet": {"include": ["001"]},
@@ -4633,15 +4707,6 @@
       }
     },
     {
-      "displayName": "Scotland Gas Networks",
-      "id": "scotlandgasnetworks-143312",
-      "locationSet": {"include": ["001"]},
-      "tags": {
-        "man_made": "pipeline",
-        "operator": "Scotland Gas Networks"
-      }
-    },
-    {
       "displayName": "Scottish & Southern Energy",
       "id": "scottishandsouthernenergy-143312",
       "locationSet": {"include": ["001"]},
@@ -4750,12 +4815,31 @@
       }
     },
     {
-      "displayName": "SGN Natural Gas",
-      "id": "sgnnaturalgas-143312",
-      "locationSet": {"include": ["001"]},
+      "displayName": "SGN",
+      "id": "sgn-e248bd",
+      "locationSet": {
+        "include": ["gb-eng", "gb-sct"]
+      },
+      "matchNames": [
+        "scotia gas networks",
+        "scotland gas networks"
+      ],
       "tags": {
         "man_made": "pipeline",
-        "operator": "SGN Natural Gas"
+        "operator": "SGN",
+        "operator:wikidata": "Q7435584",
+        "substance": "gas"
+      }
+    },
+    {
+      "displayName": "SGN Natural Gas",
+      "id": "sgnnaturalgas-caca88",
+      "locationSet": {"include": ["gb-nir"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "SGN Natural Gas",
+        "operator:wikidata": "Q116562155",
+        "substance": "gas"
       }
     },
     {
@@ -5335,6 +5419,15 @@
       }
     },
     {
+      "displayName": "TEOL",
+      "id": "teol-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "TEOL"
+      }
+    },
+    {
       "displayName": "Terega",
       "id": "terega-143312",
       "locationSet": {"include": ["001"]},
@@ -5608,6 +5701,15 @@
       "tags": {
         "man_made": "pipeline",
         "operator": "Transcontinental Gas Pipeline Company"
+      }
+    },
+    {
+      "displayName": "Transitgas AG",
+      "id": "transitgasag-143312",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "Transitgas AG"
       }
     },
     {
@@ -6025,11 +6127,15 @@
     },
     {
       "displayName": "Wales & West Utilities",
-      "id": "walesandwestutilities-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "walesandwestutilities-834d77",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls"]
+      },
       "tags": {
         "man_made": "pipeline",
-        "operator": "Wales & West Utilities"
+        "operator": "Wales & West Utilities",
+        "operator:wikidata": "Q7961745",
+        "substance": "gas"
       }
     },
     {
@@ -6314,8 +6420,8 @@
     },
     {
       "displayName": "ІЗС",
-      "id": "77b345-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "77b345-03c626",
+      "locationSet": {"include": ["ua"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "ІЗС"
@@ -6645,9 +6751,18 @@
       }
     },
     {
+      "displayName": "临沂富源热电有限公司",
+      "id": "48d7b3-8e8c5b",
+      "locationSet": {"include": ["cn"]},
+      "tags": {
+        "man_made": "pipeline",
+        "operator": "临沂富源热电有限公司"
+      }
+    },
+    {
       "displayName": "曹妃甸港",
-      "id": "e40afb-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "e40afb-8e8c5b",
+      "locationSet": {"include": ["cn"]},
       "tags": {
         "man_made": "pipeline",
         "operator": "曹妃甸港"
@@ -6655,11 +6770,14 @@
     },
     {
       "displayName": "横浜市水道局",
-      "id": "fb51a7-143312",
-      "locationSet": {"include": ["001"]},
+      "id": "yokohamawaterworksbureau-9676b4",
+      "locationSet": {"include": ["jp"]},
       "tags": {
         "man_made": "pipeline",
-        "operator": "横浜市水道局"
+        "operator": "横浜市水道局",
+        "operator:en": "Yokohama Waterworks Bureau",
+        "operator:ja": "横浜市水道局",
+        "operator:wikidata": "Q27928104"
       }
     }
   ]
