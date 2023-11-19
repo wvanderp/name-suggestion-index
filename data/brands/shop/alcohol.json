@@ -516,6 +516,10 @@
       "displayName": "Mitra",
       "id": "mitra-e09280",
       "locationSet": {"include": ["nl"]},
+      "matchNames": [
+        "mitra drankenspeciaalzaken",
+        "mitra slijterij"
+      ],
       "tags": {
         "brand": "Mitra",
         "brand:wikidata": "Q109186241",

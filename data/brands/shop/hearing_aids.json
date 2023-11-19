@@ -223,6 +223,7 @@
       "displayName": "Schoonenberg",
       "id": "schoonenberg-cec8b0",
       "locationSet": {"include": ["nl"]},
+      "matchNames": ["schoonenberg hoorcomfort"],
       "tags": {
         "brand": "Schoonenberg",
         "brand:wikidata": "Q109186345",

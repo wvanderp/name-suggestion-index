@@ -266,6 +266,9 @@
       "displayName": "Start People",
       "id": "startpeople-3ac139",
       "locationSet": {"include": ["be", "nl"]},
+      "matchNames": [
+        "start people uitzendbureau"
+      ],
       "tags": {
         "brand": "Start People",
         "brand:wikidata": "Q2646530",
