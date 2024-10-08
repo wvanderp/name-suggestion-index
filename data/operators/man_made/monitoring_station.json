@@ -1377,13 +1377,21 @@
       }
     },
     {
-      "displayName": "Provincie Limburg",
-      "id": "provincielimburg-dc8a1d",
-      "locationSet": {"include": ["be", "nl"]},
+      "displayName": "Provincie Limburg - NL",
+      "locationSet": {"include": ["nl"]},
       "tags": {
         "man_made": "monitoring_station",
         "operator": "Provincie Limburg",
         "operator:wikidata": "Q1093"
+      }
+    },
+    {
+      "displayName": "Provincie Limburg - BE",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "man_made": "monitoring_station",
+        "operator": "Provincie Limburg",
+        "operator:wikidata": "Q1095"
       }
     },
     {
