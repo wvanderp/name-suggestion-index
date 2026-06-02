@@ -1,6 +1,7 @@
 {
   "properties": {
     "path": "operators/amenity/kindergarten",
+    "skipCollection": true,
     "exclude": {
       "generic": [
         "^(evangelische|katholische) kirche(ngemeinde)?$",
@@ -169,6 +170,19 @@
       }
     },
     {
+      "displayName": "Ayuntamiento de Valladolid",
+      "id": "ayuntamientodevalladolid-e633b6",
+      "locationSet": {
+        "include": ["es-va.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Ayuntamiento de Valladolid",
+        "operator:type": "government",
+        "operator:wikidata": "Q8210810"
+      }
+    },
+    {
       "displayName": "Bayerisches Rotes Kreuz",
       "id": "bayerischesroteskreuz-fd062c",
       "locationSet": {
@@ -285,6 +299,20 @@
         "operator": "Centre Communal d'Action Sociale",
         "operator:type": "public",
         "operator:wikidata": "Q2944984"
+      }
+    },
+    {
+      "displayName": "Chicago Public Schools",
+      "id": "chicagopublicschools-d33682",
+      "locationSet": {
+        "include": ["us-il-cook_county.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Chicago Public Schools",
+        "operator:short": "CPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q2963340"
       }
     },
     {
@@ -917,6 +945,21 @@
         "amenity": "kindergarten",
         "operator": "Katholische Gesamtkirchengemeinde Ravensburg",
         "operator:type": "religious"
+      }
+    },
+    {
+      "displayName": "Katholische Kindertageseinrichtungen Hochstift",
+      "id": "katholischekindertageseinrichtungenhochstift-747d0f",
+      "locationSet": {"include": ["de"]},
+      "matchNames": [
+        "kath. kindertageseinrichtungen hochstift gem. gmbh, paderborn",
+        "katholische kindertageseinrichtugen hochstift gem. gmbh"
+      ],
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Katholische Kindertageseinrichtungen Hochstift",
+        "operator:type": "religious",
+        "operator:wikidata": "Q136275714"
       }
     },
     {
@@ -1764,6 +1807,19 @@
       }
     },
     {
+      "displayName": "Samtgemeinde Tostedt",
+      "id": "samtgemeindetostedt-b371e3",
+      "locationSet": {
+        "include": ["de-ni.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Samtgemeinde Tostedt",
+        "operator:type": "government",
+        "operator:wikidata": "Q460518"
+      }
+    },
+    {
       "displayName": "San José Unified School District",
       "id": "sanjoseunifiedschooldistrict-2a3fae",
       "locationSet": {
@@ -1866,19 +1922,6 @@
         "operator": "Sozialpädagogischer Verein",
         "operator:type": "private",
         "operator:wikidata": "Q129978693"
-      }
-    },
-    {
-      "displayName": "Śródmieście",
-      "id": "srodmiescie-d9c326",
-      "locationSet": {
-        "include": ["pl-14.geojson"]
-      },
-      "tags": {
-        "amenity": "kindergarten",
-        "operator": "Śródmieście",
-        "operator:type": "government",
-        "operator:wikidata": "Q7095"
       }
     },
     {
@@ -2050,6 +2093,19 @@
       }
     },
     {
+      "displayName": "Stadt Mörfelden-Walldorf",
+      "id": "stadtmorfeldenwalldorf-17b2fe",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Stadt Mörfelden-Walldorf",
+        "operator:type": "government",
+        "operator:wikidata": "Q16007"
+      }
+    },
+    {
       "displayName": "Stadt Mössingen",
       "id": "stadtmossingen-df1e7e",
       "locationSet": {
@@ -2073,6 +2129,19 @@
         "operator": "Stadt München",
         "operator:type": "government",
         "operator:wikidata": "Q1726"
+      }
+    },
+    {
+      "displayName": "Stadt Paderborn",
+      "id": "stadtpaderborn-76bfc3",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Stadt Paderborn",
+        "operator:type": "government",
+        "operator:wikidata": "Q2971"
       }
     },
     {
@@ -2102,6 +2171,19 @@
       }
     },
     {
+      "displayName": "Stadt Rüsselsheim am Main",
+      "id": "stadtrusselsheimammain-17b2fe",
+      "locationSet": {
+        "include": ["de-he.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Stadt Rüsselsheim am Main",
+        "operator:type": "government",
+        "operator:wikidata": "Q4031"
+      }
+    },
+    {
       "displayName": "Stadt Singen",
       "id": "stadtsingen-df1e7e",
       "locationSet": {
@@ -2112,6 +2194,19 @@
         "operator": "Stadt Singen",
         "operator:type": "government",
         "operator:wikidata": "Q6979"
+      }
+    },
+    {
+      "displayName": "Stadt Speyer",
+      "id": "stadtspeyer-df3d5e",
+      "locationSet": {
+        "include": ["de-rp.geojson"]
+      },
+      "tags": {
+        "amenity": "kindergarten",
+        "operator": "Stadt Speyer",
+        "operator:type": "government",
+        "operator:wikidata": "Q6829"
       }
     },
     {

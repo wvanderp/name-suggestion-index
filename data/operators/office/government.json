@@ -132,6 +132,19 @@
       }
     },
     {
+      "displayName": "Ayuntamiento de Valladolid",
+      "id": "ayuntamientodevalladolid-a8d5ed",
+      "locationSet": {
+        "include": ["es-va.geojson"]
+      },
+      "tags": {
+        "office": "government",
+        "operator": "Ayuntamiento de Valladolid",
+        "operator:type": "government",
+        "operator:wikidata": "Q8210810"
+      }
+    },
+    {
       "displayName": "Belastingdienst",
       "id": "belastingdienst-9dbfcd",
       "locationSet": {"include": ["nl"]},
@@ -305,6 +318,19 @@
         "operator": "Canada Border Services Agency",
         "operator:short": "CBSA",
         "operator:wikidata": "Q532090"
+      }
+    },
+    {
+      "displayName": "City of Makati",
+      "id": "cityofmakati-62e576",
+      "locationSet": {
+        "include": ["ph-00.geojson"]
+      },
+      "matchNames": ["city government of makati"],
+      "tags": {
+        "office": "government",
+        "operator": "City of Makati",
+        "operator:wikidata": "Q1508"
       }
     },
     {
@@ -719,6 +745,16 @@
       }
     },
     {
+      "displayName": "Exército Português",
+      "id": "exercitoportugues-4f0043",
+      "locationSet": {"include": ["pt"]},
+      "tags": {
+        "office": "government",
+        "operator": "Exército Português",
+        "operator:wikidata": "Q2542269"
+      }
+    },
+    {
       "displayName": "Federal Bureau of Investigation",
       "id": "federalbureauofinvestigation-eaa288",
       "locationSet": {"include": ["us"]},
@@ -944,6 +980,19 @@
       }
     },
     {
+      "displayName": "INAIL",
+      "id": "istitutonazionaleperlassicurazionecontrogliinfortunisullavoro-52677d",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "government": "social_security",
+        "name": "INAIL",
+        "office": "government",
+        "operator": "Istituto Nazionale per l'Assicurazione contro gli Infortuni sul Lavoro",
+        "operator:short": "INAIL",
+        "operator:wikidata": "Q3803648"
+      }
+    },
+    {
       "displayName": "Incaper",
       "id": "institutocapixabadepesquisaassistenciatecnicaeextensaorural-efa52e",
       "locationSet": {"include": ["br"]},
@@ -955,6 +1004,30 @@
         "operator": "Instituto Capixaba de Pesquisa, Assistência Técnica e Extensão Rural",
         "operator:short": "Incaper",
         "operator:wikidata": "Q29521519"
+      }
+    },
+    {
+      "displayName": "INPS (Italy)",
+      "id": "istitutonazionaledellaprevidenzasociale-52677d",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "government": "social_welfare",
+        "name": "INPS",
+        "office": "government",
+        "operator": "Istituto Nazionale della Previdenza Sociale",
+        "operator:short": "INPS",
+        "operator:wikidata": "Q1674860"
+      }
+    },
+    {
+      "displayName": "INPS (Mali)",
+      "id": "inps-32c6a0",
+      "locationSet": {"include": ["ml"]},
+      "tags": {
+        "brand": "INPS",
+        "name": "INPS",
+        "office": "government",
+        "operator": "INPS"
       }
     },
     {
@@ -1008,16 +1081,6 @@
         "operator": "Iowa Department of Transportation",
         "operator:short": "Iowa DOT",
         "operator:wikidata": "Q4925621"
-      }
-    },
-    {
-      "displayName": "Istituto Nazionale della Previdenza Sociale",
-      "id": "istitutonazionaledellaprevidenzasociale-52677d",
-      "locationSet": {"include": ["it"]},
-      "tags": {
-        "office": "government",
-        "operator": "Istituto Nazionale della Previdenza Sociale",
-        "operator:wikidata": "Q1674860"
       }
     },
     {
@@ -1262,6 +1325,16 @@
         "office": "government",
         "operator": "Michigan Secretary of State",
         "operator:wikidata": "Q16147324"
+      }
+    },
+    {
+      "displayName": "MININT",
+      "id": "minint-a67644",
+      "locationSet": {"include": ["cu"]},
+      "tags": {
+        "office": "government",
+        "operator": "MININT",
+        "operator:wikidata": "Q3858481"
       }
     },
     {
@@ -1776,6 +1849,18 @@
       }
     },
     {
+      "displayName": "Prefeitura Municipal de Campo Largo",
+      "id": "prefeituramunicipaldecampolargo-efaafd",
+      "locationSet": {
+        "include": ["br-pr.geojson"]
+      },
+      "tags": {
+        "office": "government",
+        "operator": "Prefeitura Municipal de Campo Largo",
+        "operator:wikidata": "Q1026376"
+      }
+    },
+    {
       "displayName": "Professional Regulation Commission",
       "id": "professionalregulationcommission-7987d4",
       "locationSet": {"include": ["ph"]},
@@ -2068,6 +2153,16 @@
         "operator": "United States Geological Survey",
         "operator:short": "USGS",
         "operator:wikidata": "Q193755"
+      }
+    },
+    {
+      "displayName": "URSSAF",
+      "id": "urssaf-57141e",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "office": "government",
+        "operator": "URSSAF",
+        "operator:wikidata": "Q3550086"
       }
     },
     {
@@ -2379,6 +2474,15 @@
         "office": "government",
         "operator": "पोखरा महानगरपालिका",
         "operator:wikidata": "Q6640"
+      }
+    },
+    {
+      "displayName": "吉林市龙潭区人民政府",
+      "id": "21471c-7429f2",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "office": "government",
+        "operator": "吉林市龙潭区人民政府"
       }
     },
     {

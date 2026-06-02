@@ -378,6 +378,19 @@
       }
     },
     {
+      "displayName": "Bartlett Park District",
+      "id": "bartlettparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Bartlett Park District",
+        "operator:type": "public",
+        "operator:wikidata": "Q139913917"
+      }
+    },
+    {
       "displayName": "Batavia Park District",
       "id": "bataviaparkdistrict-17eabc",
       "locationSet": {
@@ -428,6 +441,19 @@
         "operator": "Belfast City Council",
         "operator:type": "government",
         "operator:wikidata": "Q55934837"
+      }
+    },
+    {
+      "displayName": "Bellaire Parks, Recreation and Facilities Department",
+      "id": "bellaireparksrecreationandfacilitiesdepartment-8bfd34",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Bellaire Parks, Recreation and Facilities Department",
+        "operator:type": "government",
+        "operator:wikidata": "Q134442294"
       }
     },
     {
@@ -946,7 +972,7 @@
         "leisure": "park",
         "operator": "City of Anaheim",
         "operator:type": "government",
-        "operator:wikidata": "Q49247"
+        "operator:wikidata": "Q139044657"
       }
     },
     {
@@ -1050,6 +1076,32 @@
         "operator": "City of Aurora",
         "operator:type": "government",
         "operator:wikidata": "Q49246"
+      }
+    },
+    {
+      "displayName": "City of Bangor (Maine)",
+      "id": "cityofbangor-82e140",
+      "locationSet": {
+        "include": ["us-me.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Bangor",
+        "operator:type": "government",
+        "operator:wikidata": "Q327012"
+      }
+    },
+    {
+      "displayName": "City of Bangor (Michigan)",
+      "id": "cityofbangor-b9c410",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Bangor",
+        "operator:type": "government",
+        "operator:wikidata": "Q2155167"
       }
     },
     {
@@ -1264,6 +1316,15 @@
       }
     },
     {
+      "displayName": "City of Broken Arrow",
+      "id": "cityofbrokenarrow-15b72d",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Broken Arrow"
+      }
+    },
+    {
       "displayName": "City of Buena Park",
       "id": "cityofbuenapark-dd713f",
       "locationSet": {
@@ -1316,7 +1377,7 @@
         "leisure": "park",
         "operator": "City of Calgary",
         "operator:type": "government",
-        "operator:wikidata": "Q36312"
+        "operator:wikidata": "Q135270647"
       }
     },
     {
@@ -1453,7 +1514,7 @@
         "leisure": "park",
         "operator": "City of Cleveland",
         "operator:type": "government",
-        "operator:wikidata": "Q37320"
+        "operator:wikidata": "Q139385923"
       }
     },
     {
@@ -1496,6 +1557,32 @@
       }
     },
     {
+      "displayName": "City of Concord (New Hampshire)",
+      "id": "cityofconcord-97a560",
+      "locationSet": {
+        "include": ["us-nh.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Concord",
+        "operator:type": "government",
+        "operator:wikidata": "Q28249"
+      }
+    },
+    {
+      "displayName": "City of Concord (North Carolina)",
+      "id": "cityofconcord-dc7d2a",
+      "locationSet": {
+        "include": ["us-nc.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Concord",
+        "operator:type": "government",
+        "operator:wikidata": "Q1030184"
+      }
+    },
+    {
       "displayName": "City of Coquitlam",
       "id": "cityofcoquitlam-b3cf59",
       "locationSet": {
@@ -1505,7 +1592,7 @@
         "leisure": "park",
         "operator": "City of Coquitlam",
         "operator:type": "government",
-        "operator:wikidata": "Q643215"
+        "operator:wikidata": "Q139888158"
       }
     },
     {
@@ -1635,7 +1722,7 @@
         "leisure": "park",
         "operator": "City of Detroit",
         "operator:type": "government",
-        "operator:wikidata": "Q12439"
+        "operator:wikidata": "Q2824588"
       }
     },
     {
@@ -2144,6 +2231,18 @@
       }
     },
     {
+      "displayName": "City of Hot Springs, Parks & Trails",
+      "id": "cityofhotspringsparksandtrails-2e75ab",
+      "locationSet": {
+        "include": ["us-ar.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Hot Springs, Parks & Trails",
+        "operator:type": "government"
+      }
+    },
+    {
       "displayName": "City of Houston",
       "id": "houstonparksandrecreationdepartment-8bfd34",
       "locationSet": {
@@ -2195,7 +2294,7 @@
         "leisure": "park",
         "operator": "City of Irvine",
         "operator:type": "government",
-        "operator:wikidata": "Q49219"
+        "operator:wikidata": "Q139033177"
       }
     },
     {
@@ -2221,7 +2320,7 @@
         "leisure": "park",
         "operator": "City of Jacksonville",
         "operator:type": "government",
-        "operator:wikidata": "Q16568"
+        "operator:wikidata": "Q6503164"
       }
     },
     {
@@ -2235,6 +2334,19 @@
         "operator": "City of Kamloops",
         "operator:type": "government",
         "operator:wikidata": "Q473209"
+      }
+    },
+    {
+      "displayName": "City of Keene (New Hampshire)",
+      "id": "cityofkeene-97a560",
+      "locationSet": {
+        "include": ["us-nh.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Keene",
+        "operator:type": "government",
+        "operator:wikidata": "Q767364"
       }
     },
     {
@@ -2422,6 +2534,15 @@
       }
     },
     {
+      "displayName": "City of Laredo",
+      "id": "cityoflaredo-15b72d",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Laredo"
+      }
+    },
+    {
       "displayName": "City of Lawrence",
       "id": "cityoflawrence-58b3db",
       "locationSet": {
@@ -2497,6 +2618,19 @@
         "operator": "City of London",
         "operator:type": "government",
         "operator:wikidata": "Q92561"
+      }
+    },
+    {
+      "displayName": "City of London Corporation (UK)",
+      "id": "cityoflondoncorporation-777334",
+      "locationSet": {
+        "include": ["gb-lon.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of London Corporation",
+        "operator:type": "government",
+        "operator:wikidata": "Q1094147"
       }
     },
     {
@@ -2629,7 +2763,7 @@
         "leisure": "park",
         "operator": "City of Miami",
         "operator:type": "government",
-        "operator:wikidata": "Q8652"
+        "operator:wikidata": "Q5589249"
       }
     },
     {
@@ -3044,7 +3178,7 @@
         "leisure": "park",
         "operator": "City of Richmond",
         "operator:type": "government",
-        "operator:wikidata": "Q43421"
+        "operator:wikidata": "Q29093055"
       }
     },
     {
@@ -3057,7 +3191,7 @@
         "leisure": "park",
         "operator": "City of Riverside",
         "operator:type": "government",
-        "operator:wikidata": "Q49243"
+        "operator:wikidata": "Q139000354"
       }
     },
     {
@@ -3266,7 +3400,7 @@
         "leisure": "park",
         "operator": "City of Santa Fe",
         "operator:type": "government",
-        "operator:wikidata": "Q38555"
+        "operator:wikidata": "Q96338858"
       }
     },
     {
@@ -3686,6 +3820,15 @@
       }
     },
     {
+      "displayName": "City of Washburn",
+      "id": "cityofwashburn-15b72d",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "park",
+        "operator": "City of Washburn"
+      }
+    },
+    {
       "displayName": "City of Washougal",
       "id": "cityofwashougal-6c188f",
       "locationSet": {
@@ -3847,6 +3990,19 @@
       }
     },
     {
+      "displayName": "City of York Council",
+      "id": "cityofyorkcouncil-92c936",
+      "locationSet": {
+        "include": ["gb-yorkshire.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "City of York Council",
+        "operator:type": "government",
+        "operator:wikidata": "Q17059453"
+      }
+    },
+    {
       "displayName": "Clackamas County",
       "id": "clackamascounty-9db284",
       "locationSet": {
@@ -4001,6 +4157,20 @@
         "operator": "Corvallis Parks & Recreation",
         "operator:type": "public",
         "operator:wikidata": "Q123583799"
+      }
+    },
+    {
+      "displayName": "County of San Bernardino",
+      "id": "countyofsanbernardino-dc1787",
+      "locationSet": {
+        "include": ["us-ca.geojson"]
+      },
+      "matchNames": ["san bernardino county"],
+      "tags": {
+        "leisure": "park",
+        "operator": "County of San Bernardino",
+        "operator:type": "government",
+        "operator:wikidata": "Q138891274"
       }
     },
     {
@@ -4226,6 +4396,19 @@
         "leisure": "park",
         "operator": "Elgin Parks & Recreation",
         "operator:type": "public"
+      }
+    },
+    {
+      "displayName": "Elk Grove Park District",
+      "id": "elkgroveparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Elk Grove Park District",
+        "operator:type": "public",
+        "operator:wikidata": "Q139913214"
       }
     },
     {
@@ -4683,6 +4866,19 @@
       }
     },
     {
+      "displayName": "Hanover Park Park District",
+      "id": "hanoverparkparkdistrict-17eabc",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Hanover Park Park District",
+        "operator:type": "public",
+        "operator:wikidata": "Q139903164"
+      }
+    },
+    {
       "displayName": "Hanover Township",
       "id": "hanovertownship-dc67ca",
       "locationSet": {
@@ -4710,6 +4906,34 @@
       }
     },
     {
+      "displayName": "Harris County Precinct 1",
+      "id": "harriscountyprecinct1-8bfd34",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Harris County Precinct 1",
+        "operator:short": "HCP1",
+        "operator:type": "government",
+        "operator:wikidata": "Q136086620"
+      }
+    },
+    {
+      "displayName": "Harris County Precinct 2",
+      "id": "harriscountyprecinct2-8bfd34",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Harris County Precinct 2",
+        "operator:short": "HCP2",
+        "operator:type": "government",
+        "operator:wikidata": "Q136086615"
+      }
+    },
+    {
       "displayName": "Harris County Precinct 3",
       "id": "harriscountyprecinct3-8bfd34",
       "locationSet": {
@@ -4718,8 +4942,23 @@
       "tags": {
         "leisure": "park",
         "operator": "Harris County Precinct 3",
-        "operator:type": "public",
+        "operator:short": "HCP3",
+        "operator:type": "government",
         "operator:wikidata": "Q110064255"
+      }
+    },
+    {
+      "displayName": "Harris County Precinct 4",
+      "id": "harriscountyprecinct4-8bfd34",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Harris County Precinct 4",
+        "operator:short": "HCP4",
+        "operator:type": "government",
+        "operator:wikidata": "Q115120998"
       }
     },
     {
@@ -4759,19 +4998,20 @@
       }
     },
     {
-      "displayName": "Hillsborough County (Florida)",
-      "id": "hillsboroughcounty-38b713",
+      "displayName": "Hillsborough County Parks and Recreation Department",
+      "id": "hillsboroughcountyparksandrecreationdepartment-38b713",
       "locationSet": {
         "include": ["us-fl.geojson"]
       },
       "matchNames": [
+        "hillsborough county",
         "hillsborough county parks, receration and conservation department"
       ],
       "tags": {
         "leisure": "park",
-        "operator": "Hillsborough County",
+        "operator": "Hillsborough County Parks and Recreation Department",
         "operator:type": "government",
-        "operator:wikidata": "Q488874"
+        "operator:wikidata": "Q139916268"
       }
     },
     {
@@ -5339,6 +5579,18 @@
       }
     },
     {
+      "displayName": "Latrobe City Council",
+      "id": "latrobecitycouncil-3b6b12",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Latrobe City Council",
+        "operator:type": "government"
+      }
+    },
+    {
       "displayName": "Lincolnwood Parks and Recreation",
       "id": "lincolnwoodparksandrecreation-d1b6fa",
       "locationSet": {
@@ -5712,6 +5964,18 @@
       }
     },
     {
+      "displayName": "Medina County Park District",
+      "id": "medinacountyparkdistrict-c0c15b",
+      "locationSet": {
+        "include": ["us-oh.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Medina County Park District",
+        "operator:type": "public"
+      }
+    },
+    {
       "displayName": "Medway Council",
       "id": "medwaycouncil-4c36e5",
       "locationSet": {
@@ -5986,6 +6250,17 @@
         "operator:short": "MCD",
         "operator:type": "government",
         "operator:wikidata": "Q1192117"
+      }
+    },
+    {
+      "displayName": "Municipalidad de Ancon",
+      "id": "municipalidaddeancon-2a5779",
+      "locationSet": {"include": ["pe"]},
+      "tags": {
+        "leisure": "park",
+        "operator": "Municipalidad de Ancon",
+        "operator:type": "government",
+        "operator:wikidata": "Q2749045"
       }
     },
     {
@@ -6329,6 +6604,20 @@
       }
     },
     {
+      "displayName": "New Hampshire Division of Parks and Recreation",
+      "id": "newhampshiredivisionofparksandrecreation-97a560",
+      "locationSet": {
+        "include": ["us-nh.geojson"]
+      },
+      "matchNames": ["new hampshire state parks"],
+      "tags": {
+        "leisure": "park",
+        "operator": "New Hampshire Division of Parks and Recreation",
+        "operator:type": "government",
+        "operator:wikidata": "Q7008150"
+      }
+    },
+    {
       "displayName": "New Mexico EMNRD",
       "id": "newmexicodepartmentofenergymineralsandnaturalresources-1fe561",
       "locationSet": {
@@ -6403,13 +6692,23 @@
     },
     {
       "displayName": "Newry, Mourne and Down District Council",
-      "id": "newrymourneanddowndistrictcouncil-fe9c0f",
-      "locationSet": {"include": ["gb-nir"]},
+      "id": "newrymourneanddowndistrictcouncil-ff635f",
+      "locationSet": {
+        "include": ["gb-nmd.geojson"]
+      },
       "tags": {
         "leisure": "park",
         "operator": "Newry, Mourne and Down District Council",
-        "operator:type": "government",
         "operator:wikidata": "Q16998911"
+      }
+    },
+    {
+      "displayName": "NH Dept of Resources & Econ Dev",
+      "id": "nhdeptofresourcesandecondev-15b72d",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "park",
+        "operator": "NH Dept of Resources & Econ Dev"
       }
     },
     {
@@ -6685,6 +6984,15 @@
         "operator": "Palatine Park District",
         "operator:type": "public",
         "operator:wikidata": "Q112220961"
+      }
+    },
+    {
+      "displayName": "Palmer Township",
+      "id": "palmertownship-15b72d",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "park",
+        "operator": "Palmer Township"
       }
     },
     {
@@ -7144,19 +7452,6 @@
       }
     },
     {
-      "displayName": "San Bernardino County",
-      "id": "sanbernardinocounty-dc1787",
-      "locationSet": {
-        "include": ["us-ca.geojson"]
-      },
-      "tags": {
-        "leisure": "park",
-        "operator": "San Bernardino County",
-        "operator:type": "government",
-        "operator:wikidata": "Q108053"
-      }
-    },
-    {
       "displayName": "San Francisco Recreation & Park Department",
       "id": "sanfranciscorecreationandparkdepartment-7d4eb5",
       "locationSet": {
@@ -7314,7 +7609,7 @@
         "operator": "South Dakota Department of Game, Fish, and Parks",
         "operator:short": "GFP",
         "operator:type": "government",
-        "operator:wikidata": "Q55633565"
+        "operator:wikidata": "Q20829648"
       }
     },
     {
@@ -8008,6 +8303,19 @@
       }
     },
     {
+      "displayName": "United States Forest Service",
+      "id": "unitedstatesforestservice-059b34",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["us forest service"],
+      "tags": {
+        "leisure": "park",
+        "operator": "United States Forest Service",
+        "operator:short": "USFS",
+        "operator:type": "public",
+        "operator:wikidata": "Q1891156"
+      }
+    },
+    {
       "displayName": "University of Melbourne",
       "id": "universityofmelbourne-3b6b12",
       "locationSet": {
@@ -8131,6 +8439,32 @@
         "operator": "Ville de Fontaine",
         "operator:type": "government",
         "operator:wikidata": "Q118554947"
+      }
+    },
+    {
+      "displayName": "Ville de Laval (France)",
+      "id": "villedelaval-cbad7b",
+      "locationSet": {
+        "include": ["fr-pdl.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Ville de Laval",
+        "operator:type": "government",
+        "operator:wikidata": "Q115908585"
+      }
+    },
+    {
+      "displayName": "Ville de Laval (Québec)",
+      "id": "villedelaval-8d83b2",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "tags": {
+        "leisure": "park",
+        "operator": "Ville de Laval",
+        "operator:type": "government",
+        "operator:wikidata": "Q141810"
       }
     },
     {

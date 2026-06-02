@@ -7,7 +7,10 @@
         "^(al(c|k)ohol|beer|liquor)( store)?$",
         "^(botiller|licorer)[ií]a$"
       ],
-      "named": ["^(abc store|cave)$"]
+      "named": [
+        "^(abc store|cave)$",
+        "^vintage cellars$"
+      ]
     }
   },
   "items": [
@@ -527,17 +530,28 @@
       }
     },
     {
+      "displayName": "Liquorland Cellars",
+      "id": "liquorlandcellars-cb3c62",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "brand": "Liquorland Cellars",
+        "brand:wikidata": "Q137190282",
+        "name": "Liquorland Cellars",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "LiquorShop Checkers",
-      "id": "liquorshopcheckers-588b80",
+      "id": "liquorshopcheckers-7eb0a3",
       "locationSet": {
-        "include": ["bw", "na", "za"]
+        "include": ["bw", "ls", "na", "za"]
       },
       "matchNames": [
         "checkers liquor shop",
         "liquorshop"
       ],
       "tags": {
-        "brand": "Checkers",
+        "brand": "LiquorShop Checkers",
         "brand:wikidata": "Q5089126",
         "name": "LiquorShop Checkers",
         "shop": "alcohol"
@@ -545,9 +559,17 @@
     },
     {
       "displayName": "LiquorShop Shoprite",
-      "id": "liquorshopshoprite-af1a8e",
+      "id": "liquorshopshoprite-847735",
       "locationSet": {
-        "include": ["ls", "mz", "na", "za"]
+        "include": [
+          "bw",
+          "ls",
+          "mz",
+          "na",
+          "sz",
+          "za",
+          "zm"
+        ]
       },
       "matchNames": [
         "liquorshop",
@@ -557,6 +579,20 @@
         "brand": "LiquorShop Shoprite",
         "brand:wikidata": "Q1857639",
         "name": "LiquorShop Shoprite",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Maison Nicolas",
+      "id": "maisonnicolas-44f3b7",
+      "locationSet": {
+        "include": ["be", "fr", "gb", "ma"]
+      },
+      "tags": {
+        "brand": "Maison Nicolas",
+        "brand:wikidata": "Q3340012",
+        "name": "Maison Nicolas",
+        "old_name": "Nicolas",
         "shop": "alcohol"
       }
     },
@@ -632,19 +668,6 @@
         "brand:wikidata": "Q98400557",
         "name": "New Hampshire Liquor & Wine Outlet",
         "operator": "New Hampshire Liquor Commission",
-        "shop": "alcohol"
-      }
-    },
-    {
-      "displayName": "Nicolas",
-      "id": "nicolas-699bfb",
-      "locationSet": {
-        "include": ["be", "fr", "gb"]
-      },
-      "tags": {
-        "brand": "Nicolas",
-        "brand:wikidata": "Q3340012",
-        "name": "Nicolas",
         "shop": "alcohol"
       }
     },
@@ -820,6 +843,16 @@
       }
     },
     {
+      "displayName": "Świat Alkoholi",
+      "id": "swiatalkoholi-48eb32",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Świat Alkoholi",
+        "name": "Świat Alkoholi",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Systembolaget",
       "id": "systembolaget-9afe69",
       "locationSet": {"include": ["se"]},
@@ -827,6 +860,19 @@
         "brand": "Systembolaget",
         "brand:wikidata": "Q1476113",
         "name": "Systembolaget",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "TASMAC",
+      "id": "tasmac-0cc5fb",
+      "locationSet": {
+        "include": ["in-tn.geojson"]
+      },
+      "tags": {
+        "brand": "TASMAC",
+        "brand:wikidata": "Q1971258",
+        "name": "TASMAC",
         "shop": "alcohol"
       }
     },
@@ -847,6 +893,7 @@
       "displayName": "The Bottle-O",
       "id": "thebottleo-a2b828",
       "locationSet": {"include": ["nz"]},
+      "matchNames": ["bottle-o"],
       "tags": {
         "brand": "The Bottle-O",
         "brand:wikidata": "Q111015122",
@@ -902,6 +949,19 @@
       }
     },
     {
+      "displayName": "Twin Liquors",
+      "id": "twinliquors-a9ed82",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "brand": "Twin Liquors",
+        "brand:wikidata": "Q127691615",
+        "name": "Twin Liquors",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Ultra Liquors",
       "id": "ultraliquors-cebc42",
       "locationSet": {"include": ["za"]},
@@ -938,13 +998,20 @@
       }
     },
     {
-      "displayName": "Vintage Cellars",
-      "id": "vintagecellars-cb3c62",
-      "locationSet": {"include": ["au"]},
+      "displayName": "Vino&Vino",
+      "id": "vinoandvino-b2a55f",
+      "locationSet": {"include": ["by"]},
       "tags": {
-        "brand": "Vintage Cellars",
-        "brand:wikidata": "Q7932815",
-        "name": "Vintage Cellars",
+        "brand": "Vino&Vino",
+        "brand:wikidata": "Q136718877",
+        "name": "Vino&Vino",
+        "name:be": "Віно&Віно",
+        "name:be-Latn": "Vino&Vino",
+        "name:en": "Vino&Vino",
+        "name:ru": "Вино&Вино",
+        "name:uk": "Вино&Вино",
+        "operator": "ООО «НОЯКС груп»",
+        "ref:vatin": "192490276",
         "shop": "alcohol"
       }
     },
@@ -968,6 +1035,33 @@
       "tags": {
         "brand": "Volna",
         "name": "Volna",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Vynoteka",
+      "id": "vynoteka-fff5c5",
+      "locationSet": {"include": ["lt", "lv"]},
+      "tags": {
+        "brand": "Vynoteka",
+        "brand:wikidata": "Q50378897",
+        "name": "Vynoteka",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Wine&Spirits",
+      "id": "wineandspirits-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Wine&Spirits",
+        "brand:wikidata": "Q136718899",
+        "name": "Wine&Spirits",
+        "name:be": "Вайн&Спірытс",
+        "name:be-Latn": "Vajn&Spiryts",
+        "name:en": "Wine&Spirits",
+        "name:ru": "Вайн&Спиритс",
+        "name:uk": "Вайн&Спіритс",
         "shop": "alcohol"
       }
     },
@@ -1005,6 +1099,24 @@
       }
     },
     {
+      "displayName": "Аматиста",
+      "id": "amatista-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Аматиста",
+        "brand:wikidata": "Q136753138",
+        "name": "Аматиста",
+        "name:be": "Аматыста",
+        "name:be-Latn": "Amatysta",
+        "name:en": "Amatista",
+        "name:ru": "Аматиста",
+        "name:uk": "Аматиста",
+        "operator": "ГП «Беларусьторг»",
+        "ref:vatin": "190690111",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Ароматный мир",
       "id": "5a713f-b9f2fe",
       "locationSet": {"include": ["ru"]},
@@ -1022,6 +1134,24 @@
       "tags": {
         "brand": "Барик",
         "name": "Барик",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Белтаможсервис",
+      "id": "beltamozhservis-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Белтаможсервис",
+        "brand:wikidata": "Q136753152",
+        "name": "Белтаможсервис",
+        "name:be": "Белтаможсервіс",
+        "name:be-Latn": "Biełtamožsiervis",
+        "name:en": "Beltamozhservis",
+        "name:ru": "Белтаможсервис",
+        "name:uk": "Белтаможсервіс",
+        "operator": "УП «БЕЛТАМОЖСЕРВИС»",
+        "ref:vatin": "101561144",
         "shop": "alcohol"
       }
     },
@@ -1067,6 +1197,24 @@
         "brand": "Винлаб",
         "brand:wikidata": "Q109907753",
         "name": "Винлаб",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Вино",
+      "id": "vino-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Вино",
+        "brand:wikidata": "Q136723579",
+        "name": "Вино",
+        "name:be": "Віно",
+        "name:be-Latn": "Vino",
+        "name:en": "Vino",
+        "name:ru": "Вино",
+        "name:uk": "Вино",
+        "operator": "ООО «СЕРВИСБЫТСНАБ»",
+        "ref:vatin": "100950166",
         "shop": "alcohol"
       }
     },
@@ -1167,18 +1315,16 @@
     },
     {
       "displayName": "Минск Кристалл",
-      "id": "minskkristall-b2a55f",
+      "id": "minskcrystal-b2a55f",
       "locationSet": {"include": ["by"]},
       "tags": {
         "brand": "Минск Кристалл",
-        "brand:be": "Мінск Крышталь",
-        "brand:en": "Minsk Kristall",
+        "brand:be": "Мінск Крыстал",
+        "brand:be-Latn": "Minsk Krystał",
+        "brand:en": "Minsk Crystal",
         "brand:ru": "Минск Кристалл",
-        "brand:wikidata": "Q6869455",
-        "name": "Минск Кристалл",
-        "name:be": "Мінск Крышталь",
-        "name:en": "Minsk Kristall",
-        "name:ru": "Минск Кристалл",
+        "brand:uk": "Мінськ Кристал",
+        "brand:wikidata": "Q136753142",
         "shop": "alcohol"
       }
     },
@@ -1207,11 +1353,16 @@
     },
     {
       "displayName": "Пив&ко",
-      "id": "c40606-b9f2fe",
-      "locationSet": {"include": ["ru"]},
+      "id": "pivandko-892b0a",
+      "locationSet": {"include": ["kz", "ru"]},
       "tags": {
         "brand": "Пив&ко",
+        "brand:en": "Piv&Ko",
+        "brand:ru": "Пив&ко",
+        "brand:wikidata": "Q135656172",
         "name": "Пив&ко",
+        "name:en": "Piv&Ko",
+        "name:ru": "Пив&ко",
         "shop": "alcohol"
       }
     },
@@ -1247,6 +1398,24 @@
       }
     },
     {
+      "displayName": "Подари вино",
+      "id": "podarivino-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Подари вино",
+        "brand:wikidata": "Q136718845",
+        "name": "Подари вино",
+        "name:be": "Падары віно",
+        "name:be-Latn": "Padary vino",
+        "name:en": "Podari vino",
+        "name:ru": "Подари вино",
+        "name:uk": "Подарі вино",
+        "operator": "ОАО «Продтовары»",
+        "ref:vatin": "200019837",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "Полтавпиво",
       "id": "poltavpivo-345467",
       "locationSet": {"include": ["ua"]},
@@ -1268,6 +1437,22 @@
       "tags": {
         "brand": "Порт маркет",
         "name": "Порт маркет",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "Пять звёзд",
+      "id": "pyatzvezd-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Пять звёзд",
+        "brand:wikidata": "Q136773619",
+        "name": "Пять звёзд",
+        "name:be": "Пяць звёзд",
+        "name:be-Latn": "Piać zviozd",
+        "name:en": "Pyat zvezd",
+        "name:ru": "Пять звёзд",
+        "name:uk": "Пʼять зьвьозд",
         "shop": "alcohol"
       }
     },
@@ -1316,11 +1501,19 @@
     },
     {
       "displayName": "Семь Пятниц",
-      "id": "52430e-b2a55f",
+      "id": "sempyatnits-b2a55f",
       "locationSet": {"include": ["by"]},
       "tags": {
-        "brand": "Семь Пятниц",
-        "name": "Семь Пятниц",
+        "brand": "Семь пятниц",
+        "brand:wikidata": "Q136671157",
+        "name": "Семь пятниц",
+        "name:be": "Сем пятніц",
+        "name:be-Latn": "Siem piatnic",
+        "name:en": "Sem pyatnits",
+        "name:ru": "Семь пятниц",
+        "name:uk": "Сім п'ятниць",
+        "operator": "ООО «ЮниСтор Групп»",
+        "ref:vatin": "390528502",
         "shop": "alcohol"
       }
     },
@@ -1347,6 +1540,24 @@
       }
     },
     {
+      "displayName": "Штопор",
+      "id": "shtopor-b2a55f",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Штопор",
+        "brand:wikidata": "Q136718911",
+        "name": "Штопор",
+        "name:be": "Штопар",
+        "name:be-Latn": "Štopar",
+        "name:en": "Shtopor",
+        "name:ru": "Штопор",
+        "name:uk": "Штопор",
+        "operator": "ООО «ОП НИИ ПКД»",
+        "ref:vatin": "100025811",
+        "shop": "alcohol"
+      }
+    },
+    {
       "displayName": "ალკორიუმი",
       "id": "alcorium-2cfee4",
       "locationSet": {"include": ["ge"]},
@@ -1360,6 +1571,23 @@
         "name:en": "Alcorium",
         "name:ka": "ალკორიუმი",
         "name:ru": "Алкориум",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "displayName": "ზღვა ლუდი",
+      "id": "zgvaludi-2cfee4",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "brand": "ზღვა ლუდი",
+        "brand:en": "Zgva Ludi",
+        "brand:ka": "ზღვა ლუდი",
+        "brand:ru": "Згва Луди",
+        "brand:wikidata": "Q136806338",
+        "name": "ზღვა ლუდი",
+        "name:en": "Zgva Ludi",
+        "name:ka": "ზღვა ლუდი",
+        "name:ru": "Згва Луди",
         "shop": "alcohol"
       }
     },

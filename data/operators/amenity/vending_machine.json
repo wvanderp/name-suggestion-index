@@ -79,6 +79,31 @@
       }
     },
     {
+      "displayName": "České dráhy",
+      "id": "ceskedrahy-b6edac",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "operator": "České dráhy",
+        "operator:short": "ČD",
+        "operator:type": "public",
+        "operator:wikidata": "Q304944",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
+      "displayName": "Ferrocarrils de la Generalitat de Catalunya",
+      "id": "ferrocarrilsdelageneralitatdecatalunya-d94bff",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "operator": "Ferrocarrils de la Generalitat de Catalunya",
+        "operator:short": "FGC",
+        "operator:wikidata": "Q83819",
+        "vending": "public_transport_tickets"
+      }
+    },
+    {
       "displayName": "Mennica Polska (ZTM Warszawa)",
       "id": "mennicapolska-7bef08",
       "locationSet": {
@@ -171,6 +196,18 @@
         "operator": "Pharmaself24",
         "operator:wikidata": "Q131228616",
         "vending": "pharmacy"
+      }
+    },
+    {
+      "displayName": "Renfe",
+      "id": "renfe-d94bff",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["renfe operadora"],
+      "tags": {
+        "amenity": "vending_machine",
+        "operator": "Renfe",
+        "operator:wikidata": "Q2476154",
+        "vending": "public_transport_tickets"
       }
     },
     {

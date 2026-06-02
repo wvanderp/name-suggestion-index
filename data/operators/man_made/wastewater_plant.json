@@ -349,8 +349,10 @@
     },
     {
       "displayName": "Dŵr Cymru - Welsh Water",
-      "id": "dwrcymruwelshwater-6a6be4",
-      "locationSet": {"include": ["gb-wls"]},
+      "id": "dwrcymruwelshwater-1ebfd6",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls"]
+      },
       "tags": {
         "man_made": "wastewater_plant",
         "operator": "Dŵr Cymru - Welsh Water",
@@ -433,6 +435,17 @@
       }
     },
     {
+      "displayName": "Grand Strand Water & Sewer Authority",
+      "id": "grandstrandwaterandsewerauthority-dc93ff",
+      "locationSet": {
+        "include": ["us-sc.geojson"]
+      },
+      "tags": {
+        "man_made": "wastewater_plant",
+        "operator": "Grand Strand Water & Sewer Authority"
+      }
+    },
+    {
       "displayName": "Greater Western Water",
       "id": "greaterwesternwater-9409a2",
       "locationSet": {
@@ -462,6 +475,16 @@
         "man_made": "wastewater_plant",
         "operator": "Hoogheemraadschap Hollands Noorderkwartier",
         "operator:wikidata": "Q4469762"
+      }
+    },
+    {
+      "displayName": "Hoogheemraadschap van Rijnland",
+      "id": "hoogheemraadschapvanrijnland-addada",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "man_made": "wastewater_plant",
+        "operator": "Hoogheemraadschap van Rijnland",
+        "operator:wikidata": "Q2619632"
       }
     },
     {
@@ -598,6 +621,18 @@
         "man_made": "wastewater_plant",
         "operator": "Lower Murray Water",
         "operator:wikidata": "Q111143226"
+      }
+    },
+    {
+      "displayName": "Mancomunidad Comarca de Pamplona/Iruñerriko Mankomunitatea",
+      "id": "mancomunidadcomarcadepamplonairunerrikomankomunitatea-4b64db",
+      "locationSet": {
+        "include": ["es-na.geojson"]
+      },
+      "tags": {
+        "man_made": "wastewater_plant",
+        "operator": "Mancomunidad Comarca de Pamplona/Iruñerriko Mankomunitatea",
+        "operator:wikidata": "Q3297794"
       }
     },
     {
@@ -1076,6 +1111,18 @@
         "man_made": "wastewater_plant",
         "operator": "Wetterskip Fryslân",
         "operator:wikidata": "Q1970347"
+      }
+    },
+    {
+      "displayName": "Wupperverband",
+      "id": "wupperverband-ea0c8b",
+      "locationSet": {
+        "include": ["de-nw.geojson"]
+      },
+      "tags": {
+        "man_made": "wastewater_plant",
+        "operator": "Wupperverband",
+        "operator:wikidata": "Q2595186"
       }
     },
     {

@@ -196,8 +196,22 @@
       "tags": {
         "amenity": "parking",
         "operator": "Cornwall Council",
+        "operator:en": "Cornwall Council",
+        "operator:kw": "Konsel Kernow",
         "operator:type": "government",
         "operator:wikidata": "Q3774189"
+      }
+    },
+    {
+      "displayName": "Department for Infrastructure",
+      "id": "departmentforinfrastructure-bf409c",
+      "locationSet": {"include": ["gb-nir"]},
+      "tags": {
+        "amenity": "parking",
+        "name": "Department for Infrastructure",
+        "operator": "Department for Infrastructure",
+        "operator:type": "government",
+        "operator:wikidata": "Q3044778"
       }
     },
     {
@@ -460,7 +474,6 @@
         "brand": "Interparking",
         "brand:wikidata": "Q1895863",
         "fee": "yes",
-        "name": "Interparking",
         "operator": "Interparking",
         "operator:type": "private",
         "operator:wikidata": "Q1895863"
@@ -569,6 +582,18 @@
         "operator:short": "NTS",
         "operator:type": "charitable",
         "operator:wikidata": "Q599997"
+      }
+    },
+    {
+      "displayName": "Newry, Mourne and Down District Council",
+      "id": "newrymourneanddowndistrictcouncil-0bf259",
+      "locationSet": {
+        "include": ["gb-nmd.geojson"]
+      },
+      "tags": {
+        "amenity": "parking",
+        "operator": "Newry, Mourne and Down District Council",
+        "operator:wikidata": "Q16998911"
       }
     },
     {
@@ -869,6 +894,24 @@
       }
     },
     {
+      "displayName": "Swansea Council",
+      "id": "swanseacouncil-2fac06",
+      "locationSet": {
+        "include": ["gb-swa.geojson"]
+      },
+      "matchNames": [
+        "city and county of swansea council",
+        "cyngor dinas a sir abertawe"
+      ],
+      "tags": {
+        "amenity": "parking",
+        "operator": "Swansea Council",
+        "operator:cy": "Cyngor Abertawe",
+        "operator:type": "government",
+        "operator:wikidata": "Q5123523"
+      }
+    },
+    {
       "displayName": "Texas A&M University",
       "id": "texasaandmuniversitytransportationservices-04f97d",
       "locationSet": {
@@ -1070,6 +1113,27 @@
         "operator:ja": "エコロシティ",
         "operator:type": "private",
         "operator:wikidata": "Q120750922"
+      }
+    },
+    {
+      "displayName": "コインパーク",
+      "id": "coinpark-a16317",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "parking",
+        "brand": "コインパーク",
+        "brand:en": "COIN PARK",
+        "brand:ja": "コインパーク",
+        "brand:wikidata": "Q135274141",
+        "fee": "yes",
+        "name": "コインパーク",
+        "name:en": "COIN PARK",
+        "name:ja": "コインパーク",
+        "operator": "コインパーク",
+        "operator:en": "COIN PARK",
+        "operator:ja": "コインパーク",
+        "operator:type": "private",
+        "operator:wikidata": "Q135274149"
       }
     },
     {

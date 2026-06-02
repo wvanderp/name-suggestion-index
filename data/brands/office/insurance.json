@@ -73,7 +73,7 @@
     },
     {
       "displayName": "Allianz",
-      "id": "allianz-400bd0",
+      "id": "allianz-4457e3",
       "locationSet": {
         "include": [
           "ae",
@@ -137,7 +137,6 @@
           "pt",
           "qa",
           "ro",
-          "ru",
           "sa",
           "se",
           "sg",
@@ -767,6 +766,19 @@
       }
     },
     {
+      "displayName": "Česká průmyslová zdravotní pojišťovna",
+      "id": "ceskaprumyslovazdravotnipojistovna-3a544f",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "Česká průmyslová zdravotní pojišťovna",
+        "brand:short": "ČPZP",
+        "brand:wikidata": "Q11283532",
+        "insurance": "health",
+        "name": "Česká průmyslová zdravotní pojišťovna",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Co-operators",
       "id": "cooperators-0c8028",
       "locationSet": {"include": ["ca"]},
@@ -851,6 +863,18 @@
         "brand": "ČSOB Poisťovňa",
         "brand:wikidata": "Q96129090",
         "name": "ČSOB Poisťovňa",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "ČSOB Pojišťovna",
+      "id": "csobpojistovna-3a544f",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": ["čsob"],
+      "tags": {
+        "brand": "ČSOB Pojišťovna",
+        "brand:wikidata": "Q20755644",
+        "name": "ČSOB Pojišťovna",
         "office": "insurance"
       }
     },
@@ -1066,14 +1090,18 @@
     },
     {
       "displayName": "Express Страхування",
-      "id": "020645-43aba6",
+      "id": "602250-43aba6",
       "locationSet": {"include": ["ua"]},
-      "matchNames": ["express", "експрес"],
+      "matchNames": [
+        "express",
+        "express страхування",
+        "експрес"
+      ],
       "tags": {
-        "brand": "Express Страхування",
+        "brand": "Експрес Страхування",
         "brand:uk": "Експрес Страхування",
         "brand:wikidata": "Q118630381",
-        "name": "Express Страхування",
+        "name": "Експрес Страхування",
         "name:uk": "Експрес Страхування",
         "office": "insurance"
       }
@@ -1355,7 +1383,7 @@
     },
     {
       "displayName": "Groupama",
-      "id": "groupama-bb2387",
+      "id": "groupama-ad965a",
       "locationSet": {
         "include": [
           "bg",
@@ -1365,7 +1393,6 @@
           "hu",
           "it",
           "ro",
-          "sk",
           "tr"
         ]
       },
@@ -1659,23 +1686,34 @@
       }
     },
     {
-      "displayName": "KOMUNÁLNA poisťovňa",
+      "displayName": "Komunálna poisťovňa",
       "id": "komunalnapoistovna-780b74",
       "locationSet": {"include": ["sk"]},
       "tags": {
-        "brand": "KOMUNÁLNA poisťovňa",
+        "brand": "Komunálna poisťovňa",
         "brand:wikidata": "Q96129040",
-        "name": "KOMUNÁLNA poisťovňa",
+        "name": "Komunálna poisťovňa",
         "office": "insurance"
       }
     },
     {
-      "displayName": "Kooperativa",
-      "id": "kooperativa-98fcf6",
-      "locationSet": {"include": ["cz", "sk"]},
+      "displayName": "Kooperativa (Česko)",
+      "id": "kooperativa-3a544f",
+      "locationSet": {"include": ["cz"]},
       "tags": {
         "brand": "Kooperativa",
         "brand:wikidata": "Q16742113",
+        "name": "Kooperativa",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Kooperativa (Slovensko)",
+      "id": "kooperativa-780b74",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Kooperativa",
+        "brand:wikidata": "Q96129121",
         "name": "Kooperativa",
         "office": "insurance"
       }
@@ -2024,6 +2062,20 @@
       }
     },
     {
+      "displayName": "Oborová zdravotní pojišťovna",
+      "id": "oborovazdravotnipojistovna-3a544f",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": ["zdravotní pojišťovna ozp"],
+      "tags": {
+        "brand": "Oborová zdravotní pojišťovna",
+        "brand:short": "OZP",
+        "brand:wikidata": "Q12041967",
+        "insurance": "health",
+        "name": "Oborová zdravotní pojišťovna",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Ocaso",
       "id": "ocaso-ff07dc",
       "locationSet": {"include": ["es", "gb"]},
@@ -2234,6 +2286,19 @@
         "name": "RACQ",
         "office": "insurance",
         "official_name": "Royal Automobile Club of Queensland"
+      }
+    },
+    {
+      "displayName": "RBP, zdravotní pojišťovna",
+      "id": "rbpzdravotnipojistovna-3a544f",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "RBP, zdravotní pojišťovna",
+        "brand:short": "RBP",
+        "brand:wikidata": "Q20851771",
+        "insurance": "health",
+        "name": "RBP, zdravotní pojišťovna",
+        "office": "insurance"
       }
     },
     {
@@ -2517,7 +2582,7 @@
     },
     {
       "displayName": "Uniqa",
-      "id": "uniqa-dc7360",
+      "id": "uniqa-39b262",
       "locationSet": {
         "include": [
           "al",
@@ -2534,7 +2599,6 @@
           "pl",
           "ro",
           "rs",
-          "ru",
           "sk",
           "ua",
           "xk"
@@ -2651,6 +2715,23 @@
       }
     },
     {
+      "displayName": "Vojenská zdravotní pojišťovna České republiky",
+      "id": "vojenskazdravotnipojistovnaceskerepubliky-3a544f",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": [
+        "vojenská zdravotní pojišťovna",
+        "vojenská zdravotní pojišťovna čr"
+      ],
+      "tags": {
+        "brand": "Vojenská zdravotní pojišťovna České republiky",
+        "brand:short": "VoZP",
+        "brand:wikidata": "Q11925762",
+        "insurance": "health",
+        "name": "Vojenská zdravotní pojišťovna České republiky",
+        "office": "insurance"
+      }
+    },
+    {
       "displayName": "Všeobecná zdravotná poisťovňa",
       "id": "vseobecnazdravotnapoistovna-780b74",
       "locationSet": {"include": ["sk"]},
@@ -2763,6 +2844,22 @@
         "brand": "Wüstenrot",
         "brand:wikidata": "Q2597123",
         "name": "Wüstenrot",
+        "office": "insurance"
+      }
+    },
+    {
+      "displayName": "Zdravotní pojišťovna ministerstva vnitra České republiky",
+      "id": "zdravotnipojistovnaministerstvavnitraceskerepubliky-3a544f",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": [
+        "zdravotní pojišťovna ministerstva vnitra čr"
+      ],
+      "tags": {
+        "brand": "Zdravotní pojišťovna ministerstva vnitra České republiky",
+        "brand:short": "ZPMVČR",
+        "brand:wikidata": "Q10857932",
+        "insurance": "health",
+        "name": "Zdravotní pojišťovna ministerstva vnitra České republiky",
         "office": "insurance"
       }
     },
@@ -3182,7 +3279,7 @@
     },
     {
       "displayName": "الصندوق الوطني للتأمينات الاجتماعية للعمال الأجراء",
-      "id": "e56dcd-95ca40",
+      "id": "cnas-95ca40",
       "locationSet": {"include": ["dz"]},
       "tags": {
         "brand": "الصندوق الوطني للتأمينات الاجتماعية للعمال الأجراء",

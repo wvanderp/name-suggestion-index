@@ -12,6 +12,7 @@
         "^garage\\s?(moto|auto|automobile)?$",
         "^gomer[ií]a$",
         "^lubri(centro|ficantes)$",
+        "^öamtc$",
         "^taller( mec[aá]nico)?$",
         "^авто(рынок|ремонт|сервис|запчасти|электрик|запчастини)?$",
         "^автома(г|газин|стерская)?$",
@@ -241,13 +242,14 @@
     },
     {
       "displayName": "BestDrive",
-      "id": "bestdrive-1b7e7a",
+      "id": "bestdrive-301101",
       "locationSet": {
         "include": [
           "bw",
           "cz",
           "fx",
           "na",
+          "no",
           "sk",
           "za"
         ]
@@ -279,6 +281,20 @@
         "brand": "Brakes Plus",
         "brand:wikidata": "Q62075246",
         "name": "Brakes Plus",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "displayName": "Budget Brake & Muffler Auto Centres",
+      "id": "budgetbrakeandmufflerautocentres-455142",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": ["budget brake"],
+      "tags": {
+        "brand": "Budget Brake & Muffler Auto Centres",
+        "brand:wikidata": "Q135205842",
+        "name": "Budget Brake & Muffler Auto Centres",
         "shop": "car_repair"
       }
     },
@@ -828,10 +844,10 @@
     },
     {
       "displayName": "Mekonomen",
-      "id": "mekonomen-7de64b",
+      "id": "mekonomen-158011",
       "issues": [5500],
       "locationSet": {
-        "include": ["dk", "no", "se"]
+        "include": ["dk", "fi", "no", "se"]
       },
       "tags": {
         "brand": "Mekonomen",
@@ -1066,17 +1082,6 @@
       }
     },
     {
-      "displayName": "ÖAMTC",
-      "id": "oamtc-d1144d",
-      "locationSet": {"include": ["at"]},
-      "tags": {
-        "brand": "ÖAMTC",
-        "brand:wikidata": "Q306057",
-        "name": "ÖAMTC",
-        "shop": "car_repair"
-      }
-    },
-    {
       "displayName": "Oficina",
       "id": "oficina-3dbfde",
       "locationSet": {
@@ -1185,7 +1190,7 @@
     },
     {
       "displayName": "Premio",
-      "id": "premio-354273",
+      "id": "premio-4558e6",
       "locationSet": {
         "include": [
           "be",
@@ -1197,7 +1202,6 @@
           "nl",
           "pl",
           "ro",
-          "ru",
           "sk"
         ]
       },
@@ -1386,6 +1390,20 @@
         "brand:wikidata": "Q119105000",
         "name": "Speedy Glass",
         "service:vehicle:glass": "yes",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "displayName": "Strickland Brothers",
+      "id": "stricklandbrothers-878d90",
+      "locationSet": {"include": ["us"]},
+      "matchNames": [
+        "strickland brothers 10 minute oil change"
+      ],
+      "tags": {
+        "brand": "Strickland Brothers",
+        "brand:wikidata": "Q122811625",
+        "name": "Strickland Brothers",
         "shop": "car_repair"
       }
     },

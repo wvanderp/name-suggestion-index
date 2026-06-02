@@ -16,12 +16,14 @@
         "^kirpykla$",
         "^salão de beleza$",
         "^салон красоты$",
+        "^цирюльникъ$",
         "^حلاق$"
       ],
       "named": [
         "^(a cut above|art of hair|biguine|cutting edge|espace coiffure|figaro|glamour|golden scissors|haarwerk|hair & beauty|hairport)$",
+        "^(anna|natalie)$",
         "^(ihr friseur|new look|schnittpunkt|style|the cutting room|the hair lounge)$",
-        "^(каприз|фея|стиль|локон|шарм)$",
+        "^(каприз|фея|стиль|локон|шарм|натали)$",
         "^fodrászat$"
       ]
     }
@@ -410,6 +412,16 @@
       }
     },
     {
+      "displayName": "House of Hair",
+      "id": "houseofhair-ece769",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "House of Hair",
+        "name": "House of Hair",
+        "shop": "hairdresser"
+      }
+    },
+    {
       "displayName": "Igorance",
       "id": "igorance-6ad147",
       "locationSet": {"include": ["lu"]},
@@ -680,6 +692,17 @@
         "name": "QBハウス",
         "name:en": "QB HOUSE",
         "name:ja": "QBハウス",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "displayName": "Raffel Pages",
+      "id": "raffelpages-5e03c5",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Raffel Pages",
+        "brand:wikidata": "Q136758336",
+        "name": "Raffel Pages",
         "shop": "hairdresser"
       }
     },

@@ -20,6 +20,7 @@
         "^parquímetro$",
         "^taromatas$",
         "^zigarettenautomat$",
+        "^zona azul$",
         "^自販機$"
       ]
     }
@@ -153,6 +154,18 @@
         "amenity": "vending_machine",
         "brand": "Belváros-Lipótváros parkolás",
         "vending": "parking_tickets"
+      }
+    },
+    {
+      "displayName": "Ben & Jerry's",
+      "id": "benandjerrys-ceeccb",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Ben & Jerry's",
+        "brand:wikidata": "Q816412",
+        "name": "Ben & Jerry's",
+        "vending": "ice_cream"
       }
     },
     {
@@ -467,6 +480,7 @@
       "displayName": "Deutsche Bahn",
       "id": "deutschebahn-a242c5",
       "locationSet": {"include": ["de"]},
+      "matchNames": ["db"],
       "tags": {
         "amenity": "vending_machine",
         "brand": "Deutsche Bahn",
@@ -511,6 +525,18 @@
         "amenity": "vending_machine",
         "brand": "Doggie Walk Bags",
         "brand:wikidata": "Q115613320",
+        "vending": "excrement_bags"
+      }
+    },
+    {
+      "displayName": "Doggyslide",
+      "id": "doggyslide-742585",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "bin": "yes",
+        "brand": "Doggyslide",
+        "brand:wikidata": "Q136408155",
         "vending": "excrement_bags"
       }
     },
@@ -608,6 +634,18 @@
       }
     },
     {
+      "displayName": "Full lineup Value",
+      "id": "fulllineupvalue-bf11a2",
+      "locationSet": {"include": ["jp"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Full lineup Value",
+        "brand:wikidata": "Q135298109",
+        "name": "Full lineup Value",
+        "vending": "drinks"
+      }
+    },
+    {
       "displayName": "Glacier Water",
       "id": "glacierwater-7e3927",
       "locationSet": {"include": ["us"]},
@@ -617,6 +655,22 @@
         "brand:wikidata": "Q109371103",
         "name": "Glacier Water",
         "vending": "water"
+      }
+    },
+    {
+      "displayName": "Häagen-Dazs",
+      "id": "haagendazs-f05bf6",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["q19188"]
+      },
+      "note": "locationSet definition is equivalent to worldwide including Hong Kong and Macau, but excluding mainland China",
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Häagen-Dazs",
+        "brand:wikidata": "Q1143333",
+        "name": "Häagen-Dazs",
+        "vending": "ice_cream"
       }
     },
     {
@@ -691,6 +745,41 @@
       }
     },
     {
+      "displayName": "iJooz",
+      "id": "ijooz-ceeccb",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "iJooz",
+        "brand:wikidata": "Q137455659",
+        "drink:orange_juice": "yes",
+        "name": "iJooz",
+        "vending": "drinks"
+      }
+    },
+    {
+      "displayName": "InMotion",
+      "id": "inmotion-658b5e",
+      "locationSet": {
+        "include": [
+          "au",
+          "de",
+          "es",
+          "gb",
+          "ie",
+          "it",
+          "us"
+        ]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "InMotion",
+        "brand:wikidata": "Q109648041",
+        "name": "InMotion",
+        "vending": "electronics"
+      }
+    },
+    {
       "displayName": "iParqueStreet",
       "id": "iparquestreet-003f84",
       "locationSet": {
@@ -747,6 +836,16 @@
       }
     },
     {
+      "displayName": "Keszthely parkolás",
+      "id": "keszthelyparkolas-1490d1",
+      "locationSet": {"include": ["hu"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Keszthely parkolás",
+        "vending": "parking_tickets"
+      }
+    },
+    {
       "displayName": "KeyMe",
       "id": "keyme-7e3927",
       "locationSet": {"include": ["us"]},
@@ -794,7 +893,7 @@
       "tags": {
         "amenity": "vending_machine",
         "brand": "Kosan Gas",
-        "name": "Kosan Gas",
+        "brand:wikidata": "Q138029964",
         "vending": "gas"
       }
     },
@@ -857,12 +956,12 @@
       }
     },
     {
-      "displayName": "MÁV-START jegy- és bérletkiadó automata",
-      "id": "mavstartjegyesberletkiadoautomata-1490d1",
+      "displayName": "MÁV jegy- és bérletkiadó automata",
+      "id": "mavjegyesberletkiadoautomata-1490d1",
       "locationSet": {"include": ["hu"]},
       "tags": {
         "amenity": "vending_machine",
-        "brand": "MÁV-START jegy- és bérletkiadó automata",
+        "brand": "MÁV jegy- és bérletkiadó automata",
         "vending": "public_transport_tickets"
       }
     },
@@ -939,14 +1038,31 @@
       }
     },
     {
+      "displayName": "NH Lottery",
+      "id": "nhlottery-71220b",
+      "locationSet": {
+        "include": ["us-nh.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "NH Lottery",
+        "brand:wikidata": "Q7008183",
+        "name": "NH Lottery",
+        "official_name": "New Hampshire Lottery",
+        "vending": "lottery"
+      }
+    },
+    {
       "displayName": "PAAS",
-      "id": "paas-69e7be",
+      "id": "bratislavskyparkovaciasistentpaas-69e7be",
       "locationSet": {
         "include": ["sk-bl.geojson"]
       },
       "tags": {
         "amenity": "vending_machine",
-        "brand": "PAAS",
+        "brand": "Bratislavský parkovací asistent PAAS",
+        "brand:short": "PAAS",
+        "brand:wikidata": "Q136769463",
         "vending": "parking_tickets"
       }
     },
@@ -1138,6 +1254,22 @@
       }
     },
     {
+      "displayName": "Return and Earn",
+      "id": "returnandearn-fdcf16",
+      "locationSet": {
+        "include": ["au-nsw.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Return and Earn",
+        "brand:wikidata": "Q132110890",
+        "name": "Return and Earn",
+        "operator": "TOMRA Cleanaway",
+        "operator:wikidata": "Q136030146",
+        "vending": "bottle_return"
+      }
+    },
+    {
       "displayName": "Robidog",
       "id": "robidog-742585",
       "locationSet": {"include": ["ch"]},
@@ -1284,13 +1416,33 @@
     },
     {
       "displayName": "Terminal Automática SUBE",
-      "id": "terminalautomaticasube-48f03b",
+      "id": "sube-48f03b",
       "locationSet": {"include": ["ar"]},
+      "matchNames": [
+        "sistema único de boleto electrónico",
+        "terminal automática sube"
+      ],
       "tags": {
         "amenity": "vending_machine",
-        "brand": "Terminal Automática SUBE",
-        "name": "Terminal Automática SUBE",
+        "brand": "SUBE",
+        "brand:wikidata": "Q7394941",
         "vending": "public_transport_tickets"
+      }
+    },
+    {
+      "displayName": "The Hippo",
+      "id": "thehippo-71220b",
+      "locationSet": {
+        "include": ["us-nh.geojson"]
+      },
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "The Hippo",
+        "brand:wikidata": "Q135270403",
+        "name": "The Hippo",
+        "operator": "Hippo Press",
+        "operator:wikidata": "Q5768362",
+        "vending": "newspapers"
       }
     },
     {
@@ -1330,6 +1482,18 @@
         "brand": "Tokeny.Store",
         "name": "Tokeny.Store",
         "vending": "electronics"
+      }
+    },
+    {
+      "displayName": "Twice the Ice",
+      "id": "twicetheice-7e3927",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Twice the Ice",
+        "brand:wikidata": "Q126723881",
+        "name": "Twice the Ice",
+        "vending": "ice_cubes;water"
       }
     },
     {
@@ -1433,18 +1597,6 @@
       }
     },
     {
-      "displayName": "Zona Azul",
-      "id": "zonaazul-9a306d",
-      "locationSet": {"include": ["es"]},
-      "tags": {
-        "amenity": "vending_machine",
-        "brand": "Zona Azul",
-        "brand:wikidata": "Q6052214",
-        "name": "Zona Azul",
-        "vending": "parking_tickets"
-      }
-    },
-    {
       "displayName": "Артезианская вода",
       "id": "6cc3c0-eb9a2c",
       "locationSet": {"include": ["ru"]},
@@ -1453,6 +1605,22 @@
         "brand": "Артезианская вода",
         "name": "Артезианская вода",
         "vending": "water"
+      }
+    },
+    {
+      "displayName": "Київ Цифровий",
+      "id": "kyivdigital-9e3915",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Київ Цифровий",
+        "brand:en": "Kyiv Digital",
+        "brand:uk": "Київ Цифровий",
+        "brand:wikidata": "Q116871132",
+        "name": "Київ Цифровий",
+        "name:en": "Kyiv Digital",
+        "name:uk": "Київ Цифровий",
+        "vending": "public_transport_tickets"
       }
     },
     {
@@ -1479,6 +1647,16 @@
       }
     },
     {
+      "displayName": "Равно поле",
+      "id": "917c7c-5ab804",
+      "locationSet": {"include": ["bg"]},
+      "tags": {
+        "amenity": "vending_machine",
+        "brand": "Равно поле",
+        "brand:wikidata": "Q136806785"
+      }
+    },
+    {
       "displayName": "アキュア",
       "id": "acure-bf11a2",
       "locationSet": {"include": ["jp"]},
@@ -1488,7 +1666,7 @@
         "brand": "アキュア",
         "brand:en": "Acure",
         "brand:ja": "アキュア",
-        "brand:wikidata": "Q11226260",
+        "brand:wikidata": "Q134974132",
         "name": "アキュア",
         "name:en": "Acure",
         "name:ja": "アキュア",
@@ -1814,7 +1992,7 @@
         "name": "ポッカサッポロ",
         "name:en": "Pokka Sapporo",
         "name:ja": "ポッカサッポロ",
-        "vending": "water;food"
+        "vending": "drinks"
       }
     },
     {

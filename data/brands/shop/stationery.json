@@ -63,8 +63,17 @@
     },
     {
       "displayName": "Bureau Vallée",
-      "id": "bureauvallee-ce24e4",
-      "locationSet": {"include": ["fr"]},
+      "id": "bureauvallee-562f71",
+      "locationSet": {
+        "include": [
+          "be",
+          "es",
+          "fr",
+          "it",
+          "mt",
+          "tn"
+        ]
+      },
       "tags": {
         "brand": "Bureau Vallée",
         "brand:wikidata": "Q18385014",
@@ -178,6 +187,17 @@
         "brand": "McPaper",
         "brand:wikidata": "Q1915329",
         "name": "McPaper",
+        "shop": "stationery"
+      }
+    },
+    {
+      "displayName": "McPen",
+      "id": "mcpen-c4c564",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "McPen",
+        "brand:wikidata": "Q116892513",
+        "name": "McPen",
         "shop": "stationery"
       }
     },
@@ -335,6 +355,17 @@
       }
     },
     {
+      "displayName": "TGJones",
+      "id": "tgjones-a503c5",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "TGJones",
+        "brand:wikidata": "Q133575797",
+        "name": "TGJones",
+        "shop": "stationery"
+      }
+    },
+    {
       "displayName": "Titi Papiernictvo",
       "id": "titipapiernictvo-0be41a",
       "locationSet": {"include": ["sk"]},
@@ -354,6 +385,19 @@
         "brand": "Tony",
         "brand:wikidata": "Q113217034",
         "name": "Tony",
+        "shop": "stationery"
+      }
+    },
+    {
+      "displayName": "Typo",
+      "id": "typo-8bfff1",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Typo",
+        "brand:wikidata": "Q134963694",
+        "name": "Typo",
+        "operator": "Cotton On Group",
+        "operator:wikidata": "Q5175717",
         "shop": "stationery"
       }
     },
@@ -428,6 +472,19 @@
       "tags": {
         "brand": "Карандаш",
         "name": "Карандаш",
+        "shop": "stationery"
+      }
+    },
+    {
+      "displayName": "Кенгур",
+      "id": "kengur-81824a",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "brand": "Кенгур",
+        "brand:wikidata": "Q135428341",
+        "name": "Кенгур",
+        "name:sr": "Кенгур",
+        "name:sr-Latn": "Kengur",
         "shop": "stationery"
       }
     },

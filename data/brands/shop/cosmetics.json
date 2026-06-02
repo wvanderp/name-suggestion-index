@@ -152,22 +152,6 @@
       }
     },
     {
-      "displayName": "Blisk",
-      "id": "blisk-ebffbe",
-      "locationSet": {"include": ["ua"]},
-      "matchNames": [
-        "шик & блиск",
-        "шик і блиск",
-        "шик та блиск"
-      ],
-      "tags": {
-        "brand": "Blisk",
-        "brand:wikidata": "Q124486354",
-        "name": "Blisk",
-        "shop": "cosmetics"
-      }
-    },
-    {
       "displayName": "bluemercury",
       "id": "bluemercury-7d6f1e",
       "locationSet": {"include": ["us"]},
@@ -718,11 +702,11 @@
       "id": "oliveyoung-b395fe",
       "locationSet": {"include": ["kr"]},
       "tags": {
-        "brand": "Olive Young",
+        "brand": "올리브영",
         "brand:en": "Olive Young",
         "brand:ko": "올리브영",
         "brand:wikidata": "Q55643246",
-        "name": "Olive Young",
+        "name": "올리브영",
         "name:en": "Olive Young",
         "name:ko": "올리브영",
         "shop": "cosmetics"
@@ -752,9 +736,9 @@
     },
     {
       "displayName": "Primor",
-      "id": "primor-16394a",
+      "id": "primor-3ea366",
       "locationSet": {
-        "include": ["ad", "es", "pt"]
+        "include": ["ad", "es", "it", "pt"]
       },
       "tags": {
         "brand": "Primor",
@@ -973,6 +957,19 @@
       }
     },
     {
+      "displayName": "V Perfumes",
+      "id": "vperfumes-a31737",
+      "locationSet": {
+        "include": ["ae", "om", "qa", "sa"]
+      },
+      "tags": {
+        "brand": "V Perfumes",
+        "brand:wikidata": "Q135350225",
+        "name": "V Perfumes",
+        "shop": "cosmetics"
+      }
+    },
+    {
       "displayName": "Wycon Cosmetics",
       "id": "wyconcosmetics-a13ae4",
       "locationSet": {"include": ["it"]},
@@ -1091,7 +1088,7 @@
     },
     {
       "displayName": "Рив Гош",
-      "id": "d7b8b0-882961",
+      "id": "rivegauche-882961",
       "locationSet": {"include": ["ru"]},
       "tags": {
         "brand": "Рив Гош",
@@ -1145,6 +1142,23 @@
         "name:en": "Ici Paris",
         "name:ka": "ისი პარი",
         "name:ru": "Иси Пари",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "displayName": "ლუტეცია",
+      "id": "lutecia-5f8e42",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "brand": "ლუტეცია",
+        "brand:en": "Lutecia",
+        "brand:ka": "ლუტეცია",
+        "brand:ru": "Лютеция",
+        "brand:wikidata": "Q134732306",
+        "name": "ლუტეცია",
+        "name:en": "Lutecia",
+        "name:ka": "ლუტეცია",
+        "name:ru": "Лютеция",
         "shop": "cosmetics"
       }
     },

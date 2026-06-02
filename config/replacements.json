@@ -16,6 +16,10 @@
       "note": "Comboios de Portugal - https://github.com/osmlab/name-suggestion-index/issues/6554",
       "wikidata": "Q81123"
     },
+    "Q587270": {
+      "note": "Warhammer - https://github.com/osmlab/name-suggestion-index/issues/11482",
+      "wikidata": "Q136613133"
+    },
     "Q633760": {
       "note": "Conrail successor is now Conrail Shared Assets Operations",
       "wikidata": "Q5162679"
@@ -59,6 +63,10 @@
     "Q5646056": {
       "note": "Hampshire Fire and Rescue Service (and Isle of Wight Fire and Rescue Service) have merged.",
       "wikidata": "Q106317911"
+    },
+    "Q5783997": {
+      "note": "Consejo de Educación Secundaria",
+      "wikidata": "Q119732446"
     },
     "Q6084130": {
       "note": "Isle of Wight Fire and Rescue Service (and Hampshire Fire and Rescue Service) have merged.",
@@ -105,6 +113,14 @@
       "note": "Colin's Jeans - https://github.com/osmlab/name-suggestion-index/issues/3154",
       "wikidata": "Q18015543"
     },
+    "Q50332297": {
+      "note": "Junta de Castilla Ministry of Education - Wikidata redirect",
+      "wikidata": "Q30297363"
+    },
+    "Q55874812": {
+      "note": "Confederate Battle Flag - Wikidata redirect",
+      "wikidata": "Q1788743"
+    },
     "Q56599145": {
       "note": "Steers - https://github.com/osmlab/name-suggestion-index/issues/3154",
       "wikidata": "Q3056765"
@@ -135,6 +151,10 @@
       "note": "IMO Car Wash - Wikidata redirect",
       "wikidata": "Q1654122"
     },
+    "Q82980882": {
+      "note": "Zweckverband Abfallwirtschaft Region Trier - Wikidata redirect",
+      "wikidata": "Q231839"
+    },
     "Q87724264": {
       "note": "Syabuyo - Wikidata redirect",
       "wikidata": "Q67710247"
@@ -154,6 +174,26 @@
     "Q112961485": {
       "note": "Eric Kayser bakery - https://github.com/osmlab/name-suggestion-index/pull/6983",
       "wikidata": "Q112961485"
+    },
+    "Q113465054": {
+      "note": "Lidl redirect - see https://github.com/osmlab/name-suggestion-index/issues/12061",
+      "wikidata": "Q151954"
+    },
+    "Q116871201": {
+      "note": "Piraeus - https://github.com/osmlab/name-suggestion-index/issues/10859",
+      "wikidata": "Q3312"
+    },
+    "Q123688669": {
+      "note": "Merge Rona and Rona+ - see https://github.com/osmlab/name-suggestion-index/issues/11880",
+      "wikidata": "Q3415283"
+    },
+    "Q132021672": {
+      "note": "Delko - Wikidata redirect",
+      "wikidata": "Q24934757"
+    },
+    "Q134509498": {
+      "note": "Nevada County Sherrifs Office - Wikidata redirect",
+      "wikidata": "Q120751386"
     }
   }
 }

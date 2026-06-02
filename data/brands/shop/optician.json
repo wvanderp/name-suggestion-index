@@ -161,6 +161,19 @@
       }
     },
     {
+      "displayName": "Bailey Nelson",
+      "id": "baileynelson-fadfbe",
+      "locationSet": {
+        "include": ["au", "ca", "nz"]
+      },
+      "tags": {
+        "brand": "Bailey Nelson",
+        "brand:wikidata": "Q107639842",
+        "name": "Bailey Nelson",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Becker + Flöge",
       "id": "beckerfloge-7fb7e9",
       "locationSet": {"include": ["de"]},
@@ -195,6 +208,17 @@
       }
     },
     {
+      "displayName": "Brilleland",
+      "id": "brilleland-4ee896",
+      "locationSet": {"include": ["no"]},
+      "tags": {
+        "brand": "Brilleland",
+        "brand:wikidata": "Q11962280",
+        "name": "Brilleland",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Brillen Rottler",
       "id": "brillenrottler-7fb7e9",
       "locationSet": {"include": ["de"]},
@@ -214,6 +238,19 @@
         "brand": "brillen.de",
         "brand:wikidata": "Q105275794",
         "name": "brillen.de",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Centre d'optique Costco",
+      "id": "centredoptiquecostco-369c41",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "tags": {
+        "brand": "Costco",
+        "brand:wikidata": "Q715583",
+        "name": "Centre d'optique Costco",
         "shop": "optician"
       }
     },
@@ -246,9 +283,10 @@
     },
     {
       "displayName": "Costco Optical",
-      "id": "costcooptical-f59838",
+      "id": "costcooptical-ad3844",
       "locationSet": {
-        "include": ["ca", "gb", "us"]
+        "include": ["ca", "gb", "us"],
+        "exclude": ["ca-qc.geojson"]
       },
       "tags": {
         "brand": "Costco",
@@ -278,6 +316,19 @@
         "brand": "Devlyn",
         "brand:wikidata": "Q113203949",
         "name": "Devlyn",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Diopta",
+      "id": "diopta-47187f",
+      "locationSet": {
+        "include": ["ba", "me", "rs"]
+      },
+      "tags": {
+        "brand": "Diopta",
+        "brand:wikidata": "Q135969586",
+        "name": "Diopta",
         "shop": "optician"
       }
     },
@@ -347,7 +398,7 @@
     },
     {
       "displayName": "Fielmann",
-      "id": "fielmann-f003f4",
+      "id": "fielmann-f932c9",
       "locationSet": {
         "include": [
           "at",
@@ -360,7 +411,6 @@
           "lv",
           "nl",
           "pl",
-          "ru",
           "ua"
         ]
       },
@@ -372,14 +422,26 @@
       }
     },
     {
-      "displayName": "FOKUS",
-      "id": "fokus-892407",
-      "locationSet": {"include": ["cz", "sk"]},
-      "matchNames": ["fokus optik"],
+      "displayName": "Fokus očná optika",
+      "id": "fokusocnaoptika-32f57e",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["fokus"],
       "tags": {
-        "brand": "FOKUS",
-        "brand:wikidata": "Q58557324",
-        "name": "FOKUS",
+        "brand": "Fokus očná optika",
+        "brand:wikidata": "Q96140720",
+        "name": "Fokus očná optika",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Fokus optik",
+      "id": "fokusoptik-012d10",
+      "locationSet": {"include": ["cz"]},
+      "matchNames": ["fokus"],
+      "tags": {
+        "brand": "Fokus optik",
+        "brand:wikidata": "Q130557294",
+        "name": "Fokus optik",
         "shop": "optician"
       }
     },
@@ -441,9 +503,9 @@
     },
     {
       "displayName": "GrandOptical",
-      "id": "grandoptical-e85d12",
+      "id": "grandoptical-d57971",
       "locationSet": {
-        "include": ["be", "fr", "pt", "sk"]
+        "include": ["be", "cz", "fr", "pt", "sk"]
       },
       "tags": {
         "brand": "GrandOptical",
@@ -895,13 +957,15 @@
     },
     {
       "displayName": "Optical Center",
-      "id": "opticalcenter-7f892a",
+      "id": "opticalcenter-efdbe9",
       "locationSet": {
         "include": [
           "be",
           "ca",
+          "ch",
           "es",
           "fr",
+          "gb-eng",
           "il",
           "lu"
         ]
@@ -999,6 +1063,27 @@
         "brand": "Optiplaza",
         "brand:wikidata": "Q12737210",
         "name": "Optiplaza",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Optique E.Leclerc",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "E.Leclerc",
+        "brand:wikidata": "Q1273376",
+        "name": "Optique E.Leclerc",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Orange Optik",
+      "id": "orangeoptik-012d10",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "Orange Optik",
+        "brand:wikidata": "Q136881020",
+        "name": "Orange Optik",
         "shop": "optician"
       }
     },
@@ -1113,6 +1198,17 @@
       }
     },
     {
+      "displayName": "Profil Optik",
+      "id": "profiloptik-f943c4",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Profil Optik",
+        "brand:wikidata": "Q12332426",
+        "name": "Profil Optik",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Ray-Ban",
       "id": "rayban-ace229",
       "locationSet": {
@@ -1150,6 +1246,17 @@
         "brand": "Salmoiraghi & Viganò",
         "brand:wikidata": "Q21272314",
         "name": "Salmoiraghi & Viganò",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Sani Optik",
+      "id": "sanioptik-e53801",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "brand": "Sani Optik",
+        "brand:wikidata": "Q135969466",
+        "name": "Sani Optik",
         "shop": "optician"
       }
     },
@@ -1224,6 +1331,17 @@
       }
     },
     {
+      "displayName": "Smarteyes",
+      "id": "smarteyes-32f5e0",
+      "locationSet": {"include": ["dk", "se"]},
+      "tags": {
+        "brand": "Smarteyes",
+        "brand:wikidata": "Q64008424",
+        "name": "Smarteyes",
+        "shop": "optician"
+      }
+    },
+    {
       "displayName": "Solaris",
       "id": "solaris-32829f",
       "locationSet": {"include": ["fx", "pt"]},
@@ -1231,6 +1349,17 @@
         "brand": "Solaris",
         "brand:wikidata": "Q3489229",
         "name": "Solaris",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Soloptical",
+      "id": "soloptical-61af00",
+      "locationSet": {"include": ["es"]},
+      "tags": {
+        "brand": "Soloptical",
+        "brand:wikidata": "Q130349466",
+        "name": "Soloptical",
         "shop": "optician"
       }
     },
@@ -1297,8 +1426,8 @@
     },
     {
       "displayName": "Synoptik",
-      "id": "synoptik-876f61",
-      "locationSet": {"include": ["se"]},
+      "id": "synoptik-32f5e0",
+      "locationSet": {"include": ["dk", "se"]},
       "tags": {
         "brand": "Synoptik",
         "brand:wikidata": "Q10687541",
@@ -1339,6 +1468,17 @@
         "brand": "Theodore & Pringle Optical",
         "brand:wikidata": "Q122811127",
         "name": "Theodore & Pringle Optical",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Thiele",
+      "id": "thiele-f943c4",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Thiele",
+        "brand:wikidata": "Q12339176",
+        "name": "Thiele",
         "shop": "optician"
       }
     },
@@ -1406,6 +1546,19 @@
         "brand": "Visionworks",
         "brand:wikidata": "Q5422607",
         "name": "Visionworks",
+        "shop": "optician"
+      }
+    },
+    {
+      "displayName": "Viu",
+      "id": "viu-e4b658",
+      "locationSet": {
+        "include": ["at", "ch", "de"]
+      },
+      "tags": {
+        "brand": "Viu",
+        "brand:wikidata": "Q136709653",
+        "name": "Viu",
         "shop": "optician"
       }
     },

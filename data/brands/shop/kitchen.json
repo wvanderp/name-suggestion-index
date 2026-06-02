@@ -96,7 +96,7 @@
     },
     {
       "displayName": "Ixina",
-      "id": "ixina-d089d8",
+      "id": "ixina-ef6c85",
       "locationSet": {
         "include": [
           "ae",
@@ -126,7 +126,6 @@
           "pl",
           "qa",
           "ro",
-          "ru",
           "sa",
           "se",
           "sn",
@@ -358,6 +357,17 @@
       }
     },
     {
+      "displayName": "Scavolini",
+      "id": "scavolini-266f5b",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Scavolini",
+        "brand:wikidata": "Q2229088",
+        "name": "Scavolini",
+        "shop": "kitchen"
+      }
+    },
+    {
       "displayName": "Schmidt",
       "id": "schmidt-b36c9e",
       "locationSet": {
@@ -405,6 +415,18 @@
       }
     },
     {
+      "displayName": "Tilbords",
+      "id": "tilbords-17151f",
+      "locationSet": {"include": ["no"]},
+      "matchTags": ["shop/houseware"],
+      "tags": {
+        "brand": "Tilbords",
+        "brand:wikidata": "Q19392507",
+        "name": "Tilbords",
+        "shop": "kitchen"
+      }
+    },
+    {
       "displayName": "Tulp Keukens",
       "id": "tulpkeukens-169f26",
       "locationSet": {"include": ["nl"]},
@@ -412,6 +434,17 @@
         "brand": "Tulp Keukens",
         "brand:wikidata": "Q124211172",
         "name": "Tulp Keukens",
+        "shop": "kitchen"
+      }
+    },
+    {
+      "displayName": "Veneta Cucine",
+      "id": "venetacucine-38c8bd",
+      "locationSet": {"include": ["fx", "it"]},
+      "tags": {
+        "brand": "Veneta Cucine",
+        "brand:wikidata": "Q136439356",
+        "name": "Veneta Cucine",
         "shop": "kitchen"
       }
     },

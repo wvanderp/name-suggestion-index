@@ -138,6 +138,23 @@
       }
     },
     {
+      "displayName": "Daniadown",
+      "id": "daniadown-fbfe85",
+      "locationSet": {"include": ["ca"]},
+      "matchTags": [
+        "shop/fabric",
+        "shop/interior_decoration"
+      ],
+      "tags": {
+        "brand": "Daniadown",
+        "brand:wikidata": "Q136359124",
+        "furniture": "no",
+        "mattress": "no",
+        "name": "Daniadown",
+        "shop": "bed"
+      }
+    },
+    {
       "displayName": "Dial-a-Bed",
       "id": "dialabed-d8cd0b",
       "locationSet": {"include": ["za"]},
@@ -145,6 +162,33 @@
         "brand": "Dial-a-Bed",
         "brand:wikidata": "Q116429178",
         "name": "Dial-a-Bed",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Dormeo",
+      "id": "dormeo-17f69e",
+      "locationSet": {
+        "include": [
+          "ba",
+          "cz",
+          "ee",
+          "fi",
+          "hr",
+          "hu",
+          "lt",
+          "lv",
+          "ro",
+          "rs",
+          "sk",
+          "sl"
+        ]
+      },
+      "matchNames": ["dormeo home"],
+      "tags": {
+        "brand": "Dormeo",
+        "brand:wikidata": "Q138426815",
+        "name": "Dormeo",
         "shop": "bed"
       }
     },
@@ -168,6 +212,29 @@
         "brand": "Dreams",
         "brand:wikidata": "Q5306688",
         "name": "Dreams",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Drømmeland",
+      "id": "drommeland-211d3a",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Drømmeland",
+        "brand:wikidata": "Q5306688",
+        "name": "Drømmeland",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Emma",
+      "id": "emma-1dfb01",
+      "locationSet": {"include": ["001"]},
+      "matchNames": ["emma sleep"],
+      "tags": {
+        "brand": "Emma",
+        "brand:wikidata": "Q110952031",
+        "name": "Emma",
         "shop": "bed"
       }
     },
@@ -455,6 +522,7 @@
       "tags": {
         "brand": "Sleep Country",
         "brand:wikidata": "Q7539684",
+        "mattress": "yes",
         "name": "Sleep Country",
         "shop": "bed"
       }
@@ -605,6 +673,17 @@
         "brand": "Yatsan",
         "brand:wikidata": "Q106803959",
         "name": "Yatsan",
+        "shop": "bed"
+      }
+    },
+    {
+      "displayName": "Світ Матраців",
+      "id": "7bb5ad-ee9b7c",
+      "locationSet": {"include": ["ua"]},
+      "tags": {
+        "brand": "Світ Матраців",
+        "brand:wikidata": "Q136141983",
+        "name": "Світ Матраців",
         "shop": "bed"
       }
     }

@@ -31,6 +31,7 @@
       "tags": {
         "amenity": "photo_booth",
         "brand": "Ki-Re-i",
+        "brand:wikidata": "Q11196102",
         "name": "Ki-Re-i"
       }
     },
@@ -62,8 +63,10 @@
     },
     {
       "displayName": "Photo-Me",
-      "id": "photome-207538",
-      "locationSet": {"include": ["gb", "ie"]},
+      "id": "photome-f9b213",
+      "locationSet": {
+        "include": ["gb", "ie", "jp", "nl"]
+      },
       "matchTags": ["shop/photo"],
       "tags": {
         "amenity": "photo_booth",

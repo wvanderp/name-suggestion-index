@@ -11,9 +11,6 @@
       "locationSet": {"include": ["gb"]},
       "matchNames": ["central co-op food"],
       "tags": {
-        "brand": "The Co-operative Food",
-        "brand:wikidata": "Q107617274",
-        "name": "The Co-operative Food",
         "operator": "Central England Co-operative",
         "operator:wikidata": "Q16986583",
         "shop": "convenience"
@@ -21,12 +18,14 @@
     },
     {
       "displayName": "Chelmsford Star Co-operative Society",
-      "id": "chelmsfordstarcooperativesociety-ac8d0d",
-      "locationSet": {"include": ["gb"]},
+      "id": "chelmsfordstarcooperativesociety-c1b095",
+      "locationSet": {
+        "include": [
+          "gb-east-england.geojson",
+          "gb-lon.geojson"
+        ]
+      },
       "tags": {
-        "brand": "The Co-operative Food",
-        "brand:wikidata": "Q107617274",
-        "name": "The Co-operative Food",
         "operator": "Chelmsford Star Co-operative Society",
         "operator:wikidata": "Q5089972",
         "shop": "convenience"
@@ -37,11 +36,24 @@
       "id": "heartofenglandcooperativesociety-ac8d0d",
       "locationSet": {"include": ["gb"]},
       "tags": {
-        "brand": "The Co-operative Food",
-        "brand:wikidata": "Q107617274",
-        "name": "The Co-operative Food",
         "operator": "Heart of England Co-operative Society",
         "operator:wikidata": "Q5692254",
+        "shop": "convenience"
+      }
+    },
+    {
+      "displayName": "Radstock Co-operative Society",
+      "id": "radstockcooperativesociety-8e269c",
+      "locationSet": {
+        "include": [
+          "gb-bas.geojson",
+          "gb-nsm.geojson",
+          "gb-som.geojson"
+        ]
+      },
+      "tags": {
+        "operator": "Radstock Co-operative Society",
+        "operator:wikidata": "Q7281698",
         "shop": "convenience"
       }
     },
@@ -64,9 +76,6 @@
       "locationSet": {"include": ["gb"]},
       "matchNames": ["southern co-operative"],
       "tags": {
-        "brand": "The Co-operative Food",
-        "brand:wikidata": "Q107617274",
-        "name": "The Co-operative Food",
         "operator": "The Southern Co-operative",
         "operator:wikidata": "Q7569773",
         "shop": "convenience"

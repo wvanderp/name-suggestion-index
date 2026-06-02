@@ -366,6 +366,23 @@
       }
     },
     {
+      "displayName": "Crown Castle South LLC",
+      "id": "crowncastlesouthllc-08b948",
+      "locationSet": {
+        "include": [
+          "us-fl.geojson",
+          "us-ky.geojson",
+          "us-nc.geojson",
+          "us-sc.geojson",
+          "us-tn.geojson"
+        ]
+      },
+      "tags": {
+        "man_made": "mast",
+        "operator": "Crown Castle South LLC"
+      }
+    },
+    {
       "displayName": "CTIL",
       "id": "cornerstonetelecommunicationsinfrastructurelimited-556014",
       "locationSet": {"include": ["gb"]},
@@ -428,6 +445,7 @@
       "id": "deutschetelekom-0b2be4",
       "locationSet": {"include": ["de"]},
       "matchNames": [
+        "deu. telekom",
         "deutsche telekom ag",
         "telekom"
       ],
@@ -600,6 +618,16 @@
       }
     },
     {
+      "displayName": "Ferrovalle",
+      "id": "ferrovalle-4b976b",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "man_made": "mast",
+        "operator": "Ferrovalle",
+        "operator:wikidata": "Q3069739"
+      }
+    },
+    {
       "displayName": "Flugsicherung Wien-Schwechat",
       "id": "flugsicherungwienschwechat-1e4623",
       "locationSet": {
@@ -703,6 +731,17 @@
         "man_made": "mast",
         "operator": "Infraspeed",
         "operator:wikidata": "Q2396179"
+      }
+    },
+    {
+      "displayName": "Infrastrutture Wireless Italiane",
+      "id": "infrastrutturewirelessitaliane-c21648",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "man_made": "mast",
+        "operator": "Infrastrutture Wireless Italiane",
+        "operator:short": "INWIT",
+        "operator:wikidata": "Q20756653"
       }
     },
     {
@@ -853,8 +892,9 @@
     },
     {
       "displayName": "MEO",
-      "id": "meo-009101",
-      "locationSet": {"include": ["pt-20"]},
+      "id": "meo-1e326f",
+      "locationSet": {"include": ["pt"]},
+      "matchNames": ["ptc"],
       "tags": {
         "man_made": "mast",
         "operator": "MEO",
@@ -1175,6 +1215,19 @@
       }
     },
     {
+      "displayName": "PKP Polskie Linie Kolejowe",
+      "id": "pkppolskieliniekolejowe-41b0bd",
+      "locationSet": {"include": ["pl"]},
+      "matchNames": [
+        "pkp polskie linie kolejowe s.a."
+      ],
+      "tags": {
+        "man_made": "mast",
+        "operator": "PKP Polskie Linie Kolejowe",
+        "operator:wikidata": "Q1344677"
+      }
+    },
+    {
       "displayName": "Play",
       "id": "play-41b0bd",
       "locationSet": {"include": ["pl"]},
@@ -1258,12 +1311,13 @@
       }
     },
     {
-      "displayName": "RFI",
-      "id": "rfi-c21648",
+      "displayName": "Rete Ferroviaria Italiana",
+      "id": "reteferroviariaitaliana-c21648",
       "locationSet": {"include": ["it"]},
       "tags": {
         "man_made": "mast",
-        "operator": "RFI",
+        "operator": "Rete Ferroviaria Italiana",
+        "operator:short": "RFI",
         "operator:wikidata": "Q1060049"
       }
     },
@@ -1960,6 +2014,18 @@
       }
     },
     {
+      "displayName": "Whitewater High School",
+      "id": "whitewaterhighschool-71ae21",
+      "locationSet": {
+        "include": ["us-wi.geojson"]
+      },
+      "tags": {
+        "man_made": "mast",
+        "operator": "Whitewater High School",
+        "operator:wikidata": "Q17065116"
+      }
+    },
+    {
       "displayName": "WILLCOM",
       "id": "willcom-e34f5c",
       "locationSet": {
@@ -2006,12 +2072,13 @@
       }
     },
     {
-      "displayName": "ŽSR",
-      "id": "zsr-11e647",
+      "displayName": "Železnice Slovenskej republiky",
+      "id": "zelezniceslovenskejrepubliky-11e647",
       "locationSet": {"include": ["sk"]},
       "tags": {
         "man_made": "mast",
-        "operator": "ŽSR",
+        "operator": "Železnice Slovenskej republiky",
+        "operator:short": "ŽSR",
         "operator:wikidata": "Q393524"
       }
     },
@@ -2085,6 +2152,16 @@
         "man_made": "mast",
         "operator": "ПАО \"МТС\"",
         "operator:wikidata": "Q1368919"
+      }
+    },
+    {
+      "displayName": "楽天モバイル株式会社",
+      "id": "abc010-6ada36",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "man_made": "mast",
+        "operator": "楽天モバイル株式会社",
+        "operator:ja": "楽天モバイル株式会社"
       }
     },
     {

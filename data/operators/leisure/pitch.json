@@ -2,7 +2,8 @@
   "properties": {
     "path": "operators/leisure/pitch",
     "exclude": {
-      "generic": ["^military$", "^pitch$"]
+      "generic": ["^military$", "^pitch$"],
+      "named": ["^sícoris club$"]
     }
   },
   "items": [
@@ -169,7 +170,7 @@
       "tags": {
         "leisure": "pitch",
         "operator": "City of Calgary",
-        "operator:wikidata": "Q36312"
+        "operator:wikidata": "Q135270647"
       }
     },
     {
@@ -294,11 +295,14 @@
     },
     {
       "displayName": "DJK Schweinfurt",
-      "id": "djkschweinfurt-b87489",
-      "locationSet": {"include": ["de"]},
+      "id": "djkschweinfurt-d293c1",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "DJK Schweinfurt"
+        "operator": "DJK Schweinfurt",
+        "operator:wikidata": "Q108964742"
       }
     },
     {
@@ -413,12 +417,71 @@
       }
     },
     {
+      "displayName": "Heidelberger Turnverein 1846 e.V.",
+      "id": "heidelbergerturnverein1846ev-54bad5",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Heidelberger Turnverein 1846 e.V.",
+        "operator:wikidata": "Q832774"
+      }
+    },
+    {
+      "displayName": "Holland Charter Township",
+      "id": "hollandchartertownship-fce86c",
+      "locationSet": {
+        "include": ["us-mi.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Holland Charter Township",
+        "operator:wikidata": "Q4244136"
+      }
+    },
+    {
+      "displayName": "Houston Parks and Recreation Department",
+      "id": "houstonparksandrecreationdepartment-bbc183",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Houston Parks and Recreation Department",
+        "operator:short": "HPARD",
+        "operator:wikidata": "Q115018877",
+        "owner": "City of Houston",
+        "owner:wikidata": "Q16555"
+      }
+    },
+    {
+      "displayName": "Houston Racquet Club",
+      "id": "houstonracquetclub-bbc183",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Houston Racquet Club"
+      }
+    },
+    {
       "displayName": "Hrvatski akademski teniski klub Mladost",
       "id": "hrvatskiakademskiteniskiklubmladost-dca74c",
       "locationSet": {"include": ["hr"]},
       "tags": {
         "leisure": "pitch",
         "operator": "Hrvatski akademski teniski klub Mladost"
+      }
+    },
+    {
+      "displayName": "Institut für Sport und Sportwissenschaft",
+      "id": "institutfursportundsportwissenschaft-2afa8b",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Institut für Sport und Sportwissenschaft"
       }
     },
     {
@@ -455,11 +518,14 @@
     },
     {
       "displayName": "Karlsruher TV e.V.",
-      "id": "karlsruhertvev-b87489",
-      "locationSet": {"include": ["de"]},
+      "id": "karlsruhertvev-54bad5",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "Karlsruher TV e.V."
+        "operator": "Karlsruher TV e.V.",
+        "operator:wikidata": "Q106087730"
       }
     },
     {
@@ -733,6 +799,17 @@
       }
     },
     {
+      "displayName": "PadelCity",
+      "id": "padelcity-b87489",
+      "locationSet": {"include": ["de"]},
+      "tags": {
+        "leisure": "pitch",
+        "operator": "PadelCity",
+        "operator:wikidata": "Q139622987",
+        "sport": "padel"
+      }
+    },
+    {
       "displayName": "Paintball-Wesenberg",
       "id": "paintballwesenberg-b87489",
       "locationSet": {"include": ["de"]},
@@ -808,11 +885,14 @@
     },
     {
       "displayName": "Putzbrunner SV",
-      "id": "putzbrunnersv-b87489",
-      "locationSet": {"include": ["de"]},
+      "id": "putzbrunnersv-d293c1",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "Putzbrunner SV"
+        "operator": "Putzbrunner SV",
+        "operator:wikidata": "Q122948694"
       }
     },
     {
@@ -870,14 +950,12 @@
       }
     },
     {
-      "displayName": "Sícoris Club",
-      "id": "sicorisclub-c65025",
-      "locationSet": {
-        "include": ["es-l.geojson"]
-      },
+      "displayName": "Shaw Park",
+      "id": "shawpark-2afa8b",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "leisure": "pitch",
-        "operator": "Sícoris Club"
+        "operator": "Shaw Park"
       }
     },
     {
@@ -927,11 +1005,14 @@
     },
     {
       "displayName": "SSC Karlsruhe e.V.",
-      "id": "ssckarlsruheev-b87489",
-      "locationSet": {"include": ["de"]},
+      "id": "ssckarlsruheev-54bad5",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "SSC Karlsruhe e.V."
+        "operator": "SSC Karlsruhe e.V.",
+        "operator:wikidata": "Q61050562"
       }
     },
     {
@@ -968,6 +1049,18 @@
         "leisure": "pitch",
         "operator": "Stadt Gießen",
         "operator:wikidata": "Q3874"
+      }
+    },
+    {
+      "displayName": "Stadt Heidelberg",
+      "id": "stadtheidelberg-54bad5",
+      "locationSet": {
+        "include": ["de-bw.geojson"]
+      },
+      "tags": {
+        "leisure": "pitch",
+        "operator": "Stadt Heidelberg",
+        "operator:wikidata": "Q2966"
       }
     },
     {
@@ -1019,11 +1112,14 @@
     },
     {
       "displayName": "TC Rot-Blau Regensburg e.V.",
-      "id": "tcrotblauregensburgev-b87489",
-      "locationSet": {"include": ["de"]},
+      "id": "tcrotblauregensburgev-d293c1",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "leisure": "pitch",
-        "operator": "TC Rot-Blau Regensburg e.V."
+        "operator": "TC Rot-Blau Regensburg e.V.",
+        "operator:wikidata": "Q28367418"
       }
     },
     {

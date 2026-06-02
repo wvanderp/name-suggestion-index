@@ -123,8 +123,39 @@
       }
     },
     {
+      "displayName": "CGV (Indonesia)",
+      "id": "cgv-ee9238",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "amenity": "cinema",
+        "brand": "CGV",
+        "brand:en": "CGV Cinemas",
+        "brand:ko": "CGV",
+        "brand:wikidata": "Q135400010",
+        "name": "CGV",
+        "name:en": "CGV Cinemas",
+        "name:ko": "CGV"
+      }
+    },
+    {
+      "displayName": "CGV (South Korea)",
+      "id": "cgv-c6663f",
+      "locationSet": {"include": ["kr"]},
+      "matchNames": ["씨제이 씨지브이)㈜", "씨지브이"],
+      "tags": {
+        "amenity": "cinema",
+        "brand": "CGV",
+        "brand:en": "CGV Cinemas",
+        "brand:ko": "CGV",
+        "brand:wikidata": "Q135400010",
+        "name": "CGV",
+        "name:en": "CGV Cinemas",
+        "name:ko": "CGV"
+      }
+    },
+    {
       "displayName": "CGV影城",
-      "id": "cgvcinema-d2999b",
+      "id": "cgvcinemas-d2999b",
       "locationSet": {
         "include": ["cn"],
         "exclude": ["hk", "mo"]
@@ -133,11 +164,11 @@
       "tags": {
         "amenity": "cinema",
         "brand": "CGV影城",
-        "brand:en": "CGV Cinema",
-        "brand:wikidata": "Q5012261",
+        "brand:en": "CGV Cinemas",
+        "brand:wikidata": "Q135400010",
         "brand:zh": "CGV影城",
         "name": "CGV影城",
-        "name:en": "CGV Cinema",
+        "name:en": "CGV Cinemas",
         "name:zh": "CGV影城"
       }
     },
@@ -150,6 +181,17 @@
         "brand": "Cine Center",
         "brand:wikidata": "Q81962395",
         "name": "Cine Center"
+      }
+    },
+    {
+      "displayName": "Cine Colombia",
+      "id": "cinecolombia-6e0666",
+      "locationSet": {"include": ["co"]},
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Cine Colombia",
+        "brand:wikidata": "Q8346264",
+        "name": "Cine Colombia"
       }
     },
     {
@@ -389,22 +431,6 @@
       }
     },
     {
-      "displayName": "CJ CGV",
-      "id": "cgvcinema-963a2a",
-      "locationSet": {"include": ["id", "kr"]},
-      "matchNames": ["cgv"],
-      "tags": {
-        "amenity": "cinema",
-        "brand": "씨제이 씨지브이)㈜",
-        "brand:en": "CGV Cinema",
-        "brand:ko": "씨제이 씨지브이)㈜",
-        "brand:wikidata": "Q5012261",
-        "name": "씨제이 씨지브이)㈜",
-        "name:en": "CGV Cinema",
-        "name:ko": "씨제이 씨지브이)㈜"
-      }
-    },
-    {
       "displayName": "Curzon",
       "id": "curzon-5b33a1",
       "locationSet": {"include": ["gb"]},
@@ -448,6 +474,17 @@
         "brand": "Everyman Cinemas",
         "brand:wikidata": "Q5417852",
         "name": "Everyman"
+      }
+    },
+    {
+      "displayName": "Filmstaden",
+      "id": "filmstaden-043b1d",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Filmstaden",
+        "brand:wikidata": "Q3459512",
+        "name": "Filmstaden"
       }
     },
     {
@@ -865,26 +902,28 @@
     },
     {
       "displayName": "Pathé",
-      "id": "pathe-484389",
-      "locationSet": {"include": ["nl"]},
+      "id": "pathe-dedd66",
+      "locationSet": {
+        "include": [
+          "be",
+          "ch",
+          "ci",
+          "fr",
+          "ma",
+          "nl",
+          "sn",
+          "tn"
+        ]
+      },
+      "matchNames": [
+        "pathé cinémas",
+        "pathé gaumont"
+      ],
       "tags": {
         "amenity": "cinema",
         "brand": "Pathé",
-        "brand:wikidata": "Q61959392",
-        "name": "Pathé"
-      }
-    },
-    {
-      "displayName": "Pathé Gaumont",
-      "id": "pathegaumont-22090e",
-      "locationSet": {
-        "include": ["be", "ch", "fr", "tn"]
-      },
-      "tags": {
-        "amenity": "cinema",
-        "brand": "Pathé Gaumont",
         "brand:wikidata": "Q3060526",
-        "name": "Pathé Gaumont"
+        "name": "Pathé"
       }
     },
     {
@@ -917,11 +956,11 @@
       "tags": {
         "amenity": "cinema",
         "brand": "rạp chiếu phim CGV",
-        "brand:en": "CGV Cinema",
+        "brand:en": "CGV Cinemas",
         "brand:vi": "rạp chiếu phim CGV",
-        "brand:wikidata": "Q5012261",
+        "brand:wikidata": "Q135400010",
         "name": "rạp chiếu phim CGV",
-        "name:en": "CGV Cinema",
+        "name:en": "CGV Cinemas",
         "name:vi": "rạp chiếu phim CGV",
         "official_name": "CGV Cinemas Vietnam"
       }
@@ -1009,6 +1048,17 @@
         "brand": "Ster-Kinekor",
         "brand:wikidata": "Q130179",
         "name": "Ster-Kinekor"
+      }
+    },
+    {
+      "displayName": "Svenska Bio",
+      "id": "svenskabio-043b1d",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Svenska Bio",
+        "brand:wikidata": "Q3506261",
+        "name": "Svenska Bio"
       }
     },
     {

@@ -9,6 +9,15 @@
   },
   "items": [
     {
+      "displayName": "Aguas de La Habana",
+      "id": "aguasdelahabana-95c224",
+      "locationSet": {"include": ["cu"]},
+      "tags": {
+        "office": "water_utility",
+        "operator": "Aguas de La Habana"
+      }
+    },
+    {
       "displayName": "Companhia de Águas e Esgotos do Rio Grande do Norte",
       "id": "companhiadeaguaseesgotosdoriograndedonorte-22ce70",
       "locationSet": {"include": ["br"]},
@@ -31,6 +40,18 @@
         "office": "water_utility",
         "operator": "De Watergroep",
         "operator:wikidata": "Q2619987"
+      }
+    },
+    {
+      "displayName": "Gaia",
+      "id": "gaia-35ef3d",
+      "locationSet": {"include": ["it"]},
+      "matchNames": ["gaia s.p.a."],
+      "tags": {
+        "name": "Gaia",
+        "office": "water_utility",
+        "operator": "Gaia",
+        "operator:wikidata": "Q137808977"
       }
     },
     {

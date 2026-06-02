@@ -82,7 +82,20 @@
       "tags": {
         "brand": "Parkdean Resorts",
         "brand:wikidata": "Q7138226",
-        "name": "Parkdean Resorts",
+        "tourism": "caravan_site"
+      }
+    },
+    {
+      "displayName": "Quality RV Resorts",
+      "id": "qualityrvresorts-e116b4",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "brand": "Quality RV Resorts",
+        "brand:short": "QRV",
+        "brand:wikidata": "Q135210285",
+        "name": "Quality RV Resorts",
         "tourism": "caravan_site"
       }
     },

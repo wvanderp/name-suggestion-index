@@ -70,6 +70,17 @@
       }
     },
     {
+      "displayName": "HobbyTown",
+      "id": "hobbytown-94ee6e",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "HobbyTown",
+        "brand:wikidata": "Q5874921",
+        "name": "HobbyTown",
+        "shop": "craft"
+      }
+    },
+    {
       "displayName": "JOANN Fabrics and Crafts",
       "id": "joannfabricsandcrafts-94ee6e",
       "locationSet": {"include": ["us"]},
@@ -106,6 +117,18 @@
         "brand": "Michaels",
         "brand:wikidata": "Q6835667",
         "name": "Michaels",
+        "shop": "craft"
+      }
+    },
+    {
+      "displayName": "Monpacie",
+      "id": "monpacie-27a2aa",
+      "locationSet": {"include": ["ua"]},
+      "matchNames": ["монпасьє"],
+      "tags": {
+        "brand": "Monpacie",
+        "brand:wikidata": "Q136142102",
+        "name": "Monpacie",
         "shop": "craft"
       }
     },

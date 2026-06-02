@@ -238,17 +238,6 @@
       }
     },
     {
-      "displayName": "Jumper",
-      "id": "jumper-734485",
-      "locationSet": {"include": ["nl"]},
-      "tags": {
-        "brand": "Jumper",
-        "brand:wikidata": "Q87338743",
-        "name": "Jumper",
-        "shop": "pet"
-      }
-    },
-    {
       "displayName": "Kahoots",
       "id": "kahoots-ae290d",
       "locationSet": {
@@ -529,17 +518,6 @@
       }
     },
     {
-      "displayName": "Petland Discounts",
-      "id": "petlanddiscounts-81a22d",
-      "locationSet": {"include": ["us"]},
-      "tags": {
-        "brand": "Petland Discounts",
-        "brand:wikidata": "Q7178463",
-        "name": "Petland Discounts",
-        "shop": "pet"
-      }
-    },
-    {
       "displayName": "Petmall",
       "id": "petmall-33ac80",
       "locationSet": {"include": ["bg"]},
@@ -731,13 +709,13 @@
       }
     },
     {
-      "displayName": "SUPER ZOO",
+      "displayName": "Super zoo",
       "id": "superzoo-09e3e7",
       "locationSet": {"include": ["cz", "sk"]},
       "tags": {
-        "brand": "SUPER ZOO",
+        "brand": "Super zoo",
         "brand:wikidata": "Q93998805",
-        "name": "SUPER ZOO",
+        "name": "Super zoo",
         "shop": "pet"
       }
     },
@@ -816,6 +794,7 @@
       "locationSet": {"include": ["by"]},
       "tags": {
         "brand": "ZOObazar",
+        "brand:wikidata": "Q128693988",
         "name": "ZOObazar",
         "shop": "pet"
       }
@@ -839,7 +818,19 @@
       "locationSet": {"include": ["by"]},
       "tags": {
         "brand": "ZOOмаркет",
+        "brand:wikidata": "Q136821517",
         "name": "ZOOмаркет",
+        "shop": "pet"
+      }
+    },
+    {
+      "displayName": "Zvěrokruh",
+      "id": "zverokruh-381fdf",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "Zvěrokruh",
+        "brand:wikidata": "Q54980452",
+        "name": "Zvěrokruh",
         "shop": "pet"
       }
     },
@@ -851,6 +842,24 @@
         "brand": "Бетховен",
         "brand:wikidata": "Q62390798",
         "name": "Бетховен",
+        "shop": "pet"
+      }
+    },
+    {
+      "displayName": "Дома ждут",
+      "id": "domazhdut-3053c4",
+      "locationSet": {"include": ["by"]},
+      "tags": {
+        "brand": "Дома ждут",
+        "brand:wikidata": "Q136821483",
+        "name": "Дома ждут",
+        "name:be": "Дома ждуць",
+        "name:be-Latn": "Doma žduć",
+        "name:en": "Doma zhdut",
+        "name:ru": "Дома ждут",
+        "name:uk": "Дома ждуть",
+        "operator": "ОАО \"Продтовары\"",
+        "ref:vatin": "200019837",
         "shop": "pet"
       }
     },

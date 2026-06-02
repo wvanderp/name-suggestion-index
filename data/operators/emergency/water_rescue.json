@@ -121,6 +121,17 @@
       }
     },
     {
+      "displayName": "Société Internationale de Sauvetage du Léman",
+      "id": "societeinternationaledesauvetageduleman-9c4f1b",
+      "locationSet": {"include": ["ch", "fx"]},
+      "tags": {
+        "emergency": "water_rescue",
+        "operator": "Société Internationale de Sauvetage du Léman",
+        "operator:short": "SISL",
+        "operator:wikidata": "Q3488421"
+      }
+    },
+    {
       "displayName": "Société nationale de sauvetage en mer",
       "id": "societenationaledesauvetageenmer-04cc00",
       "locationSet": {"include": ["fx"]},

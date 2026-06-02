@@ -1,6 +1,7 @@
 {
   "properties": {
     "path": "operators/amenity/school",
+    "skipCollection": true,
     "exclude": {
       "generic": [
         "^((roman |)catholic|anglican|baptist|seventh[\\- ]day adventist) church$",
@@ -19,7 +20,7 @@
         "^missionary$",
         "^munic[íi]p(io|al)$",
         "^ngo$",
-        "^non déterminé$",
+        "^non[\\- ]déterminé$",
         "^p[uú]bli(a|c|ca|co|o|que)$",
         "^particular$",
         "^prefeitura( municipal)?$",
@@ -278,6 +279,19 @@
         "operator": "Academy Transformation Trust",
         "operator:type": "private",
         "operator:wikidata": "Q104857782"
+      }
+    },
+    {
+      "displayName": "Acadia Parish School Board",
+      "id": "acadiaparishschoolboard-8f61a8",
+      "locationSet": {
+        "include": ["us-la.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Acadia Parish School Board",
+        "operator:type": "public",
+        "operator:wikidata": "Q4671578"
       }
     },
     {
@@ -556,6 +570,22 @@
         "operator": "Agrupamento de Escolas D. Afonso Henriques",
         "operator:type": "public",
         "operator:wikidata": "Q131446681"
+      }
+    },
+    {
+      "displayName": "Agrupamento de Escolas D. Dinis",
+      "id": "agrupamentodeescolasddinis-bd750b",
+      "locationSet": {
+        "include": ["pt-13.geojson"]
+      },
+      "matchNames": [
+        "agrupamento de escolas d. dinis, santo tirso"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Agrupamento de Escolas D. Dinis",
+        "operator:type": "public",
+        "operator:wikidata": "Q138329563"
       }
     },
     {
@@ -2042,6 +2072,19 @@
       }
     },
     {
+      "displayName": "Allen Parish School Board",
+      "id": "allenparishschoolboard-8f61a8",
+      "locationSet": {
+        "include": ["us-la.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Allen Parish School Board",
+        "operator:type": "public",
+        "operator:wikidata": "Q4731807"
+      }
+    },
+    {
       "displayName": "Almagro District",
       "id": "almagrodistrict-a90c6e",
       "locationSet": {
@@ -2280,6 +2323,17 @@
       }
     },
     {
+      "displayName": "Amplify Education",
+      "id": "amplifyeducation-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Amplify Education",
+        "operator:type": "private",
+        "operator:wikidata": "Q122684674"
+      }
+    },
+    {
       "displayName": "Amulung East District",
       "id": "amulungeastdistrict-ca5b95",
       "locationSet": {
@@ -2498,6 +2552,17 @@
         "operator": "Anglian Learning",
         "operator:type": "private",
         "operator:wikidata": "Q122616382"
+      }
+    },
+    {
+      "displayName": "Anglican Church of Lesotho",
+      "id": "anglicanchurchoflesotho-889426",
+      "locationSet": {"include": ["ls"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Anglican Church of Lesotho",
+        "operator:type": "religious",
+        "operator:wikidata": "Q5278905"
       }
     },
     {
@@ -3072,6 +3137,19 @@
         "operator": "Arteche District",
         "operator:type": "government",
         "operator:wikidata": "Q130490307"
+      }
+    },
+    {
+      "displayName": "Ascension Parish School Board",
+      "id": "ascensionparishschoolboard-8f61a8",
+      "locationSet": {
+        "include": ["us-la.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Ascension Parish School Board",
+        "operator:type": "public",
+        "operator:wikidata": "Q4803838"
       }
     },
     {
@@ -5176,6 +5254,19 @@
       }
     },
     {
+      "displayName": "Bastrop Independent School District",
+      "id": "bastropindependentschooldistrict-d19570",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Bastrop Independent School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q4868376"
+      }
+    },
+    {
       "displayName": "Basud District",
       "id": "basuddistrict-8f6b73",
       "locationSet": {
@@ -5828,6 +5919,19 @@
         "operator:short": "BCSD",
         "operator:type": "public",
         "operator:wikidata": "Q4877467"
+      }
+    },
+    {
+      "displayName": "Beauregard Parish School Board",
+      "id": "beauregardparishschoolboard-8f61a8",
+      "locationSet": {
+        "include": ["us-la.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Beauregard Parish School Board",
+        "operator:type": "public",
+        "operator:wikidata": "Q4877624"
       }
     },
     {
@@ -7315,8 +7419,11 @@
     },
     {
       "displayName": "Bournemouth, Christchurch and Poole Council",
-      "id": "bournemouthchristchurchandpoolecouncil-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "bournemouthchristchurchandpoolecouncil-e77b90",
+      "locationSet": {
+        "include": ["gb-dor.geojson"]
+      },
+      "matchNames": ["bcp council"],
       "tags": {
         "amenity": "school",
         "operator": "Bournemouth, Christchurch and Poole Council",
@@ -8103,14 +8210,19 @@
     },
     {
       "displayName": "Burnaby Schools",
-      "id": "burnabyschools-e17d3c",
+      "id": "schooldistrictnumber41burnaby-e17d3c",
       "locationSet": {
         "include": ["ca-bc.geojson"]
       },
-      "matchNames": ["burnaby school district"],
+      "matchNames": [
+        "burnaby school district",
+        "school district 41",
+        "sd41"
+      ],
       "tags": {
         "amenity": "school",
-        "operator": "Burnaby Schools",
+        "operator": "School District Number 41 (Burnaby)",
+        "operator:short": "Burnaby Schools",
         "operator:type": "public",
         "operator:wikidata": "Q7432190"
       }
@@ -10480,6 +10592,16 @@
       }
     },
     {
+      "displayName": "CEIST Company Limited by Guarantee",
+      "id": "ceistcompanylimitedbyguarantee-1a051e",
+      "locationSet": {"include": ["ie"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "CEIST Company Limited by Guarantee",
+        "operator:type": "religious"
+      }
+    },
+    {
       "displayName": "Centennial School District (Minnesota)",
       "id": "centennialschooldistrict-177d23",
       "locationSet": {
@@ -10666,6 +10788,56 @@
       }
     },
     {
+      "displayName": "Centre de services scolaire au Cœur-des-Vallées",
+      "id": "centredeservicesscolaireaucoeurdesvallees-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire au coeur-des-vallées"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire au Cœur-des-Vallées",
+        "operator:short": "CSSCV",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842140"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire de l'Énergie",
+      "id": "centredeservicesscolairedelenergie-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire de l'énergie"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de l'Énergie",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842687"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire de l'Or-et-des-Bois",
+      "id": "centredeservicesscolairedeloretdesbois-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire de l'or-et-des-bois"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de l'Or-et-des-Bois",
+        "operator:short": "CSSOB",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842810"
+      }
+    },
+    {
       "displayName": "Centre de services scolaire de la Beauce-Etchemin",
       "id": "centredeservicesscolairedelabeauceetchemin-d1e97c",
       "locationSet": {
@@ -10699,6 +10871,23 @@
       }
     },
     {
+      "displayName": "Centre de services scolaire de la Pointe-de-l'Île",
+      "id": "centredeservicesscolairedelapointedelile-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire de la pointe-de-l'ile"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de la Pointe-de-l'Île",
+        "operator:short": "CSSPI",
+        "operator:type": "public",
+        "operator:wikidata": "Q104841652"
+      }
+    },
+    {
       "displayName": "Centre de services scolaire de la Région-de-Sherbrooke",
       "id": "centredeservicesscolairedelaregiondesherbrooke-d1e97c",
       "locationSet": {
@@ -10715,6 +10904,39 @@
       }
     },
     {
+      "displayName": "Centre de services scolaire de la Vallée-des-Tisserands",
+      "id": "centredeservicesscolairedelavalleedestisserands-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire de la vallee-des-tisserands"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de la Vallée-des-Tisserands",
+        "operator:short": "CSSVT",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842119"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire de Laval",
+      "id": "centredeservicesscolairedelaval-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire de laval"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de Laval",
+        "operator:type": "public",
+        "operator:wikidata": "Q122932344"
+      }
+    },
+    {
       "displayName": "Centre de services scolaire de Montréal",
       "id": "centredeservicesscolairedemontreal-d1e97c",
       "locationSet": {
@@ -10726,8 +10948,73 @@
       "tags": {
         "amenity": "school",
         "operator": "Centre de services scolaire de Montréal",
+        "operator:short": "CSSDM",
         "operator:type": "public",
         "operator:wikidata": "Q98734381"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire de Portneuf",
+      "id": "centredeservicesscolairedeportneuf-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de Portneuf",
+        "operator:type": "public",
+        "operator:wikidata": "Q134463096"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire de Saint-Hyacinthe",
+      "id": "centredeservicesscolairedesainthyacinthe-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire de saint-hyacinthe"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de Saint-Hyacinthe",
+        "operator:short": "CSSSH",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842005"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire de Sorel-Tracy",
+      "id": "centredeservicesscolairedesoreltracy-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire de sorel-tracy"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire de Sorel-Tracy",
+        "operator:short": "CSSS-T",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842121"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Découvreurs",
+      "id": "centredeservicesscolairedesdecouvreurs-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des découvreurs"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Découvreurs",
+        "operator:short": "CSSDD",
+        "operator:type": "public",
+        "operator:wikidata": "Q113854036"
       }
     },
     {
@@ -10744,6 +11031,358 @@
         "operator": "Centre de services scolaire des Draveurs",
         "operator:type": "public",
         "operator:wikidata": "Q104840912"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Grandes-Seigneuries",
+      "id": "centredeservicesscolairedesgrandesseigneuries-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des grandes-seigneuries"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Grandes-Seigneuries",
+        "operator:short": "CSSDGS",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842124"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Hautes-Laurentides",
+      "id": "centredeservicesscolairedeshauteslaurentides-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "centre de services scolaire pierre-neveu",
+        "commission scolaire des samares"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Hautes-Laurentides",
+        "operator:short": "CSSHL",
+        "operator:type": "public",
+        "operator:wikidata": "Q104841620"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Hautes-Rivières",
+      "id": "centredeservicesscolairedeshautesrivieres-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des hautes-rivières"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Hautes-Rivières",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842122"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Hauts-Bois-de-l'Outaouais",
+      "id": "centredeservicesscolairedeshautsboisdeloutaouais-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des hauts-bois-de-l'outaouais"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Hauts-Bois-de-l'Outaouais",
+        "operator:short": "CSSHBO",
+        "operator:type": "public",
+        "operator:wikidata": "Q104843262"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Hauts-Cantons",
+      "id": "centredeservicesscolairedeshautscantons-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des hauts-cantons"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Hauts-Cantons",
+        "operator:type": "public",
+        "operator:wikidata": "Q134750554"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Laurentides",
+      "id": "centredeservicesscolairedeslaurentides-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des laurentides"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Laurentides",
+        "operator:short": "CSSL",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842125"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Monts-et-Marées",
+      "id": "centredeservicesscolairedesmontsetmarees-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des monts-et-marees"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Monts-et-Marées",
+        "operator:short": "CSSMM",
+        "operator:type": "public",
+        "operator:wikidata": "Q119104501"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Navigateurs",
+      "id": "centredeservicesscolairedesnavigateurs-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des navigateurs"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Navigateurs",
+        "operator:short": "CSSDN",
+        "operator:type": "public",
+        "operator:wikidata": "Q104841010"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Patriotes",
+      "id": "centredeservicesscolairedespatriotes-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des patriotes"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Patriotes",
+        "operator:short": "CSSP",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842120"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Portages-de-l'Outaouais",
+      "id": "centredeservicesscolairedesportagesdeloutaouais-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des portages-de-l'outaouais"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Portages-de-l'Outaouais",
+        "operator:short": "CSSPO",
+        "operator:type": "public",
+        "operator:wikidata": "Q137700829"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Rives-du-Saguenay",
+      "id": "centredeservicesscolairedesrivesdusaguenay-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des rives-du-saguenay"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Rives-du-Saguenay",
+        "operator:type": "public",
+        "operator:wikidata": "Q119104751"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Samares",
+      "id": "centredeservicesscolairedessamares-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des samares"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Samares",
+        "operator:short": "CSSS",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842127"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Sommets",
+      "id": "centredeservicesscolairedessommets-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des sommets"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Sommets",
+        "operator:short": "CSSDS",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842201"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire des Trois-Lacs",
+      "id": "centredeservicesscolairedestroislacs-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire des trois-lacs"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire des Trois-Lacs",
+        "operator:short": "CSSTL",
+        "operator:type": "public",
+        "operator:wikidata": "Q104842123"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire du Lac-Abitibi",
+      "id": "centredeservicesscolairedulacabitibi-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire du lac-abitibi"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire du Lac-Abitibi",
+        "operator:type": "public",
+        "operator:wikidata": "Q137364888"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire du Lac-Témiscamingue",
+      "id": "centredeservicesscolairedulactemiscamingue-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire du lac-temiscamingue"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire du Lac-Témiscamingue",
+        "operator:short": "CSSLT",
+        "operator:type": "public",
+        "operator:wikidata": "Q137364976"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire du Littoral",
+      "id": "centredeservicesscolairedulittoral-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire du littoral"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire du Littoral",
+        "operator:type": "public",
+        "operator:wikidata": "Q104841944"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire du Val-des-Cerfs",
+      "id": "centredeservicesscolaireduvaldescerfs-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire du val-des-cerfs"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire du Val-des-Cerfs",
+        "operator:type": "public",
+        "operator:wikidata": "Q104841548"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire Harricana",
+      "id": "centredeservicesscolaireharricana-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire harricana"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire Harricana",
+        "operator:short": "CSSH",
+        "operator:type": "public",
+        "operator:wikidata": "Q135232107"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire Marguerite-Bourgeoys",
+      "id": "centredeservicesscolairemargueritebourgeoys-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire marguerite-bourgeoys"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire Marguerite-Bourgeoys",
+        "operator:short": "CSSMB",
+        "operator:type": "public",
+        "operator:wikidata": "Q104840927"
+      }
+    },
+    {
+      "displayName": "Centre de services scolaire Marie-Victorin",
+      "id": "centredeservicesscolairemarievictorin-d1e97c",
+      "locationSet": {
+        "include": ["ca-qc.geojson"]
+      },
+      "matchNames": [
+        "commission scolaire marie-victorin"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Centre de services scolaire Marie-Victorin",
+        "operator:short": "CSSMV",
+        "operator:type": "public",
+        "operator:wikidata": "Q104841688"
       }
     },
     {
@@ -11085,17 +11724,6 @@
       }
     },
     {
-      "displayName": "City and County of Swansea Council",
-      "id": "cityandcountyofswanseacouncil-3a6545",
-      "locationSet": {"include": ["gb-wls"]},
-      "tags": {
-        "amenity": "school",
-        "operator": "City and County of Swansea Council",
-        "operator:type": "government",
-        "operator:wikidata": "Q5123523"
-      }
-    },
-    {
       "displayName": "City of Bradford Metropolitan District Council",
       "id": "cityofbradfordmetropolitandistrictcouncil-7a837c",
       "locationSet": {"include": ["gb-eng"]},
@@ -11170,8 +11798,10 @@
     },
     {
       "displayName": "City of York Council",
-      "id": "cityofyorkcouncil-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
+      "id": "cityofyorkcouncil-ef57c6",
+      "locationSet": {
+        "include": ["gb-yorkshire.geojson"]
+      },
       "tags": {
         "amenity": "school",
         "operator": "City of York Council",
@@ -11674,6 +12304,19 @@
       }
     },
     {
+      "displayName": "Community Unit School District 300",
+      "id": "communityunitschooldistrict300-6d6198",
+      "locationSet": {
+        "include": ["us-il.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Community Unit School District 300",
+        "operator:type": "public",
+        "operator:wikidata": "Q5154902"
+      }
+    },
+    {
       "displayName": "Compostela District (Cebu)",
       "id": "composteladistrict-7153a9",
       "locationSet": {
@@ -12011,40 +12654,6 @@
       }
     },
     {
-      "displayName": "Consejería de Educación de la Junta de Castilla y León",
-      "id": "consejeriadeeducaciondelajuntadecastillayleon-5f247a",
-      "locationSet": {
-        "include": [
-          "es-av.geojson",
-          "es-bu.geojson",
-          "es-le.geojson",
-          "es-p.geojson",
-          "es-sa.geojson",
-          "es-sg.geojson",
-          "es-so.geojson",
-          "es-va.geojson",
-          "es-za.geojson"
-        ]
-      },
-      "tags": {
-        "amenity": "school",
-        "operator": "Consejería de Educación de la Junta de Castilla y León",
-        "operator:type": "public",
-        "operator:wikidata": "Q50332297"
-      }
-    },
-    {
-      "displayName": "Consejo de Educación Secundaria",
-      "id": "consejodeeducacionsecundaria-6176b9",
-      "locationSet": {"include": ["uy"]},
-      "tags": {
-        "amenity": "school",
-        "operator": "Consejo de Educación Secundaria",
-        "operator:type": "government",
-        "operator:wikidata": "Q5783997"
-      }
-    },
-    {
       "displayName": "Consejo Escolar Alto Valle Centro I - Cipolletti",
       "id": "consejoescolaraltovallecentroicipolletti-e6aec9",
       "locationSet": {
@@ -12293,6 +12902,8 @@
       "tags": {
         "amenity": "school",
         "operator": "Cornwall Council",
+        "operator:en": "Cornwall Council",
+        "operator:kw": "Konsel Kernow",
         "operator:type": "government",
         "operator:wikidata": "Q3774189"
       }
@@ -13165,6 +13776,24 @@
         "operator": "Delta Academies Trust",
         "operator:type": "private",
         "operator:wikidata": "Q29025790"
+      }
+    },
+    {
+      "displayName": "Delta School District",
+      "id": "schooldistrictnumber37delta-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "school district no. 37",
+        "sd37"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 37 (Delta)",
+        "operator:short": "Delta School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432184"
       }
     },
     {
@@ -14209,6 +14838,17 @@
       }
     },
     {
+      "displayName": "Dinas Pendidikan",
+      "id": "dinaspendidikan-4e2826",
+      "locationSet": {
+        "include": ["id-jw", "id-sm"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Dinas Pendidikan"
+      }
+    },
+    {
       "displayName": "Dinas Pendidikan Kab. Bangkalan",
       "id": "dinaspendidikankabbangkalan-6b4ec5",
       "locationSet": {"include": ["id-jw"]},
@@ -14497,6 +15137,9 @@
       "displayName": "Dirección General de Educación Secundaria",
       "id": "direcciongeneraldeeducacionsecundaria-6176b9",
       "locationSet": {"include": ["uy"]},
+      "matchNames": [
+        "consejo de educación secundaria"
+      ],
       "tags": {
         "amenity": "school",
         "operator": "Dirección General de Educación Secundaria",
@@ -16629,6 +17272,15 @@
       }
     },
     {
+      "displayName": "Eagle Pass Independent School District",
+      "id": "eaglepassindependentschooldistrict-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Eagle Pass Independent School District"
+      }
+    },
+    {
       "displayName": "East Aurora Public School District 131",
       "id": "eastaurorapublicschooldistrict131-6d6198",
       "locationSet": {
@@ -17227,6 +17879,19 @@
       }
     },
     {
+      "displayName": "Edinburg Consolidated Independent School District",
+      "id": "edinburgconsolidatedindependentschooldistrict-d19570",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Edinburg Consolidated Independent School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q2844119"
+      }
+    },
+    {
       "displayName": "Edmonds School District",
       "id": "edmondsschooldistrict-48f47a",
       "locationSet": {
@@ -17286,6 +17951,9 @@
       "displayName": "Edmund Rice Schools Trust",
       "id": "edmundriceschoolstrust-1a051e",
       "locationSet": {"include": ["ie"]},
+      "matchNames": [
+        "edmund rice schools trust company limited by guarantee"
+      ],
       "tags": {
         "amenity": "school",
         "operator": "Edmund Rice Schools Trust",
@@ -17458,7 +18126,7 @@
       "tags": {
         "amenity": "school",
         "operator": "Elk Island Catholic Schools",
-        "operator:type": "religious",
+        "operator:type": "public",
         "operator:wikidata": "Q17508700"
       }
     },
@@ -17471,7 +18139,8 @@
       "tags": {
         "amenity": "school",
         "operator": "Elk Island Public Schools",
-        "operator:type": "public"
+        "operator:type": "public",
+        "operator:wikidata": "Q17508703"
       }
     },
     {
@@ -17510,6 +18179,17 @@
         "operator": "Embark Multi Academy Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616564"
+      }
+    },
+    {
+      "displayName": "Emmaus Catholic Academy Trust",
+      "id": "emmauscatholicacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Emmaus Catholic Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122685942"
       }
     },
     {
@@ -17590,6 +18270,17 @@
         "operator:short": "EFSPT",
         "operator:type": "private",
         "operator:wikidata": "Q122616540"
+      }
+    },
+    {
+      "displayName": "EQUA Mead Learning Trust",
+      "id": "equameadlearningtrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "EQUA Mead Learning Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122685866"
       }
     },
     {
@@ -19759,6 +20450,21 @@
       }
     },
     {
+      "displayName": "Grace Schools",
+      "id": "graceschools-26e9df",
+      "locationSet": {"include": ["gb"]},
+      "matchNames": [
+        "diocese of ely multi-academy trust",
+        "the diocese of ely multi-academy trust"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Grace Schools",
+        "operator:type": "private",
+        "operator:wikidata": "Q121704464"
+      }
+    },
+    {
       "displayName": "Grand Erie District School Board",
       "id": "granderiedistrictschoolboard-57bf82",
       "locationSet": {
@@ -20517,6 +21223,18 @@
       }
     },
     {
+      "displayName": "Halliard Trust",
+      "id": "halliardtrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": ["the fallibroome trust"],
+      "tags": {
+        "amenity": "school",
+        "operator": "Halliard Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122616270"
+      }
+    },
+    {
       "displayName": "Halmstads kommun",
       "id": "halmstadskommun-0f2dfb",
       "locationSet": {"include": ["se"]},
@@ -20902,6 +21620,19 @@
         "amenity": "school",
         "operator": "Helsingborgs stads skolor",
         "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "Henrico County Public Schools",
+      "id": "henricocountypublicschools-3cf7e1",
+      "locationSet": {
+        "include": ["us-va.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Henrico County Public Schools",
+        "operator:type": "public",
+        "operator:wikidata": "Q8778310"
       }
     },
     {
@@ -21319,12 +22050,15 @@
     },
     {
       "displayName": "Hope Sentamu Learning Trust",
-      "id": "hopesentamulearningtrust-7a837c",
+      "id": "heartwoodlearningtrust-7a837c",
       "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "hope sentamu learning trust",
+        "hslt"
+      ],
       "tags": {
         "amenity": "school",
-        "operator": "Hope Sentamu Learning Trust",
-        "operator:short": "HSLT",
+        "operator": "Heartwood Learning Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616355"
       }
@@ -21700,6 +22434,17 @@
         "operator": "Ilog II District",
         "operator:type": "government",
         "operator:wikidata": "Q130490941"
+      }
+    },
+    {
+      "displayName": "Ilustre Municipalidad de Combarbalá",
+      "id": "ilustremunicipalidaddecombarbala-5e33f0",
+      "locationSet": {"include": ["cl"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Ilustre Municipalidad de Combarbalá",
+        "operator:type": "government",
+        "operator:wikidata": "Q133837567"
       }
     },
     {
@@ -23567,6 +24312,17 @@
         "operator": "Kaputian District",
         "operator:type": "government",
         "operator:wikidata": "Q130490499"
+      }
+    },
+    {
+      "displayName": "Karlshamn kommun",
+      "id": "karlshamnkommun-0f2dfb",
+      "locationSet": {"include": ["se"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Karlshamn kommun",
+        "operator:type": "government",
+        "operator:wikidata": "Q510223"
       }
     },
     {
@@ -29668,6 +30424,19 @@
       }
     },
     {
+      "displayName": "Manor Independent School District",
+      "id": "manorindependentschooldistrict-d19570",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Manor Independent School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q6751358"
+      }
+    },
+    {
       "displayName": "Mansalay District",
       "id": "mansalaydistrict-2eec9e",
       "locationSet": {
@@ -31104,14 +31873,16 @@
       }
     },
     {
-      "displayName": "Milli Eğitim Bakanlığı",
+      "displayName": "Millî Eğitim Bakanlığı",
       "id": "milliegitimbakanligi-44c4b9",
       "locationSet": {"include": ["tr"]},
       "tags": {
         "amenity": "school",
-        "operator": "Milli Eğitim Bakanlığı",
+        "operator": "Millî Eğitim Bakanlığı",
+        "operator:en": "Ministry of National Education",
         "operator:short": "MEB",
-        "operator:type": "public",
+        "operator:tr": "Millî Eğitim Bakanlığı",
+        "operator:type": "government",
         "operator:wikidata": "Q1359675"
       }
     },
@@ -31636,6 +32407,17 @@
       }
     },
     {
+      "displayName": "Ministerstwo Rolnictwa i Rozwoju Wsi",
+      "id": "ministerstworolnictwairozwojuwsi-83282a",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Ministerstwo Rolnictwa i Rozwoju Wsi",
+        "operator:type": "government",
+        "operator:wikidata": "Q4380777"
+      }
+    },
+    {
       "displayName": "Ministerul Educației",
       "id": "ministeruleducatiei-42f9de",
       "locationSet": {"include": ["ro"]},
@@ -31727,6 +32509,15 @@
         "operator": "Moalboal District",
         "operator:type": "government",
         "operator:wikidata": "Q130489955"
+      }
+    },
+    {
+      "displayName": "Mobile County Public School System",
+      "id": "mobilecountypublicschoolsystem-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Mobile County Public School System"
       }
     },
     {
@@ -32225,6 +33016,28 @@
       }
     },
     {
+      "displayName": "Município de Euclides da Cunha",
+      "id": "municipiodeeuclidesdacunha-9d6ced",
+      "locationSet": {
+        "include": ["br-ba.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Município de Euclides da Cunha",
+        "operator:type": "government",
+        "operator:wikidata": "Q2013802"
+      }
+    },
+    {
+      "displayName": "Município de Lagarto",
+      "id": "municipiodelagarto-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Município de Lagarto"
+      }
+    },
+    {
       "displayName": "Município de Marechal Cândido Rondon",
       "id": "municipiodemarechalcandidorondon-91354a",
       "locationSet": {
@@ -32248,6 +33061,19 @@
         "operator": "Município de Mucuri",
         "operator:type": "government",
         "operator:wikidata": "Q1761474"
+      }
+    },
+    {
+      "displayName": "Município de Ribeira do Pombal",
+      "id": "municipioderibeiradopombal-9d6ced",
+      "locationSet": {
+        "include": ["br-ba.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Município de Ribeira do Pombal",
+        "operator:type": "government",
+        "operator:wikidata": "Q1793776"
       }
     },
     {
@@ -33059,6 +33885,25 @@
       }
     },
     {
+      "displayName": "New Westminster Schools",
+      "id": "schooldistrictnumber40newwestminster-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "new westminster school district",
+        "school district no. 40",
+        "sd40"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 40 (New Westminster)",
+        "operator:short": "New Westminster Schools",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432187"
+      }
+    },
+    {
       "displayName": "New York City Department of Education",
       "id": "newyorkcitydepartmentofeducation-0f6971",
       "locationSet": {
@@ -33681,6 +34526,19 @@
       }
     },
     {
+      "displayName": "North Thurston Public Schools",
+      "id": "norththurstonpublicschools-48f47a",
+      "locationSet": {
+        "include": ["us-wa.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "North Thurston Public Schools",
+        "operator:type": "public",
+        "operator:wikidata": "Q17107552"
+      }
+    },
+    {
       "displayName": "North Tyneside Council",
       "id": "northtynesidecouncil-7a837c",
       "locationSet": {"include": ["gb-eng"]},
@@ -33974,6 +34832,17 @@
         "operator:short": "NPS",
         "operator:type": "public",
         "operator:wikidata": "Q7059882"
+      }
+    },
+    {
+      "displayName": "Northwest Arctic Borough School District",
+      "id": "northwestarcticboroughschooldistrict-f1be13",
+      "locationSet": {"include": ["us-ak"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Northwest Arctic Borough School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q30596069"
       }
     },
     {
@@ -35024,21 +35893,6 @@
         "operator": "Our Lady Of Lourdes Catholic Multi-Academy Trust",
         "operator:type": "private",
         "operator:wikidata": "Q121704492"
-      }
-    },
-    {
-      "displayName": "Our Lady of The Magnificat Multi-Academy Company",
-      "id": "ourladyofthemagnificatmultiacademycompany-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
-      "matchNames": [
-        "our lady of the magnificat",
-        "our lady of the magnificat multi-academy"
-      ],
-      "tags": {
-        "amenity": "school",
-        "operator": "Our Lady of The Magnificat Multi-Academy Company",
-        "operator:type": "private",
-        "operator:wikidata": "Q122616302"
       }
     },
     {
@@ -36454,6 +37308,15 @@
       }
     },
     {
+      "displayName": "Phòng Giáo dục và Đào tạo Huyện Tiên Du",
+      "id": "phonggiaoducvadaotaohuyentiendu-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Phòng Giáo dục và Đào tạo Huyện Tiên Du"
+      }
+    },
+    {
       "displayName": "Phòng Giáo dục và Đào tạo Thành phố Bắc Ninh",
       "id": "phonggiaoducvadaotaothanhphobacninh-e0e6fb",
       "locationSet": {"include": ["vn"]},
@@ -36511,6 +37374,17 @@
         "operator:short": "PCSD",
         "operator:type": "public",
         "operator:wikidata": "Q7190783"
+      }
+    },
+    {
+      "displayName": "Pickwick Academy Trust",
+      "id": "pickwickacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Pickwick Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122685576"
       }
     },
     {
@@ -37876,6 +38750,19 @@
       }
     },
     {
+      "displayName": "Prefeitura de Itaituba",
+      "id": "prefeituradeitaituba-9779e4",
+      "locationSet": {
+        "include": ["br-pa.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Prefeitura de Itaituba",
+        "operator:type": "government",
+        "operator:wikidata": "Q655734"
+      }
+    },
+    {
       "displayName": "Prefeitura de Itapetinga",
       "id": "prefeituradeitapetinga-9d6ced",
       "locationSet": {
@@ -38341,6 +39228,17 @@
       }
     },
     {
+      "displayName": "Primo",
+      "id": "primo-e21ec9",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Primo",
+        "operator:type": "public",
+        "operator:wikidata": "Q135010598"
+      }
+    },
+    {
       "displayName": "Prizma vzw",
       "id": "prizmavzw-fa3eb0",
       "locationSet": {
@@ -38370,6 +39268,15 @@
         "amenity": "school",
         "operator": "PROOLeiden-Leiderdorp",
         "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "Prosper ISD",
+      "id": "prosperisd-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Prosper ISD"
       }
     },
     {
@@ -38434,6 +39341,19 @@
         "operator": "Prosperidad IV District",
         "operator:type": "government",
         "operator:wikidata": "Q130491110"
+      }
+    },
+    {
+      "displayName": "Provincia de Santa Fe",
+      "id": "provinciadesantafe-11075e",
+      "locationSet": {
+        "include": ["ar-s.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Provincia de Santa Fe",
+        "operator:type": "government",
+        "operator:wikidata": "Q107624317"
       }
     },
     {
@@ -39401,6 +40321,19 @@
       }
     },
     {
+      "displayName": "Rio Grande City Grulla Independent School District",
+      "id": "riograndecitygrullaindependentschooldistrict-d19570",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Rio Grande City Grulla Independent School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q7335209"
+      }
+    },
+    {
       "displayName": "Rise Multi Academy Trust",
       "id": "risemultiacademytrust-26e9df",
       "locationSet": {"include": ["gb"]},
@@ -40149,6 +41082,15 @@
       }
     },
     {
+      "displayName": "Sacramento City Unified School District",
+      "id": "sacramentocityunifiedschooldistrict-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Sacramento City Unified School District"
+      }
+    },
+    {
       "displayName": "Saddleback Valley Unified School District",
       "id": "saddlebackvalleyunifiedschooldistrict-4ed216",
       "locationSet": {
@@ -40369,6 +41311,20 @@
         "operator": "Sallapadan District",
         "operator:type": "government",
         "operator:wikidata": "Q130490431"
+      }
+    },
+    {
+      "displayName": "Salt Lake City School District",
+      "id": "saltlakecityschooldistrict-614f2b",
+      "locationSet": {
+        "include": ["us-ut.geojson"]
+      },
+      "matchNames": ["salt lake school district"],
+      "tags": {
+        "amenity": "school",
+        "operator": "Salt Lake City School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q7405876"
       }
     },
     {
@@ -43825,28 +44781,111 @@
     },
     {
       "displayName": "School District 67 Okanagan Skaha",
-      "id": "schooldistrict67okanaganskaha-e17d3c",
-      "locationSet": {
-        "include": ["ca-bc.geojson"]
-      },
-      "matchNames": ["school district 67"],
+      "id": "schooldistrict67okanaganskaha-155571",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "amenity": "school",
-        "operator": "School District 67 Okanagan Skaha",
-        "operator:type": "public",
-        "operator:wikidata": "Q7432212"
+        "operator": "School District 67 Okanagan Skaha"
       }
     },
     {
       "displayName": "School District No. 43",
-      "id": "schooldistrictno43-e17d3c",
+      "id": "schooldistrictno43-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "School District No. 43"
+      }
+    },
+    {
+      "displayName": "School District Number 35 (Langley)",
+      "id": "schooldistrictnumber35langley-e17d3c",
       "locationSet": {
         "include": ["ca-bc.geojson"]
       },
+      "matchNames": [
+        "school district no. 35",
+        "sd35"
+      ],
       "tags": {
         "amenity": "school",
-        "operator": "School District No. 43",
-        "operator:type": "public"
+        "operator": "School District Number 35 (Langley)",
+        "operator:short": "Langley School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432183"
+      }
+    },
+    {
+      "displayName": "School District Number 38 (Richmond)",
+      "id": "schooldistrictnumber38richmond-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "school district no. 38",
+        "sd38"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 38 (Richmond)",
+        "operator:short": "Richmond School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q14717246"
+      }
+    },
+    {
+      "displayName": "School District Number 43 (Coquitlam)",
+      "id": "schooldistrictnumber43coquitlam-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "coquitlam school district",
+        "school district 43",
+        "sd43"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 43 (Coquitlam)",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432192"
+      }
+    },
+    {
+      "displayName": "School District Number 44 (North Vancouver)",
+      "id": "schooldistrictnumber44northvancouver-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "school district no. 44",
+        "sd44"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 44 (North Vancouver)",
+        "operator:abbr": "NVSD",
+        "operator:short": "North Vancouver School District",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432191"
+      }
+    },
+    {
+      "displayName": "School District Number 67 (Okanagan Skaha)",
+      "id": "schooldistrictnumber67okanaganskaha-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "okanaga skaha school district",
+        "school district 67",
+        "sd67"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 67 (Okanagan Skaha)",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432212"
       }
     },
     {
@@ -43879,6 +44918,15 @@
         "operator": "Schools Division Office of Tagbilaran City",
         "operator:type": "government",
         "operator:wikidata": "Q130262720"
+      }
+    },
+    {
+      "displayName": "Schools Division Office of Taguig City and Pateros",
+      "id": "schoolsdivisionofficeoftaguigcityandpateros-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Schools Division Office of Taguig City and Pateros"
       }
     },
     {
@@ -44902,6 +45950,17 @@
       }
     },
     {
+      "displayName": "SIKO",
+      "id": "siko-e21ec9",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "SIKO",
+        "operator:type": "religious",
+        "operator:wikidata": "Q135010660"
+      }
+    },
+    {
       "displayName": "Silago District",
       "id": "silagodistrict-a90c6e",
       "locationSet": {
@@ -45911,21 +46970,6 @@
       }
     },
     {
-      "displayName": "South East London Catholic Academy Trust (SELCAT) Limited",
-      "id": "southeastlondoncatholicacademytrustselcatlimited-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
-      "matchNames": [
-        "south east london catholic academy trust"
-      ],
-      "tags": {
-        "amenity": "school",
-        "operator": "South East London Catholic Academy Trust (SELCAT) Limited",
-        "operator:short": "SELCAT",
-        "operator:type": "private",
-        "operator:wikidata": "Q122616575"
-      }
-    },
-    {
       "displayName": "South Glan District",
       "id": "southglandistrict-ea96af",
       "locationSet": {
@@ -46415,6 +47459,20 @@
       }
     },
     {
+      "displayName": "St Gabriel The Archangel Catholic Multi-Academy Trust",
+      "id": "stgabrielthearchangelcatholicmultiacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "the painsley catholic academy"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "St Gabriel The Archangel Catholic Multi-Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122616303"
+      }
+    },
+    {
       "displayName": "St Helens Metropolitan Borough Council",
       "id": "sthelensmetropolitanboroughcouncil-7a837c",
       "locationSet": {"include": ["gb-eng"]},
@@ -46440,6 +47498,22 @@
       }
     },
     {
+      "displayName": "St Oscar Romero Catholic Academy Trust",
+      "id": "stoscarromerocatholicacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "selcat",
+        "south east london catholic academy trust",
+        "south east london catholic academy trust (selcat) limited"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "St Oscar Romero Catholic Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122616575"
+      }
+    },
+    {
       "displayName": "St Ralph Sherwin Catholic Multi Academy Trust",
       "id": "stralphsherwincatholicmultiacademytrust-26e9df",
       "locationSet": {"include": ["gb"]},
@@ -46448,6 +47522,33 @@
         "operator": "St Ralph Sherwin Catholic Multi Academy Trust",
         "operator:type": "private",
         "operator:wikidata": "Q121704503"
+      }
+    },
+    {
+      "displayName": "St Raphael The Archangel Catholic Multi-Academy Trust",
+      "id": "straphaelthearchangelcatholicmultiacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "our lady of the magnificat",
+        "our lady of the magnificat multi-academy",
+        "our lady of the magnificat multi-academy company"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "St Raphael The Archangel Catholic Multi-Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122616302"
+      }
+    },
+    {
+      "displayName": "St Teresa of Calcutta Catholic Academy Trust",
+      "id": "stteresaofcalcuttacatholicacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "St Teresa of Calcutta Catholic Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122685655"
       }
     },
     {
@@ -46825,6 +47926,15 @@
         "amenity": "school",
         "operator": "Stadt Leipzig Amt für Schule",
         "operator:type": "government"
+      }
+    },
+    {
+      "displayName": "Stadt Lüdenscheid",
+      "id": "stadtludenscheid-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Stadt Lüdenscheid"
       }
     },
     {
@@ -47842,6 +48952,25 @@
       }
     },
     {
+      "displayName": "Surrey Schools",
+      "id": "schooldistrictnumber37surrey-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "school district no. 36",
+        "sd36",
+        "surrey school district"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 37 (Surrey)",
+        "operator:short": "Surrey Schools",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432185"
+      }
+    },
+    {
       "displayName": "Suyo District",
       "id": "suyodistrict-eb7dba",
       "locationSet": {
@@ -47866,6 +48995,24 @@
         "operator": "Swale Academies Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616325"
+      }
+    },
+    {
+      "displayName": "Swansea Council",
+      "id": "swanseacouncil-d23ade",
+      "locationSet": {
+        "include": ["gb-swa.geojson"]
+      },
+      "matchNames": [
+        "city and county of swansea council",
+        "cyngor dinas a sir abertawe"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Swansea Council",
+        "operator:cy": "Cyngor Abertawe",
+        "operator:type": "government",
+        "operator:wikidata": "Q5123523"
       }
     },
     {
@@ -49264,6 +50411,17 @@
       }
     },
     {
+      "displayName": "The Academies for Character and Excellence",
+      "id": "theacademiesforcharacterandexcellence-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "The Academies for Character and Excellence",
+        "operator:type": "private",
+        "operator:wikidata": "Q122685138"
+      }
+    },
+    {
       "displayName": "The Active Learning Trust",
       "id": "theactivelearningtrust-26e9df",
       "locationSet": {"include": ["gb"]},
@@ -49327,6 +50485,17 @@
         "operator": "The Bishop Wheeler Catholic Academy Trust",
         "operator:type": "private",
         "operator:wikidata": "Q16152287"
+      }
+    },
+    {
+      "displayName": "The Blessed Edward Bamber Catholic Multi Academy Trust",
+      "id": "theblessededwardbambercatholicmultiacademytrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "The Blessed Edward Bamber Catholic Multi Academy Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122683151"
       }
     },
     {
@@ -49492,21 +50661,6 @@
       }
     },
     {
-      "displayName": "The Diocese of Ely Multi-Academy Trust",
-      "id": "thedioceseofelymultiacademytrust-26e9df",
-      "locationSet": {"include": ["gb"]},
-      "matchNames": [
-        "diocese of ely multi-academy trust"
-      ],
-      "tags": {
-        "amenity": "school",
-        "operator": "The Diocese of Ely Multi-Academy Trust",
-        "operator:short": "DEMAT",
-        "operator:type": "private",
-        "operator:wikidata": "Q121704464"
-      }
-    },
-    {
       "displayName": "The Diocese of Gloucester Academies Trust",
       "id": "thedioceseofgloucesteracademiestrust-26e9df",
       "locationSet": {"include": ["gb"]},
@@ -49606,17 +50760,6 @@
       }
     },
     {
-      "displayName": "The Fallibroome Trust",
-      "id": "thefallibroometrust-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
-      "tags": {
-        "amenity": "school",
-        "operator": "The Fallibroome Trust",
-        "operator:type": "private",
-        "operator:wikidata": "Q122616270"
-      }
-    },
-    {
       "displayName": "The First Federation Trust",
       "id": "thefirstfederationtrust-7a837c",
       "locationSet": {"include": ["gb-eng"]},
@@ -49651,12 +50794,12 @@
       }
     },
     {
-      "displayName": "The Gorse Academies Trust",
+      "displayName": "The GORSE Academies Trust",
       "id": "thegorseacademiestrust-7a837c",
       "locationSet": {"include": ["gb-eng"]},
       "tags": {
         "amenity": "school",
-        "operator": "The Gorse Academies Trust",
+        "operator": "The GORSE Academies Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616276"
       }
@@ -49670,6 +50813,23 @@
         "operator": "The Griffin Schools Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616279"
+      }
+    },
+    {
+      "displayName": "The Harbour Schools Partnership",
+      "id": "theharbourschoolspartnership-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "the primary academies trust",
+        "ventrus",
+        "ventrus limited",
+        "ventrus multi academy trust"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "The Harbour Schools Partnership",
+        "operator:type": "private",
+        "operator:wikidata": "Q122616307"
       }
     },
     {
@@ -49763,17 +50923,6 @@
         "operator": "The North Tyneside Learning Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616113"
-      }
-    },
-    {
-      "displayName": "The Painsley Catholic Academy",
-      "id": "thepainsleycatholicacademy-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
-      "tags": {
-        "amenity": "school",
-        "operator": "The Painsley Catholic Academy",
-        "operator:type": "private",
-        "operator:wikidata": "Q122616303"
       }
     },
     {
@@ -49909,20 +51058,6 @@
         "operator": "The Spencer Academies Trust",
         "operator:type": "private",
         "operator:wikidata": "Q61931017"
-      }
-    },
-    {
-      "displayName": "The Star Multi Academy Trust",
-      "id": "thestarmultiacademytrust-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
-      "matchNames": [
-        "the sherburn, tadcaster and rural multi academy trust"
-      ],
-      "tags": {
-        "amenity": "school",
-        "operator": "The Star Multi Academy Trust",
-        "operator:type": "private",
-        "operator:wikidata": "Q122616549"
       }
     },
     {
@@ -51516,6 +52651,15 @@
       }
     },
     {
+      "displayName": "Union Public Schools",
+      "id": "unionpublicschools-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Union Public Schools"
+      }
+    },
+    {
       "displayName": "Unisan District",
       "id": "unisandistrict-1f956b",
       "locationSet": {
@@ -52022,14 +53166,22 @@
     },
     {
       "displayName": "Vancouver School Board",
-      "id": "vancouverschoolboard-e17d3c",
+      "id": "schooldistrictnumber39vancouver-e17d3c",
       "locationSet": {
         "include": ["ca-bc.geojson"]
       },
+      "matchNames": [
+        "school district 39",
+        "sd39",
+        "vancouver school board"
+      ],
       "tags": {
         "amenity": "school",
-        "operator": "Vancouver School Board",
-        "operator:type": "public"
+        "operator": "School District Number 39 (Vancouver)",
+        "operator:abbr": "VSB",
+        "operator:short:": "Vancouver School Board",
+        "operator:type": "public",
+        "operator:wikidata": "Q1189835"
       }
     },
     {
@@ -52073,22 +53225,6 @@
         "operator": "Venn Academy Trust",
         "operator:type": "private",
         "operator:wikidata": "Q122616364"
-      }
-    },
-    {
-      "displayName": "Ventrus Limited",
-      "id": "ventruslimited-7a837c",
-      "locationSet": {"include": ["gb-eng"]},
-      "matchNames": [
-        "the primary academies trust",
-        "ventrus",
-        "ventrus multi academy trust"
-      ],
-      "tags": {
-        "amenity": "school",
-        "operator": "Ventrus Limited",
-        "operator:type": "private",
-        "operator:wikidata": "Q122616307"
       }
     },
     {
@@ -52435,6 +53571,21 @@
       }
     },
     {
+      "displayName": "Ville de Bruxelles - Stad Brussel",
+      "id": "villedebruxellesstadbrussel-3b21b2",
+      "locationSet": {
+        "include": ["be-bru.geojson"]
+      },
+      "tags": {
+        "amenity": "school",
+        "operator": "Ville de Bruxelles - Stad Brussel",
+        "operator:fr": "Ville de Bruxelles",
+        "operator:nl": "Stad Brussel",
+        "operator:type": "government",
+        "operator:wikidata": "Q239"
+      }
+    },
+    {
       "displayName": "Ville de Charleroi",
       "id": "villedecharleroi-12a138",
       "locationSet": {
@@ -52502,6 +53653,15 @@
         "operator": "Ville de Reims",
         "operator:type": "government",
         "operator:wikidata": "Q86699184"
+      }
+    },
+    {
+      "displayName": "Ville de Seraing",
+      "id": "villedeseraing-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "Ville de Seraing"
       }
     },
     {
@@ -53431,6 +54591,26 @@
       }
     },
     {
+      "displayName": "West Vancouver Schools",
+      "id": "schooldistrictnumber45westvancouver-e17d3c",
+      "locationSet": {
+        "include": ["ca-bc.geojson"]
+      },
+      "matchNames": [
+        "school district no. 45",
+        "sd45",
+        "west vancouver school district"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "School District Number 45 (West Vancouver)",
+        "operator:abbr": "WVS",
+        "operator:short": "West Vancouver Schools",
+        "operator:type": "public",
+        "operator:wikidata": "Q7432193"
+      }
+    },
+    {
       "displayName": "West-1 District",
       "id": "west1district-2e301f",
       "locationSet": {
@@ -54012,6 +55192,21 @@
       }
     },
     {
+      "displayName": "Yorkshire Learning Trust",
+      "id": "yorkshirelearningtrust-7a837c",
+      "locationSet": {"include": ["gb-eng"]},
+      "matchNames": [
+        "the sherburn, tadcaster and rural multi academy trust",
+        "the star multi academy trust"
+      ],
+      "tags": {
+        "amenity": "school",
+        "operator": "Yorkshire Learning Trust",
+        "operator:type": "private",
+        "operator:wikidata": "Q122616549"
+      }
+    },
+    {
       "displayName": "Yorkville Community Unit School District 115",
       "id": "yorkvillecommunityunitschooldistrict115-6d6198",
       "locationSet": {
@@ -54523,6 +55718,15 @@
       }
     },
     {
+      "displayName": "京都市",
+      "id": "2675ff-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "京都市"
+      }
+    },
+    {
       "displayName": "仙台市",
       "id": "e2ad4e-5c1fa8",
       "locationSet": {
@@ -54880,6 +56084,15 @@
       }
     },
     {
+      "displayName": "安图县教育局",
+      "id": "174d44-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "安图县教育局"
+      }
+    },
+    {
       "displayName": "宮城県",
       "id": "miyagiprefecture-5c1fa8",
       "locationSet": {
@@ -55109,6 +56322,15 @@
       }
     },
     {
+      "displayName": "東京都",
+      "id": "c81c00-155571",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "school",
+        "operator": "東京都"
+      }
+    },
+    {
       "displayName": "東京都教育委員会",
       "id": "tokyometropolitangovernmentboardofeducation-054fd1",
       "locationSet": {
@@ -55234,6 +56456,19 @@
         "amenity": "school",
         "operator": "澎湖縣政府教育處",
         "operator:type": "private"
+      }
+    },
+    {
+      "displayName": "珲春市教育局",
+      "id": "cc8c56-dc2068",
+      "locationSet": {
+        "include": ["cn"],
+        "exclude": ["hk", "mo"]
+      },
+      "note": "ISO 3166-2 CN-JL",
+      "tags": {
+        "amenity": "school",
+        "operator": "珲春市教育局"
       }
     },
     {

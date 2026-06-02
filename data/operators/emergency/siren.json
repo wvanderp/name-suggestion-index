@@ -288,7 +288,7 @@
       "tags": {
         "emergency": "siren",
         "operator": "City of Tulsa",
-        "operator:wikidata": "Q44989",
+        "operator:wikidata": "Q5589324",
         "siren:purpose": "tornado;nuclear_attack;flood",
         "siren:type": "electronic"
       }
@@ -464,7 +464,8 @@
       },
       "tags": {
         "emergency": "siren",
-        "operator": "Nationalparkverbandsgemeinde Herrstein-Rhaunen"
+        "operator": "Nationalparkverbandsgemeinde Herrstein-Rhaunen",
+        "operator:wikidata": "Q55276514"
       }
     },
     {
@@ -773,6 +774,15 @@
         "emergency": "siren",
         "operator": "Ростелеком",
         "operator:wikidata": "Q1477012"
+      }
+    },
+    {
+      "displayName": "国土交通省",
+      "id": "fdf694-7c4e73",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "emergency": "siren",
+        "operator": "国土交通省"
       }
     },
     {

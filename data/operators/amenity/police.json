@@ -280,6 +280,22 @@
       }
     },
     {
+      "displayName": "Cuerpo General de Policía Canaria",
+      "id": "cuerpogeneraldepoliciacanaria-dd66e9",
+      "locationSet": {"include": ["es"]},
+      "matchNames": [
+        "policia autonomica de canarias"
+      ],
+      "tags": {
+        "amenity": "police",
+        "operator": "Cuerpo General de Policía Canaria",
+        "operator:en": "General Police Corps of the Canary Islands",
+        "operator:es": "Cuerpo General de Policía Canaria",
+        "operator:short": "CGPC",
+        "operator:wikidata": "Q3751422"
+      }
+    },
+    {
       "displayName": "Cuerpo Nacional de Policía",
       "id": "cuerponacionaldepolicia-dd66e9",
       "locationSet": {"include": ["es"]},
@@ -442,6 +458,28 @@
         "operator": "Emniyet Genel Müdürlüğü",
         "operator:short": "EGM",
         "operator:wikidata": "Q943607"
+      }
+    },
+    {
+      "displayName": "Ertzaintza",
+      "id": "ertzaintza-f1199e",
+      "locationSet": {
+        "include": [
+          "es-bi.geojson",
+          "es-ss.geojson",
+          "es-vi.geojson"
+        ]
+      },
+      "matchNames": [
+        "euskadiko polizia",
+        "miñones de alava",
+        "policia autonoma vasca",
+        "policia autonomica del pais vasco"
+      ],
+      "tags": {
+        "amenity": "police",
+        "operator": "Ertzaintza",
+        "operator:wikidata": "Q1232358"
       }
     },
     {
@@ -1921,6 +1959,17 @@
       }
     },
     {
+      "displayName": "Policía de la Provincia de San Luis",
+      "id": "policiadelaprovinciadesanluis-a66f53",
+      "locationSet": {
+        "include": ["ar-d.geojson"]
+      },
+      "tags": {
+        "amenity": "police",
+        "operator": "Policía de la Provincia de San Luis"
+      }
+    },
+    {
       "displayName": "Policía de la Provincia de Santa Fe",
       "id": "policiadelaprovinciadesantafe-6f8c3b",
       "locationSet": {
@@ -2019,6 +2068,26 @@
         "operator:en": "Federal Police of Brazil",
         "operator:pt": "Polícia Federal do Brasil",
         "operator:wikidata": "Q2289697"
+      }
+    },
+    {
+      "displayName": "Policía Foral de Navarra-Nafarroako Foruzaingoa",
+      "id": "policiaforalforuzaingoa-01ceab",
+      "locationSet": {
+        "include": ["es-na.geojson"]
+      },
+      "matchNames": [
+        "foruzaingoa",
+        "policia de la comunidad foral de navarra",
+        "policia foral"
+      ],
+      "tags": {
+        "amenity": "police",
+        "operator": "Policía Foral/Foruzaingoa",
+        "operator:es": "Policía Foral de Navarra",
+        "operator:eu": "Nafarroako Foruzaingoa",
+        "operator:short": "PFN-NF",
+        "operator:wikidata": "Q2064816"
       }
     },
     {
@@ -2520,6 +2589,15 @@
         "amenity": "police",
         "operator": "Policie České republiky",
         "operator:wikidata": "Q1135262"
+      }
+    },
+    {
+      "displayName": "Policijska uprava zagrebačka",
+      "id": "policijskaupravazagrebacka-b55601",
+      "locationSet": {"include": ["hr"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Policijska uprava zagrebačka"
       }
     },
     {
@@ -3395,6 +3473,17 @@
       }
     },
     {
+      "displayName": "Zimbabwe Republic Police",
+      "id": "zimbabwerepublicpolice-d97de2",
+      "locationSet": {"include": ["zw"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "Zimbabwe Republic Police",
+        "operator:short": "ZRP",
+        "operator:wikidata": "Q862599"
+      }
+    },
+    {
       "displayName": "Zone de Police Bruxelles CAPITALE Ixelles – Politiezone Brussel HOOFDSTAD Elsene",
       "id": "zonedepolicebruxellescapitaleixellespolitiezonebrusselhoofdstadelsene-45bc05",
       "locationSet": {
@@ -3526,6 +3615,18 @@
       }
     },
     {
+      "displayName": "佐賀県警察",
+      "id": "1fe525-80891c",
+      "locationSet": {
+        "include": ["jp-41.geojson"]
+      },
+      "tags": {
+        "amenity": "police",
+        "operator": "佐賀県警察",
+        "operator:wikidata": "Q11384774"
+      }
+    },
+    {
       "displayName": "刑事警察局",
       "id": "criminalinvestigationbureau-c45d37",
       "locationSet": {"include": ["tw"]},
@@ -3536,6 +3637,18 @@
         "operator:en": "Criminal Investigation Bureau",
         "operator:wikidata": "Q10891306",
         "operator:zh": "刑事警察局"
+      }
+    },
+    {
+      "displayName": "北海道警察 旭川方面本部",
+      "id": "648e44-8c1555",
+      "locationSet": {
+        "include": ["jp-01.geojson"]
+      },
+      "tags": {
+        "amenity": "police",
+        "operator": "北海道警察 旭川方面本部",
+        "operator:wikidata": "Q11087092"
       }
     },
     {
@@ -4107,6 +4220,15 @@
         "amenity": "police",
         "operator": "茨城県警察",
         "operator:wikidata": "Q11617512"
+      }
+    },
+    {
+      "displayName": "警視庁",
+      "id": "a92774-d00fc1",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "amenity": "police",
+        "operator": "警視庁"
       }
     },
     {

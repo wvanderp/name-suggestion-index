@@ -55,6 +55,18 @@
       }
     },
     {
+      "displayName": "Allesz",
+      "id": "allesz-c9ad4a",
+      "locationSet": {"include": ["nl"]},
+      "matchTags": ["shop/furniture"],
+      "tags": {
+        "brand": "Allesz",
+        "brand:wikidata": "Q136703522",
+        "name": "Allesz",
+        "shop": "houseware"
+      }
+    },
+    {
       "displayName": "At Home",
       "id": "athome-d77d08",
       "locationSet": {"include": ["us"]},
@@ -90,11 +102,11 @@
     },
     {
       "displayName": "Bed Bath & Beyond (North America)",
-      "id": "bedbathandbeyond-76be9f",
-      "locationSet": {
-        "include": ["ca", "mx", "us"]
-      },
+      "id": "bedbathandbeyond-3ed5a7",
+      "issues": [11085],
+      "locationSet": {"include": ["mx"]},
       "matchTags": ["shop/department_store"],
+      "note": "stores in Canada and USA closed in 2023",
       "tags": {
         "brand": "Bed Bath & Beyond",
         "brand:wikidata": "Q813782",
@@ -117,8 +129,8 @@
     },
     {
       "displayName": "Blokker",
-      "id": "blokker-a48b12",
-      "locationSet": {"include": ["be", "nl"]},
+      "id": "blokker-c9ad4a",
+      "locationSet": {"include": ["nl"]},
       "matchTags": ["shop/furniture"],
       "tags": {
         "brand": "Blokker",
@@ -241,6 +253,16 @@
       }
     },
     {
+      "displayName": "Espaço Casa",
+      "id": "espacocasa-19bb0d",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "brand": "Espaço Casa",
+        "name": "Espaço Casa",
+        "shop": "houseware"
+      }
+    },
+    {
       "displayName": "Fissler",
       "id": "fissler-a5ce18",
       "locationSet": {"include": ["de"]},
@@ -304,6 +326,17 @@
         "brand": "Happy Casa",
         "brand:wikidata": "Q126901260",
         "name": "Happy Casa",
+        "shop": "houseware"
+      }
+    },
+    {
+      "displayName": "Home & Cook",
+      "id": "homeandcook-e035a4",
+      "locationSet": {"include": ["150"]},
+      "tags": {
+        "brand": "Home & Cook",
+        "brand:wikidata": "Q139488397",
+        "name": "Home & Cook",
         "shop": "houseware"
       }
     },
@@ -534,6 +567,17 @@
       }
     },
     {
+      "displayName": "Maury's",
+      "id": "maurys-6a1c4e",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "brand": "Maury's",
+        "brand:wikidata": "Q138307558",
+        "name": "Maury's",
+        "shop": "houseware"
+      }
+    },
+    {
       "displayName": "Metalac",
       "id": "metalac-21e4ab",
       "locationSet": {
@@ -730,6 +774,21 @@
         "brand": "Sur La Table",
         "brand:wikidata": "Q7645220",
         "name": "Sur La Table",
+        "shop": "houseware"
+      }
+    },
+    {
+      "displayName": "Tefal",
+      "id": "tefal-de9f7c",
+      "locationSet": {
+        "include": ["001"],
+        "exclude": ["003", "jp"]
+      },
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Tefal",
+        "brand:wikidata": "Q134176292",
+        "name": "Tefal",
         "shop": "houseware"
       }
     },

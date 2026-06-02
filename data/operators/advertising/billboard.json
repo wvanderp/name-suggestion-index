@@ -154,6 +154,17 @@
       }
     },
     {
+      "displayName": "arton",
+      "id": "arton-a92548",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["arton s.r.o."],
+      "tags": {
+        "advertising": "billboard",
+        "operator": "arton",
+        "operator:wikidata": "Q139601329"
+      }
+    },
+    {
       "displayName": "Astral",
       "id": "astral-5f3ac7",
       "locationSet": {
@@ -200,22 +211,33 @@
     },
     {
       "displayName": "Biedronka",
-      "id": "biedronka-b0d60a",
-      "locationSet": {"include": ["pl"]},
+      "id": "biedronka-83d209",
+      "locationSet": {"include": ["pl", "sk"]},
       "tags": {
         "advertising": "billboard",
-        "operator": "Biedronka"
+        "operator": "Biedronka",
+        "operator:wikidata": "Q857182"
       }
     },
     {
-      "displayName": "Bigmedia",
-      "id": "bigmedia-82cbed",
-      "locationSet": {
-        "include": ["sk-ki.geojson"]
-      },
+      "displayName": "bigmedia",
+      "id": "bigmedia-a92548",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["bigmedia, spol. s r.o."],
       "tags": {
         "advertising": "billboard",
-        "operator": "Bigmedia"
+        "operator": "bigmedia",
+        "operator:wikidata": "Q139601207"
+      }
+    },
+    {
+      "displayName": "BigMedia",
+      "id": "bigmedia-67d580",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "advertising": "billboard",
+        "operator": "BigMedia",
+        "operator:wikidata": "Q121621060"
       }
     },
     {
@@ -401,6 +423,24 @@
       }
     },
     {
+      "displayName": "Damir",
+      "id": "damir-33a7af",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "advertising": "billboard",
+        "operator": "Damir"
+      }
+    },
+    {
+      "displayName": "Dauphin",
+      "id": "dauphin-28ca1f",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "advertising": "billboard",
+        "operator": "Dauphin"
+      }
+    },
+    {
       "displayName": "De Cecco",
       "id": "dececco-28ca1f",
       "locationSet": {"include": ["fx"]},
@@ -437,6 +477,17 @@
       "tags": {
         "advertising": "billboard",
         "operator": "Espace Urbain"
+      }
+    },
+    {
+      "displayName": "euroAWK",
+      "id": "euroawk-52c6c0",
+      "locationSet": {"include": ["cz", "sk"]},
+      "matchNames": ["euroawk, spol. s.r.o."],
+      "tags": {
+        "advertising": "billboard",
+        "operator": "euroAWK",
+        "operator:wikidata": "Q98406698"
       }
     },
     {
@@ -550,6 +601,17 @@
       }
     },
     {
+      "displayName": "Gryf",
+      "id": "gryf-a92548",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["gryf media, s.r.o."],
+      "tags": {
+        "advertising": "billboard",
+        "operator": "Gryf",
+        "operator:wikidata": "Q139601312"
+      }
+    },
+    {
       "displayName": "Horizon",
       "id": "horizon-28ca1f",
       "locationSet": {"include": ["fx"]},
@@ -561,8 +623,58 @@
     },
     {
       "displayName": "IKEA",
-      "id": "ikea-d4816c",
-      "locationSet": {"include": ["001"]},
+      "id": "ikea-1dde13",
+      "locationSet": {
+        "include": [
+          "ae",
+          "at",
+          "au",
+          "be",
+          "bh",
+          "ca",
+          "ch",
+          "cl",
+          "cz",
+          "de",
+          "dk",
+          "eg",
+          "es",
+          "fi",
+          "fr",
+          "gb",
+          "hk",
+          "hr",
+          "hu",
+          "ie",
+          "il",
+          "in",
+          "it",
+          "jo",
+          "kr",
+          "kw",
+          "ma",
+          "mo",
+          "mx",
+          "my",
+          "nl",
+          "no",
+          "nz",
+          "ph",
+          "pl",
+          "pt",
+          "qa",
+          "ro",
+          "rs",
+          "sa",
+          "se",
+          "sg",
+          "si",
+          "sk",
+          "th",
+          "ua",
+          "us"
+        ]
+      },
       "tags": {
         "advertising": "billboard",
         "operator": "IKEA",
@@ -576,6 +688,17 @@
       "tags": {
         "advertising": "billboard",
         "operator": "Impact"
+      }
+    },
+    {
+      "displayName": "ISPA",
+      "id": "ispa-a92548",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["ispa, spol. s.r.o."],
+      "tags": {
+        "advertising": "billboard",
+        "operator": "ISPA",
+        "operator:wikidata": "Q139601181"
       }
     },
     {
@@ -667,6 +790,26 @@
       }
     },
     {
+      "displayName": "Meadow",
+      "id": "meadow-8ddff9",
+      "locationSet": {
+        "include": [
+          "us-ca.geojson",
+          "us-id.geojson",
+          "us-or.geojson",
+          "us-wa.geojson"
+        ]
+      },
+      "matchNames": [
+        "meadow outdoor advertising"
+      ],
+      "tags": {
+        "advertising": "billboard",
+        "operator": "Meadow",
+        "operator:wikidata": "Q138747871"
+      }
+    },
+    {
       "displayName": "Médialine",
       "id": "medialine-28ca1f",
       "locationSet": {"include": ["fx"]},
@@ -705,6 +848,17 @@
         "advertising": "billboard",
         "operator": "North Lincolnshire Council",
         "operator:wikidata": "Q17016863"
+      }
+    },
+    {
+      "displayName": "Nubium",
+      "id": "nubium-a92548",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["nubium, s. r. o."],
+      "tags": {
+        "advertising": "billboard",
+        "operator": "Nubium",
+        "operator:wikidata": "Q139601227"
       }
     },
     {
@@ -1079,6 +1233,17 @@
         "advertising": "billboard",
         "operator": "Triaire",
         "operator:wikidata": "Q130548021"
+      }
+    },
+    {
+      "displayName": "Vandesompele",
+      "id": "vandesompele-6e8b9f",
+      "locationSet": {
+        "include": ["fr-hdf.geojson"]
+      },
+      "tags": {
+        "advertising": "billboard",
+        "operator": "Vandesompele"
       }
     },
     {

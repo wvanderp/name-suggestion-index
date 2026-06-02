@@ -277,6 +277,18 @@
       }
     },
     {
+      "displayName": "Boutique Paraboot",
+      "id": "paraboot-c57706",
+      "locationSet": {"include": ["fr"]},
+      "tags": {
+        "brand": "Paraboot",
+        "brand:wikidata": "Q139098562",
+        "operator": "société Capuce",
+        "operator:wikidata": "Q139099074",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Brantano",
       "id": "brantano-12213a",
       "locationSet": {
@@ -376,6 +388,28 @@
         "brand": "Christian Louboutin",
         "brand:wikidata": "Q23681835",
         "name": "Christian Louboutin",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Church's",
+      "id": "churchs-72971b",
+      "locationSet": {
+        "include": [
+          "be",
+          "ch",
+          "es",
+          "fr",
+          "gb",
+          "it",
+          "jp",
+          "sg"
+        ]
+      },
+      "tags": {
+        "brand": "Church's",
+        "brand:wikidata": "Q2967663",
+        "name": "Church's",
         "shop": "shoes"
       }
     },
@@ -719,6 +753,17 @@
       }
     },
     {
+      "displayName": "Footasylum",
+      "id": "footasylum-eede13",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "Footasylum",
+        "brand:wikidata": "Q126913565",
+        "name": "Footasylum",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Footgear",
       "id": "footgear-067547",
       "locationSet": {"include": ["za"]},
@@ -921,6 +966,17 @@
       }
     },
     {
+      "displayName": "John Fluevog Shoes",
+      "id": "johnfluevogshoes-22ceb3",
+      "locationSet": {"include": ["ca", "us"]},
+      "tags": {
+        "brand": "John Fluevog Shoes",
+        "brand:wikidata": "Q135226139",
+        "name": "John Fluevog Shoes",
+        "shop": "shoes"
+      }
+    },
+    {
       "displayName": "Johnston & Murphy",
       "id": "johnstonandmurphy-22ceb3",
       "locationSet": {"include": ["ca", "us"]},
@@ -933,8 +989,8 @@
     },
     {
       "displayName": "Jonak",
-      "id": "jonak-dff267",
-      "locationSet": {"include": ["fr", "ru"]},
+      "id": "jonak-c57706",
+      "locationSet": {"include": ["fr"]},
       "tags": {
         "brand": "Jonak",
         "brand:wikidata": "Q105372529",
@@ -1090,6 +1146,7 @@
       "locationSet": {"include": ["de"]},
       "tags": {
         "brand": "Leguano",
+        "brand:wikidata": "Q138357393",
         "name": "Leguano",
         "shop": "shoes"
       }
@@ -1308,6 +1365,18 @@
         "brand": "Mephisto",
         "brand:wikidata": "Q822975",
         "name": "Mephisto",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Merkal",
+      "id": "merkal-d6114e",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["merkal calzados"],
+      "tags": {
+        "brand": "Merkal",
+        "brand:wikidata": "Q126894589",
+        "name": "Merkal",
         "shop": "shoes"
       }
     },
@@ -1719,17 +1788,6 @@
       }
     },
     {
-      "displayName": "Runners Point",
-      "id": "runnerspoint-0833e2",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "brand": "Runners Point",
-        "brand:wikidata": "Q2176418",
-        "name": "Runners Point",
-        "shop": "shoes"
-      }
-    },
-    {
       "displayName": "Ryłko",
       "id": "rylko-aa42f1",
       "locationSet": {"include": ["pl"]},
@@ -1737,6 +1795,18 @@
         "brand": "Ryłko",
         "brand:wikidata": "Q9325152",
         "name": "Ryłko",
+        "shop": "shoes"
+      }
+    },
+    {
+      "displayName": "Saboo",
+      "id": "saboo-0a14c2",
+      "locationSet": {"include": ["ru"]},
+      "matchNames": ["crocs"],
+      "tags": {
+        "brand": "Saboo",
+        "brand:wikidata": "Q139730358",
+        "name": "Saboo",
         "shop": "shoes"
       }
     },
@@ -2334,9 +2404,25 @@
     },
     {
       "displayName": "Tamaris",
-      "id": "tamaris-e95100",
+      "id": "tamaris-86cef5",
       "locationSet": {
-        "include": ["at", "be", "de", "fr", "nl"]
+        "include": [
+          "at",
+          "ba",
+          "be",
+          "bg",
+          "cz",
+          "de",
+          "ee",
+          "fr",
+          "gr",
+          "hu",
+          "lu",
+          "lv",
+          "nl",
+          "pl",
+          "ru"
+        ]
       },
       "tags": {
         "brand": "Tamaris",

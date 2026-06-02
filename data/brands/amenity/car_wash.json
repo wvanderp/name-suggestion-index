@@ -138,6 +138,17 @@
       }
     },
     {
+      "displayName": "Caliber Car Wash",
+      "id": "calibercarwash-244496",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Caliber Car Wash",
+        "brand:wikidata": "Q131937909",
+        "name": "Caliber Car Wash"
+      }
+    },
+    {
       "displayName": "Chevron",
       "id": "chevron-43b899",
       "locationSet": {"include": ["001"]},
@@ -398,7 +409,10 @@
       "displayName": "Kärcher",
       "id": "karcher-43b899",
       "locationSet": {"include": ["001"]},
-      "matchNames": ["kärcher clean park"],
+      "matchNames": [
+        "kaercher",
+        "kärcher clean park"
+      ],
       "preserveTags": ["^name"],
       "tags": {
         "amenity": "car_wash",
@@ -469,6 +483,28 @@
       }
     },
     {
+      "displayName": "MOL",
+      "id": "mol-edc9f9",
+      "locationSet": {
+        "include": [
+          "cz",
+          "hu",
+          "pl",
+          "ro",
+          "rs",
+          "si"
+        ]
+      },
+      "matchNames": ["mol jetwash", "mol wash"],
+      "preserveTags": ["^name"],
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "MOL",
+        "brand:wikidata": "Q549181",
+        "name": "MOL"
+      }
+    },
+    {
       "displayName": "Mr. Wash",
       "id": "mrwash-26327d",
       "locationSet": {"include": ["de"]},
@@ -481,8 +517,19 @@
     },
     {
       "displayName": "OMV",
-      "id": "omv-43b899",
-      "locationSet": {"include": ["001"]},
+      "id": "omv-3df771",
+      "locationSet": {
+        "include": [
+          "at",
+          "bg",
+          "cz",
+          "hu",
+          "ro",
+          "rs",
+          "sk"
+        ]
+      },
+      "matchNames": ["omb"],
       "tags": {
         "amenity": "car_wash",
         "brand": "OMV",
@@ -491,10 +538,38 @@
       }
     },
     {
-      "displayName": "Orlen",
-      "id": "orlen-c680df",
+      "displayName": "OMV Top Wash",
+      "id": "omvtopwash-3df771",
       "locationSet": {
-        "include": ["lt", "pl", "sk"]
+        "include": [
+          "at",
+          "bg",
+          "cz",
+          "hu",
+          "ro",
+          "rs",
+          "sk"
+        ]
+      },
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "OMV",
+        "brand:wikidata": "Q168238",
+        "name": "OMV Top Wash"
+      }
+    },
+    {
+      "displayName": "Orlen",
+      "id": "orlen-24fec3",
+      "locationSet": {
+        "include": [
+          "cz",
+          "de",
+          "hu",
+          "lt",
+          "pl",
+          "sk"
+        ]
       },
       "tags": {
         "amenity": "car_wash",
@@ -505,8 +580,8 @@
     },
     {
       "displayName": "Penový raj",
-      "id": "penovyraj-3482c3",
-      "locationSet": {"include": ["cz", "sk"]},
+      "id": "penovyraj-95225d",
+      "locationSet": {"include": ["sk"]},
       "tags": {
         "amenity": "car_wash",
         "brand": "Penový raj",
@@ -587,6 +662,24 @@
       }
     },
     {
+      "displayName": "Super Star Car Wash",
+      "id": "superstarcarwash-f20fa0",
+      "locationSet": {
+        "include": [
+          "us-az.geojson",
+          "us-ca.geojson",
+          "us-co.geojson",
+          "us-tx.geojson"
+        ]
+      },
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Super Star Car Wash",
+        "brand:wikidata": "Q132156104",
+        "name": "Super Star Car Wash"
+      }
+    },
+    {
       "displayName": "Super Wash",
       "id": "superwash-244496",
       "locationSet": {"include": ["us"]},
@@ -633,6 +726,18 @@
       }
     },
     {
+      "displayName": "Tommy's Express",
+      "id": "tommysexpress-244496",
+      "locationSet": {"include": ["us"]},
+      "matchNames": ["tommy's express car wash"],
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Tommy's Express",
+        "brand:wikidata": "Q127325943",
+        "name": "Tommy's Express"
+      }
+    },
+    {
       "displayName": "Wash (TotalEnergies)",
       "id": "wash-8e017a",
       "locationSet": {
@@ -645,6 +750,19 @@
         "brand": "Wash",
         "brand:wikidata": "Q124568566",
         "name": "Wash"
+      }
+    },
+    {
+      "displayName": "Wash World",
+      "id": "washworld-83b5fb",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "amenity": "car_wash",
+        "brand": "Wash World",
+        "brand:wikidata": "Q130249954",
+        "name": "Wash World",
+        "operator": "Wash World",
+        "operator:wikidata": "Q130249954"
       }
     },
     {

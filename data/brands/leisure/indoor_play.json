@@ -6,7 +6,7 @@
   "items": [
     {
       "displayName": "IKEA Småland",
-      "id": "smaland-74e8ab",
+      "id": "smaland-06dcc1",
       "locationSet": {
         "include": [
           "ae",
@@ -31,6 +31,7 @@
           "kw",
           "my",
           "no",
+          "nz",
           "ph",
           "pl",
           "pt",
@@ -63,8 +64,23 @@
       "tags": {
         "brand": "Kids Empire",
         "brand:wikidata": "Q134489648",
+        "fee": "yes",
         "leisure": "indoor_play",
         "name": "Kids Empire"
+      }
+    },
+    {
+      "displayName": "Monkey Town",
+      "id": "monkeytown-f9368f",
+      "locationSet": {
+        "include": ["ch", "de", "nl"]
+      },
+      "tags": {
+        "brand": "Monkey Town",
+        "brand:wikidata": "Q138426657",
+        "fee": "yes",
+        "leisure": "indoor_play",
+        "name": "Monkey Town"
       }
     },
     {
@@ -74,6 +90,7 @@
       "tags": {
         "brand": "My Gym",
         "brand:wikidata": "Q6945604",
+        "fee": "yes",
         "leisure": "indoor_play",
         "name": "My Gym",
         "official_name": "My Gym Children's Fitness Center"
@@ -86,6 +103,7 @@
       "tags": {
         "brand": "The Little Gym",
         "brand:wikidata": "Q7747618",
+        "fee": "yes",
         "leisure": "indoor_play",
         "name": "The Little Gym"
       }
@@ -97,6 +115,7 @@
       "tags": {
         "brand": "Wacky Warehouse",
         "brand:wikidata": "Q104215014",
+        "fee": "yes",
         "leisure": "indoor_play",
         "name": "Wacky Warehouse"
       }

@@ -181,6 +181,18 @@
       }
     },
     {
+      "displayName": "Somerset Council",
+      "id": "somersetcouncil-bd56e5",
+      "locationSet": {
+        "include": ["gb-som.geojson"]
+      },
+      "tags": {
+        "highway": "street_lamp",
+        "operator": "Somerset Council",
+        "operator:wikidata": "Q6386270"
+      }
+    },
+    {
       "displayName": "Transports Québec",
       "id": "transportsquebec-0ef919",
       "locationSet": {
@@ -193,6 +205,30 @@
       }
     },
     {
+      "displayName": "Ville de Québec",
+      "id": "villedequebec-6171c1",
+      "locationSet": {
+        "include": [[-71.24, 46.8]]
+      },
+      "tags": {
+        "highway": "street_lamp",
+        "operator": "Ville de Québec",
+        "operator:wikidata": "Q2145"
+      }
+    },
+    {
+      "displayName": "We Energies",
+      "id": "weenergies-2d23c4",
+      "locationSet": {
+        "include": ["us-wi.geojson"]
+      },
+      "tags": {
+        "highway": "street_lamp",
+        "operator": "We Energies",
+        "operator:wikidata": "Q134822523"
+      }
+    },
+    {
       "displayName": "Xcel Energy",
       "id": "xcelenergy-794e30",
       "locationSet": {"include": ["us"]},
@@ -200,6 +236,17 @@
         "highway": "street_lamp",
         "operator": "Xcel Energy",
         "operator:wikidata": "Q1486956"
+      }
+    },
+    {
+      "displayName": "Železnice Slovenskej republiky",
+      "id": "zelezniceslovenskejrepubliky-4bb910",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "highway": "street_lamp",
+        "operator": "Železnice Slovenskej republiky",
+        "operator:short": "ŽSR",
+        "operator:wikidata": "Q393524"
       }
     }
   ]

@@ -1,18 +1,33 @@
-/coverage
-/node_modules
-/dist/javascript
-/.parcel-cache
+# Dependencies
+node_modules/
 
-.idea
-.DS_Store
-.cache
-npm-debug.log
+# Build output
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
 secrets.json
 
-*.backup
-*.bz2
-*.osm
-*.pbf
-*.swp
+# OS
+.DS_Store
+Thumbs.db
 
-yarn.lock
+# Editor
+coverage/
+.vscode/
+!.vscode/extensions.json
+.idea/
+
+# Agent memory
+SCRATCHPAD.md
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime temp files
+*.tmp
+*.temp

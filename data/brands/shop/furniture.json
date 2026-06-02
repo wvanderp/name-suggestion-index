@@ -147,14 +147,23 @@
     },
     {
       "displayName": "ASKO Nábytek",
-      "id": "askonabytek-2a1637",
-      "locationSet": {"include": ["cz", "sk"]},
+      "id": "askonabytek-8f409c",
+      "locationSet": {"include": ["cz"]},
       "tags": {
         "brand": "ASKO Nábytek",
         "brand:wikidata": "Q58197384",
         "name": "ASKO Nábytek",
-        "name:cs": "ASKO Nábytek",
-        "name:sk": "ASKO Nábytok",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "ASKO Nábytok",
+      "id": "askonabytok-d1803c",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "ASKO Nábytok",
+        "brand:wikidata": "Q139601355",
+        "name": "ASKO Nábytok",
         "shop": "furniture"
       }
     },
@@ -590,6 +599,17 @@
       }
     },
     {
+      "displayName": "Doğtaş",
+      "id": "dogtas-a88d0c",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "brand": "Doğtaş",
+        "brand:wikidata": "Q6042684",
+        "name": "Doğtaş",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Domayne",
       "id": "domayne-0da980",
       "locationSet": {"include": ["au"]},
@@ -927,7 +947,7 @@
     },
     {
       "displayName": "IKEA",
-      "id": "ikea-d24a4f",
+      "id": "ikea-1a87af",
       "locationSet": {
         "include": [
           "ae",
@@ -957,6 +977,7 @@
           "mx",
           "my",
           "nl",
+          "nz",
           "ph",
           "pl",
           "pt",
@@ -968,6 +989,7 @@
           "si",
           "sk",
           "th",
+          "tr",
           "ua",
           "us"
         ]
@@ -1111,17 +1133,6 @@
       }
     },
     {
-      "displayName": "Kika",
-      "id": "kika-153ef8",
-      "locationSet": {"include": ["at"]},
-      "tags": {
-        "brand": "Kika",
-        "brand:wikidata": "Q256456",
-        "name": "Kika",
-        "shop": "furniture"
-      }
-    },
-    {
       "displayName": "Kitea",
       "id": "kitea-bfeed0",
       "locationSet": {"include": ["ma"]},
@@ -1204,17 +1215,6 @@
         "brand": "Leen Bakker",
         "brand:wikidata": "Q3333662",
         "name": "Leen Bakker",
-        "shop": "furniture"
-      }
-    },
-    {
-      "displayName": "Leiner",
-      "id": "leiner-153ef8",
-      "locationSet": {"include": ["at"]},
-      "tags": {
-        "brand": "Leiner",
-        "brand:wikidata": "Q1661472",
-        "name": "Leiner",
         "shop": "furniture"
       }
     },
@@ -1324,11 +1324,27 @@
       }
     },
     {
+      "displayName": "Matis",
+      "id": "matis-7d4b0a",
+      "locationSet": {"include": ["rs"]},
+      "tags": {
+        "brand": "Matis",
+        "brand:wikidata": "Q138426854",
+        "name": "Matis",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Meubles Gautier",
-      "id": "meublesgautier-18f673",
-      "locationSet": {"include": ["fr"]},
+      "id": "meublesgautier-affdb4",
+      "locationSet": {"include": ["be", "fr"]},
+      "matchNames": [
+        "gautier",
+        "les meubles gautier"
+      ],
       "tags": {
         "brand": "Meubles Gautier",
+        "brand:wikidata": "Q138426875",
         "name": "Meubles Gautier",
         "shop": "furniture"
       }
@@ -1427,6 +1443,17 @@
         "brand": "Mobexpert",
         "brand:wikidata": "Q6886685",
         "name": "Mobexpert",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Mobilier de France",
+      "id": "mobilierdefrance-419760",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "brand": "Mobilier de France",
+        "brand:wikidata": "Q48759410",
+        "name": "Mobilier de France",
         "shop": "furniture"
       }
     },
@@ -1823,6 +1850,18 @@
       }
     },
     {
+      "displayName": "Rey",
+      "id": "rey-53177d",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["muebles rey"],
+      "tags": {
+        "brand": "Rey",
+        "brand:wikidata": "Q136669276",
+        "name": "Rey",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Roche Bobois",
       "id": "rochebobois-12c613",
       "locationSet": {"include": ["001"]},
@@ -1923,18 +1962,37 @@
     },
     {
       "displayName": "Sconto Möbel Sofort",
-      "id": "scontomobelsofort-7ce246",
-      "locationSet": {
-        "include": ["cz", "de", "sk"]
-      },
+      "id": "scontomobelsofort-29dff1",
+      "locationSet": {"include": ["de"]},
       "matchNames": ["sconto sb"],
       "tags": {
         "brand": "Sconto Möbel Sofort",
         "brand:wikidata": "Q2260475",
         "name": "Sconto Möbel Sofort",
-        "name:cs": "Sconto Nábytek",
-        "name:de": "Sconto Möbel Sofort",
-        "name:sk": "Sconto Nábytok",
+        "shop": "furniture",
+        "short_name": "Sconto"
+      }
+    },
+    {
+      "displayName": "Sconto Nábytek (Česko)",
+      "id": "scontonabytek-8f409c",
+      "locationSet": {"include": ["cz"]},
+      "tags": {
+        "brand": "Sconto Nábytek",
+        "brand:wikidata": "Q58169397",
+        "name": "Sconto Nábytek",
+        "shop": "furniture",
+        "short_name": "Sconto"
+      }
+    },
+    {
+      "displayName": "Sconto Nábytok (Slovensko)",
+      "id": "scontonabytok-d1803c",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "Sconto Nábytok",
+        "brand:wikidata": "Q138634220",
+        "name": "Sconto Nábytok",
         "shop": "furniture",
         "short_name": "Sconto"
       }
@@ -2106,6 +2164,18 @@
       }
     },
     {
+      "displayName": "Tuco",
+      "id": "tuco-53177d",
+      "locationSet": {"include": ["es"]},
+      "matchNames": ["muebles tuco"],
+      "tags": {
+        "brand": "Tuco",
+        "brand:wikidata": "Q136669143",
+        "name": "Tuco",
+        "shop": "furniture"
+      }
+    },
+    {
       "displayName": "Urban Barn",
       "id": "urbanbarn-a33c55",
       "locationSet": {"include": ["ca"]},
@@ -2154,6 +2224,18 @@
         "brand": "Vellea Home",
         "brand:wikidata": "Q114133562",
         "name": "Vellea Home",
+        "shop": "furniture"
+      }
+    },
+    {
+      "displayName": "Vitorog",
+      "id": "vitorog-7d4b0a",
+      "locationSet": {"include": ["rs"]},
+      "matchNames": ["vitorog promet"],
+      "tags": {
+        "brand": "Vitorog",
+        "brand:wikidata": "Q138426950",
+        "name": "Vitorog",
         "shop": "furniture"
       }
     },
@@ -2481,19 +2563,19 @@
     },
     {
       "displayName": "宜得利家居",
-      "id": "nitori-8e7878",
+      "id": "nitorihome-8e7878",
       "locationSet": {
         "include": ["cn", "tw"],
         "exclude": ["hk", "mo"]
       },
       "tags": {
-        "brand": "宜得利家居",
+        "brand": "ニトリ",
         "brand:en": "Nitori",
         "brand:ja": "ニトリ",
         "brand:wikidata": "Q10801453",
         "name": "宜得利家居",
-        "name:en": "Nitori",
-        "name:ja": "ニトリ",
+        "name:en": "Nitori Home",
+        "name:ja": "宜得利家居",
         "shop": "furniture"
       }
     }

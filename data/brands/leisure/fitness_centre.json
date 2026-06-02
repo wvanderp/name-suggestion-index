@@ -71,6 +71,17 @@
       }
     },
     {
+      "displayName": "365 Fit&Co",
+      "id": "365fitandco-69b46a",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "brand": "365 Fit&Co",
+        "brand:wikidata": "Q138637805",
+        "leisure": "fitness_centre",
+        "name": "365 Fit&Co"
+      }
+    },
+    {
       "displayName": "9Round",
       "id": "9round-c8777b",
       "locationSet": {"include": ["001"]},
@@ -81,6 +92,17 @@
         "leisure": "fitness_centre",
         "name": "9Round",
         "sport": "kickboxing"
+      }
+    },
+    {
+      "displayName": "Actic",
+      "id": "actic-064b3e",
+      "locationSet": {"include": ["no", "se"]},
+      "tags": {
+        "brand": "Actic",
+        "brand:wikidata": "Q10400539",
+        "leisure": "fitness_centre",
+        "name": "Actic"
       }
     },
     {
@@ -363,6 +385,17 @@
       }
     },
     {
+      "displayName": "City Club",
+      "id": "cityclub-a9ff46",
+      "locationSet": {"include": ["ma"]},
+      "tags": {
+        "brand": "City Club",
+        "brand:wikidata": "Q135911738",
+        "leisure": "fitness_centre",
+        "name": "City Club"
+      }
+    },
+    {
       "displayName": "CityFitness",
       "id": "cityfitness-745622",
       "locationSet": {"include": ["nz"]},
@@ -601,6 +634,17 @@
       }
     },
     {
+      "displayName": "Fit Hub",
+      "id": "fithub-5c610e",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "brand": "Fit Hub",
+        "brand:wikidata": "Q138671218",
+        "leisure": "fitness_centre",
+        "name": "Fit Hub"
+      }
+    },
+    {
       "displayName": "Fit4Less (Canada)",
       "id": "fit4less-aa8143",
       "locationSet": {"include": ["ca"]},
@@ -713,8 +757,10 @@
     },
     {
       "displayName": "Fitness Park",
-      "id": "fitnesspark-678d1b",
-      "locationSet": {"include": ["fr"]},
+      "id": "fitnesspark-5ce32b",
+      "locationSet": {
+        "include": ["es", "fr", "ma"]
+      },
       "tags": {
         "brand": "Fitness Park",
         "brand:wikidata": "Q102351191",
@@ -735,8 +781,10 @@
     },
     {
       "displayName": "Fitness24Seven",
-      "id": "fitness24seven-5fc685",
-      "locationSet": {"include": ["fi", "se"]},
+      "id": "fitness24seven-46465b",
+      "locationSet": {
+        "include": ["co", "fi", "no", "se", "th"]
+      },
       "tags": {
         "brand": "Fitness24Seven",
         "brand:wikidata": "Q61112447",
@@ -767,6 +815,18 @@
       }
     },
     {
+      "displayName": "Form Factory",
+      "id": "formfactory-557990",
+      "locationSet": {"include": ["cz", "sk"]},
+      "preserveTags": ["^name"],
+      "tags": {
+        "brand": "Form Factory",
+        "brand:wikidata": "Q136752478",
+        "leisure": "fitness_centre",
+        "name": "Form Factory"
+      }
+    },
+    {
       "displayName": "Frame",
       "id": "frame-fd4e20",
       "locationSet": {
@@ -794,6 +854,17 @@
         "brand:wikidata": "Q1796631",
         "leisure": "fitness_centre",
         "name": "Friskis & Svettis"
+      }
+    },
+    {
+      "displayName": "FTL Gym",
+      "id": "ftlgym-5c610e",
+      "locationSet": {"include": ["id"]},
+      "tags": {
+        "brand": "FTL Gym",
+        "brand:wikidata": "Q138670800",
+        "leisure": "fitness_centre",
+        "name": "FTL Gym"
       }
     },
     {
@@ -1094,6 +1165,16 @@
       }
     },
     {
+      "displayName": "Magic Form",
+      "id": "magicform-7f1661",
+      "locationSet": {"include": ["fx", "pt"]},
+      "tags": {
+        "brand": "Magic Form",
+        "leisure": "fitness_centre",
+        "name": "Magic Form"
+      }
+    },
+    {
       "displayName": "McFit",
       "id": "mcfit-0ebac9",
       "locationSet": {
@@ -1338,6 +1419,17 @@
       }
     },
     {
+      "displayName": "Rumble",
+      "id": "rumble-809afb",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Rumble",
+        "brand:wikidata": "Q129899313",
+        "leisure": "fitness_centre",
+        "name": "Rumble"
+      }
+    },
+    {
       "displayName": "Sats",
       "id": "sats-44c5d4",
       "issues": [5500],
@@ -1376,13 +1468,14 @@
     },
     {
       "displayName": "Smart Fit",
-      "id": "smartfit-cd44e6",
+      "id": "smartfit-912e01",
       "locationSet": {
         "include": [
           "br",
           "cl",
           "co",
           "do",
+          "ma",
           "mx",
           "pe"
         ]
@@ -1447,6 +1540,17 @@
         "brand:wikidata": "Q56356180",
         "leisure": "fitness_centre",
         "name": "Sport Life"
+      }
+    },
+    {
+      "displayName": "SportCity",
+      "id": "sportcity-d4f0dd",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "brand": "SportCity",
+        "brand:wikidata": "Q131984002",
+        "leisure": "fitness_centre",
+        "name": "SportCity"
       }
     },
     {
@@ -1577,14 +1681,14 @@
     },
     {
       "displayName": "The Gym",
-      "id": "thegym-2770cb",
+      "id": "thegymgroup-2770cb",
       "locationSet": {"include": ["gb"]},
-      "matchNames": ["the gym group"],
+      "matchNames": ["the gym"],
       "tags": {
-        "brand": "The Gym",
+        "brand": "The Gym Group",
         "brand:wikidata": "Q48815022",
         "leisure": "fitness_centre",
-        "name": "The Gym"
+        "name": "The Gym Group"
       }
     },
     {
@@ -1601,6 +1705,18 @@
       }
     },
     {
+      "displayName": "TITLE Boxing Club",
+      "id": "titleboxingclub-809afb",
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "TITLE Boxing Club",
+        "brand:wikidata": "Q126391325",
+        "leisure": "fitness_centre",
+        "name": "TITLE Boxing Club",
+        "sport": "boxing"
+      }
+    },
+    {
       "displayName": "Total Fitness",
       "id": "totalfitness-2770cb",
       "locationSet": {"include": ["gb"]},
@@ -1609,6 +1725,17 @@
         "brand:wikidata": "Q7828019",
         "leisure": "fitness_centre",
         "name": "Total Fitness"
+      }
+    },
+    {
+      "displayName": "TrainMore",
+      "id": "trainmore-d4f0dd",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "brand": "TrainMore",
+        "brand:wikidata": "Q138297498",
+        "leisure": "fitness_centre",
+        "name": "TrainMore"
       }
     },
     {
@@ -1805,6 +1932,17 @@
         "brand:wikidata": "Q79244612",
         "leisure": "fitness_centre",
         "name": "Xercise4Less"
+      }
+    },
+    {
+      "displayName": "Xtreme Fitness Gyms",
+      "id": "xtremefitnessgyms-78c701",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "brand": "Xtreme Fitness Gyms",
+        "brand:wikidata": "Q136802400",
+        "leisure": "fitness_centre",
+        "name": "Xtreme Fitness Gyms"
       }
     },
     {

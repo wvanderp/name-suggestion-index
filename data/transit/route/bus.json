@@ -10,7 +10,8 @@
         "^(ordinary|ordinaire)$",
         "^(suburban|elővárosi)$",
         "^autobuz$",
-        "^no$"
+        "^no$",
+        "^stadtbus$"
       ],
       "named": [
         "^(audi ag|audi shuttle bus|roseville commuter|(airventure|volkswagen) shuttles)$",
@@ -20,6 +21,7 @@
         "^bürgerbus$",
         "^pap_taptap$",
         "^ru:(local|municipal|regional)$",
+        "^transport for new south wales$",
         "^광주시 공영버스$",
         "^校车$"
       ]
@@ -92,9 +94,7 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "network": "Achterhoek-Rivierenland",
-        "network:wikidata": "Q108716027",
-        "operator": "Arriva",
-        "operator:wikidata": "Q2581356",
+        "network:wikidata": "Q136479765",
         "route": "bus"
       }
     },
@@ -900,23 +900,6 @@
       }
     },
     {
-      "displayName": "APT (Gorizia)",
-      "id": "apt-483cce",
-      "locationSet": {
-        "include": [
-          "it-34.geojson",
-          "it-36.geojson"
-        ]
-      },
-      "tags": {
-        "network": "APT",
-        "network:wikidata": "Q3601116",
-        "operator": "TPL FVG",
-        "operator:wikidata": "Q109614879",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "ar:municipal",
       "id": "armunicipal-38f996",
       "locationSet": {
@@ -924,6 +907,17 @@
       },
       "tags": {
         "network": "ar:municipal",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Aravisbus",
+      "id": "aravisbus-1b8593",
+      "locationSet": {
+        "include": ["fr-ara.geojson"]
+      },
+      "tags": {
+        "network": "Aravisbus",
         "route": "bus"
       }
     },
@@ -1028,7 +1022,7 @@
     },
     {
       "displayName": "Arriva",
-      "id": "arriva-c62c26",
+      "id": "arriva-d898fa",
       "locationSet": {
         "include": [
           "cz",
@@ -1036,7 +1030,6 @@
           "es",
           "gb",
           "hr",
-          "it",
           "nl",
           "pl",
           "si",
@@ -1063,30 +1056,22 @@
       }
     },
     {
+      "displayName": "Arriva Italia",
+      "id": "arrivaitalia-ba987e",
+      "locationSet": {"include": ["it"]},
+      "tags": {
+        "operator": "Arriva Italia",
+        "operator:wikidata": "Q48803910",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Arriva North East",
       "id": "arrivanortheast-8e0970",
       "locationSet": {"include": ["gb"]},
       "tags": {
         "network": "Arriva North East",
         "network:wikidata": "Q4796010",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "Arriva Udine",
-      "id": "arrivaudine-483cce",
-      "locationSet": {
-        "include": [
-          "it-34.geojson",
-          "it-36.geojson"
-        ]
-      },
-      "matchNames": ["saf"],
-      "tags": {
-        "network": "Arriva Udine",
-        "network:wikidata": "Q3943391",
-        "operator": "TPL FVG",
-        "operator:wikidata": "Q109614879",
         "route": "bus"
       }
     },
@@ -1216,20 +1201,6 @@
       "tags": {
         "network": "ATAP",
         "network:wikidata": "Q115913305",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "ATAP (Pordenone)",
-      "id": "atap-33afa1",
-      "locationSet": {
-        "include": ["it-36.geojson"]
-      },
-      "tags": {
-        "network": "ATAP",
-        "network:wikidata": "Q3601298",
-        "operator": "TPL FVG",
-        "operator:wikidata": "Q109614879",
         "route": "bus"
       }
     },
@@ -1575,6 +1546,18 @@
       }
     },
     {
+      "displayName": "Autobuses Urbanos de Vélez-Málaga",
+      "id": "autobusesurbanosdevelezmalaga-a00b01",
+      "locationSet": {
+        "include": ["es-ma.geojson"]
+      },
+      "tags": {
+        "network": "Autobuses Urbanos de Vélez-Málaga",
+        "network:wikidata": "Q5712433",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Autobuses Urbanos de Zamora",
       "id": "autobusesurbanosdezamora-5e1422",
       "locationSet": {
@@ -1586,14 +1569,20 @@
       }
     },
     {
-      "displayName": "Autobuses Urbanos de Zaragoza (AUZ)",
+      "displayName": "Autobuses Urbanos de Zaragoza",
       "id": "autobusesurbanosdezaragoza-dc8c3b",
       "locationSet": {
         "include": ["es-z.geojson"]
       },
+      "matchNames": [
+        "auzsa",
+        "tuzsa",
+        "urbanos de zaragoza"
+      ],
       "tags": {
         "network": "Autobuses Urbanos de Zaragoza",
         "network:short": "AUZ",
+        "network:wikidata": "Q138063789",
         "operator": "Avanza Zaragoza",
         "operator:wikidata": "Q6151783",
         "route": "bus"
@@ -1623,19 +1612,6 @@
         "network:wikidata": "Q5712413",
         "operator": "Avanza",
         "operator:wikidata": "Q56316715",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "Autobusowych Linii Dowozowych",
-      "id": "autobusowychliniidowozowych-9340cc",
-      "locationSet": {"include": ["pl"]},
-      "note": "ISO 3166-2 PL-12",
-      "tags": {
-        "network": "Autobusowych Linii Dowozowych",
-        "network:short": "ALD",
-        "operator": "Koleje Małopolskie",
-        "operator:wikidata": "Q18609984",
         "route": "bus"
       }
     },
@@ -1966,6 +1942,15 @@
       }
     },
     {
+      "displayName": "Batik Solo Trans",
+      "id": "batiksolotrans-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Batik Solo Trans",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Bay Area Transportation Authority",
       "id": "bayareatransportationauthority-770517",
       "locationSet": {
@@ -2196,6 +2181,16 @@
       }
     },
     {
+      "displayName": "Bezpłatna Komunikacja Miejska Otwock",
+      "id": "bezplatnakomunikacjamiejskaotwock-9340cc",
+      "locationSet": {"include": ["pl"]},
+      "tags": {
+        "network": "Bezpłatna Komunikacja Miejska Otwock",
+        "network:wikidata": "Q137778582",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "BGC Bus",
       "id": "bgcbus-3785bf",
       "locationSet": {"include": ["ph"]},
@@ -2323,12 +2318,36 @@
       }
     },
     {
-      "displayName": "BlaBlaBus",
-      "id": "blablabus-add5eb",
-      "locationSet": {"include": ["fx"]},
-      "matchNames": ["ouibus"],
+      "displayName": "BlaBlaCar Bus",
+      "id": "blablacarbus-6926f5",
+      "locationSet": {
+        "include": [
+          "at",
+          "be",
+          "ch",
+          "cz",
+          "de",
+          "es",
+          "fx",
+          "gb",
+          "hr",
+          "hu",
+          "it",
+          "lu",
+          "nl",
+          "pt",
+          "si",
+          "sk"
+        ]
+      },
+      "matchNames": [
+        "blablabus",
+        "blablacar",
+        "idbus",
+        "ouibus"
+      ],
       "tags": {
-        "network": "BlaBlaBus",
+        "network": "BlaBlaCar Bus",
         "network:wikidata": "Q1653380",
         "route": "bus"
       }
@@ -2616,6 +2635,17 @@
       }
     },
     {
+      "displayName": "Bristol, Bath & the West",
+      "id": "bristolbathandthewest-2cafdd",
+      "locationSet": {
+        "include": ["gb-south-west.geojson"]
+      },
+      "tags": {
+        "network": "Bristol, Bath & the West",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Brodnica",
       "id": "brodnica-9340cc",
       "locationSet": {"include": ["pl"]},
@@ -2811,17 +2841,6 @@
       }
     },
     {
-      "displayName": "Bus de Sabadell",
-      "id": "busdesabadell-b0a08c",
-      "locationSet": {
-        "include": ["es-b.geojson"]
-      },
-      "tags": {
-        "network": "Bus de Sabadell",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "Bus Faial",
       "id": "busfaial-f2b810",
       "locationSet": {"include": ["pt-20"]},
@@ -2994,6 +3013,15 @@
       }
     },
     {
+      "displayName": "Bygdaleiðir",
+      "id": "bygdaleidhir-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Bygdaleiðir",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "C-TRAN",
       "id": "ctran-64dc63",
       "locationSet": {
@@ -3043,6 +3071,19 @@
         "network": "CABS",
         "network:wikidata": "Q106548110",
         "operator": "Campus Area Bus Service",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Calgary Transit",
+      "id": "calgarytransit-286824",
+      "locationSet": {
+        "include": ["ca-ab.geojson"]
+      },
+      "tags": {
+        "network": "Calgary Transit",
+        "network:short": "CT",
+        "network:wikidata": "Q143630",
         "route": "bus"
       }
     },
@@ -4562,6 +4603,24 @@
       }
     },
     {
+      "displayName": "Consorcio de Transporte Metropolitano del Área de Sevilla",
+      "id": "consorciodetransportemetropolitanodelareadesevilla-df5f1d",
+      "locationSet": {
+        "include": ["es-se.geojson"]
+      },
+      "matchNames": [
+        "consorcio de transporte del area de sevilla",
+        "consorcio sevilla",
+        "ctas"
+      ],
+      "tags": {
+        "network": "Consorcio de Transporte Metropolitano del Área de Sevilla",
+        "network:short": "CTMAS",
+        "network:wikidata": "Q5784319",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Consorcio de Transporte Metropolitano del Campo de Gibraltar",
       "id": "consorciodetransportemetropolitanodelcampodegibraltar-e6749f",
       "locationSet": {
@@ -4620,6 +4679,7 @@
       "locationSet": {
         "include": ["es-m.geojson"]
       },
+      "matchNames": ["crt madrid", "es:m"],
       "tags": {
         "network": "Consorcio Regional de Transportes de Madrid",
         "network:short": "CRTM",
@@ -4842,18 +4902,6 @@
       }
     },
     {
-      "displayName": "CT",
-      "id": "ct-286824",
-      "locationSet": {
-        "include": ["ca-ab.geojson"]
-      },
-      "tags": {
-        "network": "CT",
-        "network:wikidata": "Q143630",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "CT Bus",
       "id": "ctbus-9c403a",
       "locationSet": {"include": ["ro"]},
@@ -4875,12 +4923,6 @@
         "operator": "Chicago Transit Authority",
         "route": "bus"
       }
-    },
-    {
-      "displayName": "CTAS",
-      "id": "ctas-cbced8",
-      "locationSet": {"include": ["es"]},
-      "tags": {"network": "CTAS", "route": "bus"}
     },
     {
       "displayName": "CTC",
@@ -4975,8 +5017,10 @@
     },
     {
       "displayName": "CyRide",
-      "id": "cyride-a21cc9",
-      "locationSet": {"include": ["us"]},
+      "id": "cyride-3c4d25",
+      "locationSet": {
+        "include": ["us-ia.geojson"]
+      },
       "tags": {
         "network": "CyRide",
         "network:wikidata": "Q5197282",
@@ -5120,8 +5164,10 @@
     },
     {
       "displayName": "DCTA",
-      "id": "dentoncountytransportationauthority-a21cc9",
-      "locationSet": {"include": ["us"]},
+      "id": "dentoncountytransportationauthority-071d6c",
+      "locationSet": {
+        "include": ["us-tx.geojson"]
+      },
       "tags": {
         "network": "Denton County Transportation Authority",
         "network:short": "DCTA",
@@ -5138,6 +5184,19 @@
       "tags": {
         "network": "DDOT",
         "network:wikidata": "Q5265906",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Decatur Public Transit System",
+      "id": "decaturpublictransitsystem-582e4c",
+      "locationSet": {
+        "include": [[-88.9523, 39.84475]]
+      },
+      "tags": {
+        "network": "Decatur Public Transit System",
+        "network:short": "DPTS",
+        "network:wikidata": "Q5248803",
         "route": "bus"
       }
     },
@@ -5387,19 +5446,6 @@
       }
     },
     {
-      "displayName": "DPmHK",
-      "id": "dpmhk-5d28f5",
-      "locationSet": {
-        "include": ["cz-52.geojson"]
-      },
-      "matchNames": ["dpmhk, a.s."],
-      "tags": {
-        "network": "DPmHK",
-        "network:wikidata": "Q58557872",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "Drechtsteden, Molenlanden en Gorinchem",
       "id": "drechtstedenmolenlandenengorinchem-2f3200",
       "locationSet": {"include": ["nl"]},
@@ -5458,12 +5504,13 @@
     },
     {
       "displayName": "DÚK",
-      "id": "duk-ea0cc0",
+      "id": "dopravausteckehokraje-ea0cc0",
       "locationSet": {
         "include": ["cz-42.geojson"]
       },
       "tags": {
-        "network": "DÚK",
+        "network": "Doprava Ústeckého kraje",
+        "network:short": "DÚK",
         "network:wikidata": "Q12021691",
         "route": "bus"
       }
@@ -6573,9 +6620,18 @@
       }
     },
     {
+      "displayName": "Foraneo",
+      "id": "foraneo-7ed7e0",
+      "locationSet": {"include": ["mx"]},
+      "tags": {
+        "network": "Foraneo",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Forbus",
-      "id": "forbus-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "forbus-add5eb",
+      "locationSet": {"include": ["fx"]},
       "tags": {
         "network": "Forbus",
         "route": "bus"
@@ -6932,17 +6988,19 @@
       }
     },
     {
-      "displayName": "Goldline",
-      "id": "goldline-1d740f",
+      "displayName": "Goldliner",
+      "id": "goldliner-1d740f",
       "locationSet": {
         "include": [
           "ie-l.geojson",
           "ie-u.geojson"
         ]
       },
+      "matchNames": ["goldline"],
       "note": "boundaries of the Ulster (IE-U) feature include Northern Ireland (GB-NIR)",
       "tags": {
-        "network": "Goldline",
+        "network": "Goldliner",
+        "network:wikidata": "Q138855614",
         "route": "bus"
       }
     },
@@ -7462,6 +7520,15 @@
       }
     },
     {
+      "displayName": "Harjumaa ÜTK",
+      "id": "harjumaautk-fca621",
+      "locationSet": {"include": ["ee"]},
+      "tags": {
+        "network": "Harjumaa ÜTK",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "HART",
       "id": "hart-e591f2",
       "locationSet": {
@@ -7498,20 +7565,14 @@
       }
     },
     {
-      "displayName": "Heidenheimer Tarfivverbund",
-      "id": "heidenheimertarfivverbund-3b9544",
-      "locationSet": {"include": ["de"]},
-      "tags": {
-        "network": "Heidenheimer Tarfivverbund",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "Heidenheimer Tarifverbund",
       "id": "heidenheimertarifverbund-3e162d",
       "locationSet": {
         "include": ["de-bw.geojson"]
       },
+      "matchNames": [
+        "heidenheimer tarfivverbund"
+      ],
       "tags": {
         "network": "Heidenheimer Tarifverbund",
         "network:guid": "DE-BW-HTV",
@@ -7624,9 +7685,7 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "network": "Hoeksche Waard - Goeree-Overflakkee",
-        "network:wikidata": "Q108721362",
-        "operator": "Connexxion",
-        "operator:wikidata": "Q591484",
+        "network:wikidata": "Q136479811",
         "route": "bus"
       }
     },
@@ -7759,19 +7818,6 @@
       "tags": {"network": "IBXL", "route": "bus"}
     },
     {
-      "displayName": "ID ŽK (Slovensko)",
-      "id": "integrovanadopravazilinskehokraja-51c51c",
-      "locationSet": {"include": ["sk"]},
-      "matchNames": ["ids žsk"],
-      "note": "ISO 3166-2 SK-ZI",
-      "tags": {
-        "network": "Integrovaná doprava Žilinského kraja",
-        "network:short": "ID ŽK",
-        "network:wikidata": "Q105957236",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "Ida- Virumaa",
       "id": "idavirumaa-fca621",
       "locationSet": {"include": ["ee"]},
@@ -7821,6 +7867,17 @@
       }
     },
     {
+      "displayName": "IDS BBSK",
+      "id": "integrovanydopravnysystembanskobystrickehosamospravnehokraja-51c51c",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "network": "Integrovaný dopravný systém Banskobystrického samosprávneho kraja",
+        "network:short": "IDS BBSK",
+        "network:wikidata": "Q135087991",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "IDS BK",
       "id": "idsbk-c89aa8",
       "locationSet": {
@@ -7839,14 +7896,28 @@
     },
     {
       "displayName": "IDS JMK",
-      "id": "idsjmk-3c8eb1",
+      "id": "integrovanydopravnisystemjihomoravskehokraje-3c8eb1",
       "locationSet": {
         "include": ["at-3.geojson", "cz", "sk"]
       },
       "note": "ISO 3166-2 SK-TA, SK-TC",
       "tags": {
-        "network": "IDS JMK",
+        "network": "Integrovaný dopravní systém Jihomoravského kraje",
+        "network:short": "IDS JMK",
         "network:wikidata": "Q12020731",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "IDS Plus",
+      "id": "integrovanydopravnysystemplus-51c51c",
+      "locationSet": {"include": ["sk"]},
+      "matchNames": ["id žk", "ids žsk"],
+      "note": "ISO 3166-2 SK-ZI",
+      "tags": {
+        "network": "Integrovaný dopravný systém Plus",
+        "network:short": "IDS Plus",
+        "network:wikidata": "Q105957236",
         "route": "bus"
       }
     },
@@ -7864,44 +7935,31 @@
     },
     {
       "displayName": "IDS Východ",
-      "id": "idsvychod-51c51c",
+      "id": "integrovanydopravnysystemidsvychod-51c51c",
       "locationSet": {"include": ["sk"]},
       "note": "ISO 3166-2 SK-KI, SK-PV",
       "tags": {
-        "network": "IDS Východ",
+        "network": "Integrovaný dopravný systém IDS Východ",
+        "network:short": "IDS Východ",
         "network:wikidata": "Q105226836",
         "route": "bus"
       }
     },
     {
-      "displayName": "IDS ZID",
-      "id": "idszid-acaf49",
-      "locationSet": {
-        "include": ["cz-72.geojson"]
-      },
-      "tags": {
-        "network": "IDS ZID",
-        "network:wikidata": "Q10861159",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "IDSOK",
-      "id": "idsok-f85345",
+      "id": "integrovanydopravnisystemolomouckehokraje-655c18",
       "locationSet": {
-        "include": [
-          "cz-71.geojson",
-          "cz-72.geojson"
-        ]
+        "include": ["cz-71.geojson"]
       },
       "tags": {
-        "network": "IDSOK",
+        "network": "Integrovaný dopravní systém Olomouckého kraje",
+        "network:short": "IDSOK",
         "network:wikidata": "Q12021688",
         "route": "bus"
       }
     },
     {
-      "displayName": "IDZK (Česko)",
+      "displayName": "IDZK",
       "id": "integrovanadopravazlinskehokraje-028705",
       "locationSet": {
         "include": [
@@ -8080,6 +8138,16 @@
       }
     },
     {
+      "displayName": "Integrovaný dopravný systém Plus",
+      "id": "integrovanydopravnysystemplus-8ddd1e",
+      "locationSet": {"include": ["cz", "sk"]},
+      "tags": {
+        "network": "Integrovaný dopravný systém Plus",
+        "network:wikidata": "Q105957236",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Inter-Estações",
       "id": "interestacoes-2ef076",
       "locationSet": {"include": ["br"]},
@@ -8164,7 +8232,7 @@
     },
     {
       "displayName": "IREDO",
-      "id": "iredo-e37eca",
+      "id": "integrovanaregionalnidopravakralovehradeckehoapardubickehokraje-e37eca",
       "locationSet": {
         "include": [
           "cz-52.geojson",
@@ -8173,7 +8241,8 @@
         ]
       },
       "tags": {
-        "network": "IREDO",
+        "network": "Integrovaná regionální doprava Královéhradeckého a Pardubického kraje",
+        "network:short": "IREDO",
         "network:wikidata": "Q12021384",
         "route": "bus"
       }
@@ -8270,8 +8339,10 @@
     },
     {
       "displayName": "IVRPV",
-      "id": "ivrpv-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "ivrpv-d9bf75",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
       "tags": {"network": "IVRPV", "route": "bus"}
     },
     {
@@ -8837,6 +8908,15 @@
       }
     },
     {
+      "displayName": "Kocaeli Otobüsleri",
+      "id": "kocaeliotobusleri-8150d4",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "network": "Kocaeli Otobüsleri",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Kochi city bus",
       "id": "kochicitybus-3e7b99",
       "locationSet": {
@@ -9011,8 +9091,10 @@
     },
     {
       "displayName": "Kooperationsgemeinschaft „Vorpommern“",
-      "id": "kooperationsgemeinschaftvorpommern-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "kooperationsgemeinschaftvorpommern-ca3a73",
+      "locationSet": {
+        "include": ["de-mv.geojson"]
+      },
       "tags": {
         "network": "Kooperationsgemeinschaft „Vorpommern“",
         "route": "bus"
@@ -9204,8 +9286,10 @@
     },
     {
       "displayName": "Landkreislinien Schwandorf",
-      "id": "landkreislinienschwandorf-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "landkreislinienschwandorf-bfc089",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "network": "Landkreislinien Schwandorf",
         "route": "bus"
@@ -9343,6 +9427,15 @@
         "network:wikidata": "Q3233177",
         "operator": "SEMTM",
         "operator:wikidata": "Q16677212",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Le Fil",
+      "id": "lefil-add5eb",
+      "locationSet": {"include": ["fx"]},
+      "tags": {
+        "network": "Le Fil",
         "route": "bus"
       }
     },
@@ -9593,6 +9686,12 @@
       }
     },
     {
+      "displayName": "Lifti",
+      "id": "lifti-3d6501",
+      "locationSet": {"include": ["fi"]},
+      "tags": {"network": "Lifti", "route": "bus"}
+    },
+    {
       "displayName": "Lignes d'Azur",
       "id": "lignesdazur-b5b594",
       "locationSet": {
@@ -9788,6 +9887,7 @@
         ]
       },
       "matchNames": [
+        "herault transport lio",
         "lio arc-en-ciel",
         "lio hérault transport",
         "lio30",
@@ -9950,18 +10050,88 @@
       }
     },
     {
+      "displayName": "LTFRB Cordillera Administrative Region",
+      "id": "ltfrbcordilleraadministrativeregion-1b2b0d",
+      "locationSet": {
+        "include": ["ph-15.geojson"]
+      },
+      "matchNames": [
+        "baguio city jeepney",
+        "baguio city puj",
+        "ph car baguio"
+      ],
+      "tags": {
+        "network": "LTFRB Cordillera Administrative Region",
+        "network:short": "LTFRB CAR",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB Inter-Regional Inter-Provincial Bus",
+      "id": "ltfrbinterregionalbus-3785bf",
+      "locationSet": {"include": ["ph"]},
+      "matchNames": [
+        "interregional provincial bus",
+        "irip",
+        "ltfrb irip"
+      ],
+      "tags": {
+        "network": "LTFRB Interregional Bus",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB National Capital Region",
+      "id": "ltfrbnationalcapitalregion-1497eb",
+      "locationSet": {
+        "include": [
+          "ph-00.geojson",
+          "ph-03.geojson",
+          "ph-40.geojson"
+        ]
+      },
+      "matchNames": [
+        "metro manila city bus",
+        "metro manila jeepney",
+        "metro manila pub",
+        "metro manila public utility bus",
+        "metro manila public utility jeepney",
+        "metro manila puj"
+      ],
+      "tags": {
+        "network": "LTFRB National Capital Region",
+        "network:short": "LTFRB NCR",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB Negros Island Region",
+      "id": "ltfrbnegrosislandregion-eb7431",
+      "locationSet": {
+        "include": ["ph-nir.geojson"]
+      },
+      "matchNames": [
+        "bacolod city",
+        "bacolod city jeepney",
+        "negros",
+        "negros island region"
+      ],
+      "tags": {
+        "network": "LTFRB Negros Island Region",
+        "network:short": "LTFRB NIR",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "LTFRB PUB",
       "id": "ltfrbpub-3785bf",
       "locationSet": {"include": ["ph"]},
-      "matchNames": [
-        "ltfrb bus",
-        "metro manila city bus",
-        "pub",
-        "public utility bus"
-      ],
       "tags": {
         "network": "LTFRB PUB",
-        "network:wikidata": "Q6483998",
         "route": "bus"
       }
     },
@@ -9969,13 +10139,99 @@
       "displayName": "LTFRB PUJ",
       "id": "ltfrbpuj-3785bf",
       "locationSet": {"include": ["ph"]},
-      "matchNames": [
-        "jeepney",
-        "ltfrb jeepney",
-        "puj"
-      ],
       "tags": {
         "network": "LTFRB PUJ",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB Region III",
+      "id": "ltfrbregioniii-01290b",
+      "locationSet": {
+        "include": ["ph-03.geojson"]
+      },
+      "matchNames": [
+        "central luzon",
+        "ph central luzon"
+      ],
+      "tags": {
+        "network": "LTFRB Region III",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB Region IV-A",
+      "id": "ltfrbregioniva-3dc147",
+      "locationSet": {
+        "include": ["ph-40.geojson"]
+      },
+      "matchNames": [
+        "batangas city jeepney",
+        "batangss city puj",
+        "calabarzon",
+        "ph calabarzon batangas city"
+      ],
+      "tags": {
+        "network": "LTFRB Region IV-A",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB Region VI",
+      "id": "ltfrbregionvi-22c78b",
+      "locationSet": {
+        "include": ["ph-06.geojson"]
+      },
+      "matchNames": [
+        "iloilo city",
+        "ph western visayas",
+        "western visayas"
+      ],
+      "tags": {
+        "network": "LTFRB Region VI",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB Region VII",
+      "id": "ltfrbregionvii-99939c",
+      "locationSet": {
+        "include": ["ph-07.geojson"]
+      },
+      "matchNames": [
+        "central visayas",
+        "metro cebu city bus",
+        "metro cebu jeepney",
+        "metro cebu public utility jeepney",
+        "metro cebu puj",
+        "ph central visayas"
+      ],
+      "tags": {
+        "network": "LTFRB Region VII",
+        "network:wikidata": "Q6483998",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "LTFRB Region XI",
+      "id": "ltfrbregionxi-154fca",
+      "locationSet": {
+        "include": ["ph-11.geojson"]
+      },
+      "matchNames": [
+        "davao",
+        "davao city bus",
+        "davao city jeepney",
+        "davao city public utility jeepney",
+        "davao city puj",
+        "davao region",
+        "ph davao region"
+      ],
+      "tags": {
+        "network": "LTFRB Region XI",
         "network:wikidata": "Q6483998",
         "route": "bus"
       }
@@ -10082,17 +10338,6 @@
       "tags": {"network": "Macau", "route": "bus"}
     },
     {
-      "displayName": "MAD Most Litvínov",
-      "id": "madmostlitvinov-ea0cc0",
-      "locationSet": {
-        "include": ["cz-42.geojson"]
-      },
-      "tags": {
-        "network": "MAD Most Litvínov",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "MAD Třebíč",
       "id": "madtrebic-7409c5",
       "locationSet": {
@@ -10150,10 +10395,18 @@
     {
       "displayName": "Małopolskie Linie Dowozowe",
       "id": "malopolskieliniedowozowe-9340cc",
+      "issues": [11107],
       "locationSet": {"include": ["pl"]},
+      "matchNames": [
+        "ald",
+        "autobusowe linie dowozowe",
+        "małopolskie linie dojazdowe"
+      ],
       "note": "ISO 3166-2 PL-12",
       "tags": {
         "network": "Małopolskie Linie Dowozowe",
+        "network:short": "MLD",
+        "network:wikidata": "Q134701178",
         "route": "bus"
       }
     },
@@ -10213,6 +10466,15 @@
         "network": "Mantois",
         "network:wikidata": "Q22249399",
         "operator": "RATP Cap Mantois",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Manulaş",
+      "id": "manulas-8150d4",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "network": "Manulaş",
         "route": "bus"
       }
     },
@@ -10481,8 +10743,10 @@
     },
     {
       "displayName": "MBB",
-      "id": "mbb-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "mbb-d9bf75",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
       "tags": {
         "network": "MBB",
         "operator": "Meininger Busbetrieb",
@@ -10613,6 +10877,18 @@
       }
     },
     {
+      "displayName": "Merseytravel",
+      "id": "merseytravel-95a5ae",
+      "locationSet": {
+        "include": ["gb-north-west.geojson"]
+      },
+      "tags": {
+        "network": "Merseytravel",
+        "network:wikidata": "Q6820591",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Mestský bus",
       "id": "mestskybus-51c51c",
       "locationSet": {"include": ["sk"]},
@@ -10621,6 +10897,7 @@
         "network": "Mestský bus",
         "network:wikidata": "Q12771417",
         "operator": "Arriva Trnava",
+        "operator:wikidata": "Q131698585",
         "route": "bus"
       }
     },
@@ -10978,6 +11255,25 @@
       }
     },
     {
+      "displayName": "MetroLink Tulsa",
+      "id": "metrolinktulsa-f70821",
+      "locationSet": {
+        "include": [[-95.93, 36.12]]
+      },
+      "matchNames": [
+        "metropolitan tulsa transit authority",
+        "tulsa transit"
+      ],
+      "tags": {
+        "network": "MetroLink Tulsa",
+        "network:short": "MTTA",
+        "network:wikidata": "Q6825293",
+        "operator": "MetroLink Tulsa",
+        "operator:wikidata": "Q6825293",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Metropolitan Transport Corporation",
       "id": "metropolitantransportcorporation-20e076",
       "locationSet": {
@@ -11036,6 +11332,19 @@
       }
     },
     {
+      "displayName": "MHD Banská Bystrica",
+      "id": "mhdbanskabystrica-51c51c",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "network": "MHD Banská Bystrica",
+        "network:wikidata": "Q31196428",
+        "operator": "Slovenská autobusová doprava Zvolen",
+        "operator:short": "SAD Zvolen",
+        "operator:wikidata": "Q135071010",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "MHD Bratislava",
       "id": "mhdbratislava-ce8ad1",
       "locationSet": {
@@ -11064,13 +11373,10 @@
     },
     {
       "displayName": "MHD DPmML",
-      "id": "mhddpmml-ea0cc0",
-      "locationSet": {
-        "include": ["cz-42.geojson"]
-      },
+      "id": "mhddpmml-a45453",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "network": "MHD DPmML",
-        "network:wikidata": "Q11822093",
         "route": "bus"
       }
     },
@@ -11085,6 +11391,18 @@
       }
     },
     {
+      "displayName": "MHD Hlohovec",
+      "id": "mhdhlohovec-51c51c",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "network": "MHD Hlohovec",
+        "network:wikidata": "Q110521790",
+        "operator": "Arriva Trnava",
+        "operator:wikidata": "Q131698585",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "MHD Hradec Králové",
       "id": "mhdhradeckralove-5d28f5",
       "locationSet": {
@@ -11092,7 +11410,10 @@
       },
       "tags": {
         "network": "MHD Hradec Králové",
-        "network:wikidata": "Q11865048",
+        "network:wikidata": "Q136803311",
+        "operator": "Dopravní podnik města Hradce Králové",
+        "operator:short": "DPMHK",
+        "operator:wikidata": "Q58557872",
         "route": "bus"
       }
     },
@@ -11126,7 +11447,9 @@
       },
       "tags": {
         "network": "MHD Kladno",
-        "network:wikidata": "Q11090076",
+        "network:wikidata": "Q16765312",
+        "operator": "Arriva City",
+        "operator:wikidata": "Q11090076",
         "route": "bus"
       }
     },
@@ -11160,7 +11483,8 @@
       "tags": {
         "network": "MHD Košice",
         "network:wikidata": "Q104904552",
-        "operator": "DPMK",
+        "operator": "Dopravný podnik mesta Košice",
+        "operator:short": "DPMK",
         "operator:wikidata": "Q2265496",
         "route": "bus"
       }
@@ -11208,7 +11532,23 @@
       "tags": {
         "network": "MHD Michalovce",
         "network:wikidata": "Q131400264",
-        "operator": "DZS – MK TRANS",
+        "operator": "DZS - M.K.Trans",
+        "operator:wikidata": "Q135479224",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "MHD Most a Litvínov",
+      "id": "mhdmostalitvinov-ea0cc0",
+      "locationSet": {
+        "include": ["cz-42.geojson"]
+      },
+      "tags": {
+        "network": "MHD Most a Litvínov",
+        "network:wikidata": "Q131560636",
+        "operator": "Dopravní podnik měst Mostu a Litvínova",
+        "operator:short": "DPmML",
+        "operator:wikidata": "Q11822093",
         "route": "bus"
       }
     },
@@ -11220,6 +11560,8 @@
       "tags": {
         "network": "MHD Nitra",
         "network:wikidata": "Q12771415",
+        "operator": "Transdev",
+        "operator:wikidata": "Q135073012",
         "route": "bus"
       }
     },
@@ -11236,6 +11578,21 @@
       }
     },
     {
+      "displayName": "MHD Pardubice",
+      "id": "mhdpardubice-98f63a",
+      "locationSet": {
+        "include": ["cz-53.geojson"]
+      },
+      "tags": {
+        "network": "MHD Pardubice",
+        "network:wikidata": "Q136803187",
+        "operator": "Dopravní podnik města Pardubic",
+        "operator:short": "DPMP",
+        "operator:wikidata": "Q11822119",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "MHD Piešťany",
       "id": "mhdpiestany-51c51c",
       "locationSet": {"include": ["sk"]},
@@ -11243,6 +11600,8 @@
       "tags": {
         "network": "MHD Piešťany",
         "network:wikidata": "Q110521796",
+        "operator": "Arriva Trnava",
+        "operator:wikidata": "Q131698585",
         "route": "bus"
       }
     },
@@ -11265,7 +11624,9 @@
       "tags": {
         "network": "MHD Poprad",
         "network:wikidata": "Q107782589",
-        "operator": "SAD Poprad",
+        "operator": "Slovenská autobusová doprava Poprad",
+        "operator:short": "SAD Poprad",
+        "operator:wikidata": "Q131812204",
         "route": "bus"
       }
     },
@@ -11278,6 +11639,9 @@
         "network": "MHD Považská Bystrica",
         "network:short": "MHD PB",
         "network:wikidata": "Q131784849",
+        "operator": "Dopravný podnik mesta Považská Bystrica",
+        "operator:short": "DPMPB",
+        "operator:wikidata": "Q131784803",
         "route": "bus"
       }
     },
@@ -11291,6 +11655,7 @@
         "network:wikidata": "Q131400368",
         "operator": "Dopravný podnik mesta Prešov",
         "operator:short": "DPMP",
+        "operator:wikidata": "Q131702272",
         "route": "bus"
       }
     },
@@ -11340,6 +11705,18 @@
       }
     },
     {
+      "displayName": "MHD Senica",
+      "id": "mhdsenica-51c51c",
+      "locationSet": {"include": ["sk"]},
+      "tags": {
+        "network": "MHD Senica",
+        "network:wikidata": "Q107782592",
+        "operator": "Arriva Trnava",
+        "operator:wikidata": "Q131698585",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "MHD Sereď",
       "id": "mhdsered-51c51c",
       "locationSet": {"include": ["sk"]},
@@ -11371,7 +11748,9 @@
       },
       "tags": {
         "network": "MHD Teplice",
-        "network:wikidata": "Q12021691",
+        "network:wikidata": "Q136803571",
+        "operator": "Městská doprava Teplice",
+        "operator:wikidata": "Q136803599",
         "route": "bus"
       }
     },
@@ -11394,16 +11773,17 @@
       },
       "tags": {
         "network": "MHD Ústí nad Labem",
-        "network:wikidata": "Q12021691",
+        "network:wikidata": "Q136803957",
+        "operator": "Dopravní podnik města Ústí nad Labem",
+        "operator:short": "DPmÚL",
+        "operator:wikidata": "Q11822130",
         "route": "bus"
       }
     },
     {
       "displayName": "MHD v Pardubicích",
-      "id": "mhdvpardubicich-98f63a",
-      "locationSet": {
-        "include": ["cz-53.geojson"]
-      },
+      "id": "mhdvpardubicich-a45453",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "network": "MHD v Pardubicích",
         "route": "bus"
@@ -11720,6 +12100,21 @@
       "tags": {
         "network": "MobiVie",
         "network:wikidata": "Q3537962",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "MobiViseuDãoLafões",
+      "id": "mobiviseudaolafoes-ff232b",
+      "locationSet": {
+        "include": [
+          "pt-09.geojson",
+          "pt-18.geojson"
+        ]
+      },
+      "tags": {
+        "network": "MobiViseuDãoLafões",
+        "network:wikidata": "Q134717606",
         "route": "bus"
       }
     },
@@ -12090,6 +12485,11 @@
       "locationSet": {
         "include": ["de-by.geojson"]
       },
+      "matchNames": [
+        "rosenheimer verkehrsgesellschaft",
+        "rovg",
+        "stadtverkehr rosenheim"
+      ],
       "tags": {
         "network": "Münchner Verkehrs- und Tarifverbund",
         "network:guid": "DE-BY-MVV",
@@ -12447,9 +12847,28 @@
       }
     },
     {
+      "displayName": "Nadwiślańska Komunikacja Autobusowa",
+      "id": "nadwislanskakomunikacjaautobusowa-c14885",
+      "locationSet": {
+        "include": ["pl-14.geojson"]
+      },
+      "matchNames": [
+        "opgp",
+        "otwockie przewozy gminno-powiatowe"
+      ],
+      "tags": {
+        "network": "Nadwiślańska Komunikacja Autobusowa",
+        "network:short": "NKA",
+        "network:wikidata": "Q136485442",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "NAHBUS Nordwestmecklenburg GmbH",
-      "id": "nahbusnordwestmecklenburggmbh-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "nahbusnordwestmecklenburggmbh-ca3a73",
+      "locationSet": {
+        "include": ["de-mv.geojson"]
+      },
       "tags": {
         "network": "NAHBUS Nordwestmecklenburg GmbH",
         "route": "bus"
@@ -12562,9 +12981,16 @@
     },
     {
       "displayName": "NBus",
-      "id": "nbus-1fc942",
+      "id": "nbus-776f67",
       "locationSet": {
-        "include": ["es-na.geojson"]
+        "include": [
+          "es-lo.geojson",
+          "es-na.geojson",
+          "es-so.geojson",
+          "es-ss.geojson",
+          "es-vi.geojson",
+          "es-z.geojson"
+        ]
       },
       "tags": {
         "network": "NBus",
@@ -12881,6 +13307,16 @@
       "id": "npt-625e99",
       "locationSet": {"include": ["cy"]},
       "tags": {"network": "NPT", "route": "bus"}
+    },
+    {
+      "displayName": "NSW TrainLink",
+      "id": "nswtrainlink-95a292",
+      "locationSet": {"include": ["au"]},
+      "tags": {
+        "network": "NSW TrainLink",
+        "network:wikidata": "Q124606117",
+        "route": "bus"
+      }
     },
     {
       "displayName": "NTS",
@@ -13487,6 +13923,18 @@
       }
     },
     {
+      "displayName": "PAD TTSK",
+      "id": "primestskaautobusovadopravatrnavskehosamospravnehokraja-51c51c",
+      "locationSet": {"include": ["sk"]},
+      "note": "ISO 3166-2 SK-TA",
+      "tags": {
+        "network": "Prímestská autobusová doprava Trnavského samosprávneho kraja",
+        "network:short": "PAD TTSK",
+        "network:wikidata": "Q131360442",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Paikku",
       "id": "paikku-3d6501",
       "locationSet": {"include": ["fi"]},
@@ -13597,6 +14045,24 @@
       "locationSet": {"include": ["ee"]},
       "tags": {
         "network": "Pärnu linn",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Pärnu linnaliinid",
+      "id": "parnulinnaliinid-fca621",
+      "locationSet": {"include": ["ee"]},
+      "tags": {
+        "network": "Pärnu linnaliinid",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Pärnu maakonnaliinid",
+      "id": "parnumaakonnaliinid-fca621",
+      "locationSet": {"include": ["ee"]},
+      "tags": {
+        "network": "Pärnu maakonnaliinid",
         "route": "bus"
       }
     },
@@ -13936,6 +14402,7 @@
       },
       "tags": {
         "network": "PKS Grójec",
+        "network:wikidata": "Q136475296",
         "route": "bus"
       }
     },
@@ -14188,18 +14655,6 @@
       }
     },
     {
-      "displayName": "Provincie Utrecht",
-      "id": "provincieutrecht-2f3200",
-      "locationSet": {"include": ["nl"]},
-      "tags": {
-        "network": "Provincie Utrecht",
-        "network:wikidata": "Q108742249",
-        "operator": "Keolis",
-        "operator:wikidata": "Q365126",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "Provinois - Brie et Seine",
       "id": "provinoisbrieetseine-623d7e",
       "locationSet": {
@@ -14345,6 +14800,17 @@
       }
     },
     {
+      "displayName": "PTV - Warragul Transit",
+      "id": "ptvwarragultransit-858cd7",
+      "locationSet": {
+        "include": ["au-vic.geojson"]
+      },
+      "tags": {
+        "network": "PTV - Warragul Transit",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "PTV - Warrnambool Buses",
       "id": "ptvwarrnamboolbuses-858cd7",
       "locationSet": {
@@ -14354,6 +14820,12 @@
         "network": "PTV - Warrnambool Buses",
         "route": "bus"
       }
+    },
+    {
+      "displayName": "PUB",
+      "id": "pub-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {"network": "PUB", "route": "bus"}
     },
     {
       "displayName": "Public Transport of Gibraltar",
@@ -14386,6 +14858,12 @@
         "network:wikidata": "Q7258466",
         "route": "bus"
       }
+    },
+    {
+      "displayName": "PUJ",
+      "id": "puj-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {"network": "PUJ", "route": "bus"}
     },
     {
       "displayName": "Puławy",
@@ -14550,6 +15028,16 @@
         "network:wikidata": "Q4259055",
         "operator": "Rapid Bus",
         "operator:wikidata": "Q7294127",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Rapla maakond",
+      "id": "raplamaakond-fca621",
+      "locationSet": {"include": ["ee"]},
+      "note": "name of county",
+      "tags": {
+        "network": "Rapla maakond",
         "route": "bus"
       }
     },
@@ -14721,18 +15209,6 @@
       }
     },
     {
-      "displayName": "Regio Utrecht",
-      "id": "regioutrecht-2f3200",
-      "locationSet": {"include": ["nl"]},
-      "tags": {
-        "network": "Regio Utrecht",
-        "network:wikidata": "Q108742251",
-        "operator": "Qbuzz",
-        "operator:wikidata": "Q3146926",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "Regio Verkehrsverbund Lörrach",
       "id": "regioverkehrsverbundlorrach-f049e9",
       "locationSet": {
@@ -14764,9 +15240,9 @@
     },
     {
       "displayName": "RegioJet",
-      "id": "regiojet-f8a7c1",
+      "id": "regiojet-89746d",
       "locationSet": {
-        "include": ["be", "cz", "lu"]
+        "include": ["be", "cz", "lu", "pl"]
       },
       "tags": {
         "network": "RegioJet",
@@ -15367,20 +15843,6 @@
       }
     },
     {
-      "displayName": "Rosenheimer Verkehrsgesellschaft",
-      "id": "rosenheimerverkehrsgesellschaft-bfc089",
-      "locationSet": {
-        "include": ["de-by.geojson"]
-      },
-      "matchNames": ["stadtverkehr rosenheim"],
-      "tags": {
-        "network": "Rosenheimer Verkehrsgesellschaft",
-        "network:short": "RoVG",
-        "network:wikidata": "Q2167149",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "RPT",
       "id": "rpt-f73eb3",
       "locationSet": {
@@ -15597,6 +16059,18 @@
         "include": ["ca-qc.geojson"]
       },
       "tags": {"network": "RTL", "route": "bus"}
+    },
+    {
+      "displayName": "RTL (Maldives)",
+      "id": "rtl-80c041",
+      "locationSet": {"include": ["mv"]},
+      "tags": {
+        "network": "RTL",
+        "network:wikidata": "Q138509118",
+        "operator": "MTCC",
+        "operator:wikidata": "Q138509111",
+        "route": "bus"
+      }
     },
     {
       "displayName": "RTM",
@@ -15823,6 +16297,19 @@
       }
     },
     {
+      "displayName": "Ryde Racine",
+      "id": "ryderacine-28c67e",
+      "locationSet": {
+        "include": ["us-wi.geojson"]
+      },
+      "tags": {
+        "network": "Ryde Racine",
+        "network:wikidata": "Q4883698",
+        "operator": "City of Racine",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "S.T.P.T.",
       "id": "stpt-9c403a",
       "locationSet": {"include": ["ro"]},
@@ -15880,19 +16367,6 @@
         "network": "SacRT",
         "network:wikidata": "Q7397015",
         "operator": "Sacramento Regional Transit District",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "SAD Žilina",
-      "id": "sadzilina-0c8a8c",
-      "locationSet": {
-        "include": ["cz-80.geojson", "sk"]
-      },
-      "note": "ISO 3166-2 SK-ZI",
-      "tags": {
-        "network": "SAD Žilina",
-        "network:wikidata": "Q12776241",
         "route": "bus"
       }
     },
@@ -16374,6 +16848,21 @@
       }
     },
     {
+      "displayName": "SEMOV Estado de Mexico",
+      "id": "semovestadodemexico-620d60",
+      "locationSet": {
+        "include": [
+          "mx-gro.geojson",
+          "mx-mex.geojson",
+          "mx-mor.geojson"
+        ]
+      },
+      "tags": {
+        "network": "SEMOV Estado de Mexico",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Sénart",
       "id": "senart-bf4ce0",
       "locationSet": {
@@ -16423,8 +16912,10 @@
       "locationSet": {
         "include": ["es-v.geojson"]
       },
+      "matchNames": ["suv"],
       "tags": {
         "network": "Servei Urbà de Viatgers",
+        "network:wikidata": "Q136088674",
         "operator": "Autos Vallduxense",
         "operator:short": "AVSA",
         "route": "bus"
@@ -17094,8 +17585,10 @@
     },
     {
       "displayName": "SNG",
-      "id": "sng-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "sng-d9bf75",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
       "tags": {"network": "SNG", "route": "bus"}
     },
     {
@@ -17411,7 +17904,7 @@
       "locationSet": {"include": ["nl"]},
       "tags": {
         "network": "Stadsvervoer Amsterdam",
-        "network:wikidata": "Q108742702",
+        "network:wikidata": "Q137608588",
         "operator": "GVB",
         "operator:wikidata": "Q1808041",
         "route": "bus"
@@ -17419,8 +17912,10 @@
     },
     {
       "displayName": "Stadt-Bus-Verkehr Straubing",
-      "id": "stadtbusverkehrstraubing-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "stadtbusverkehrstraubing-bfc089",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
       "tags": {
         "network": "Stadt-Bus-Verkehr Straubing",
         "route": "bus"
@@ -17584,13 +18079,12 @@
     },
     {
       "displayName": "STAR (Rennes)",
-      "id": "star-7ed087",
+      "id": "frstar-7ed087",
       "locationSet": {
         "include": [[-1.7114, 48.1082, 30]]
       },
-      "matchNames": ["fr:star"],
       "tags": {
-        "network": "STAR",
+        "network": "FR:STAR",
         "network:wikidata": "Q3480422",
         "operator": "Keolis Rennes",
         "route": "bus"
@@ -17955,6 +18449,15 @@
       }
     },
     {
+      "displayName": "Suburbano",
+      "id": "suburbano-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Suburbano",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Sudeste",
       "id": "sudeste-2ef076",
       "locationSet": {"include": ["br"]},
@@ -18094,18 +18597,22 @@
     },
     {
       "displayName": "SVT",
-      "id": "sivvicenza-578023",
+      "id": "societavicentinatrasporti-578023",
       "locationSet": {
         "include": ["it-34.geojson"]
       },
       "matchNames": [
         "aim mobilità",
         "aim vicenza",
-        "svt"
+        "siv vicenza"
       ],
       "tags": {
-        "network": "SIV Vicenza",
-        "network:wikidata": "Q105637491",
+        "network": "Società Vicentina Trasporti",
+        "network:short": "SVT",
+        "network:wikidata": "Q25409992",
+        "operator": "Società Vicentina Trasporti",
+        "operator:short": "SVT",
+        "operator:wikidata": "Q25409992",
         "route": "bus"
       }
     },
@@ -18141,17 +18648,6 @@
       "tags": {
         "network": "SwissPass",
         "network:wikidata": "Q20850937",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "Sydney Buses",
-      "id": "sydneybuses-4ab973",
-      "locationSet": {
-        "include": ["au-nsw.geojson"]
-      },
-      "tags": {
-        "network": "Sydney Buses",
         "route": "bus"
       }
     },
@@ -18802,6 +19298,15 @@
       }
     },
     {
+      "displayName": "TEKULAŞ",
+      "id": "tekulas-8150d4",
+      "locationSet": {"include": ["tr"]},
+      "tags": {
+        "network": "TEKULAŞ",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Tempo",
       "id": "tempo-f112f1",
       "locationSet": {
@@ -19305,6 +19810,15 @@
       }
     },
     {
+      "displayName": "Tórshavn",
+      "id": "torshavn-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Tórshavn",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Tout'enbus",
       "id": "toutenbus-1b8593",
       "locationSet": {
@@ -19353,6 +19867,29 @@
       }
     },
     {
+      "displayName": "TPL FVG",
+      "id": "tplfvg-483cce",
+      "locationSet": {
+        "include": [
+          "it-34.geojson",
+          "it-36.geojson"
+        ]
+      },
+      "matchNames": [
+        "apt (gorizia)",
+        "arriva udine",
+        "atap (pordenone)",
+        "friuli venezia giulia",
+        "saf",
+        "trieste trasporti"
+      ],
+      "tags": {
+        "network": "TPL FVG",
+        "network:wikidata": "Q109614879",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "TPMC",
       "id": "tpmc-4d54da",
       "locationSet": {"include": ["cl"]},
@@ -19386,6 +19923,7 @@
       "locationSet": {"include": ["xk"]},
       "tags": {
         "network": "Trafiku Urban",
+        "network:wikidata": "Q60743920",
         "operator": "Trafiku Urban",
         "operator:wikidata": "Q60743920",
         "route": "bus"
@@ -19643,6 +20181,16 @@
       }
     },
     {
+      "displayName": "Translink (Northern Ireland)",
+      "id": "translink-36d7b1",
+      "locationSet": {"include": ["gb-nir"]},
+      "tags": {
+        "network": "Translink",
+        "network:wikidata": "Q180707",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Translink (Queensland)",
       "id": "translink-322d6c",
       "locationSet": {
@@ -19825,6 +20373,8 @@
       },
       "tags": {
         "network": "Transport for Cornwall",
+        "network:en": "Transport for Cornwall",
+        "network:kw": "Karyans rag Kernow",
         "network:wikidata": "Q117290050",
         "route": "bus"
       }
@@ -19840,6 +20390,17 @@
       }
     },
     {
+      "displayName": "Transport GZM",
+      "id": "transportgzm-9340cc",
+      "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-12, PL-24",
+      "tags": {
+        "network": "Transport GZM",
+        "network:wikidata": "Q124678630",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Transport públic de Mallorca",
       "id": "transportpublicdemallorca-3a47c9",
       "locationSet": {"include": ["es-ib"]},
@@ -19850,11 +20411,15 @@
     },
     {
       "displayName": "Transport Públic Generalitat Valenciana",
-      "id": "transportpublicgeneralitatvalenciana-9c427e",
+      "id": "transportpublicgeneralitatvalenciana-28bf89",
       "locationSet": {
         "include": [
           "es-a.geojson",
+          "es-ab.geojson",
           "es-cs.geojson",
+          "es-cu.geojson",
+          "es-mu.geojson",
+          "es-te.geojson",
           "es-v.geojson"
         ]
       },
@@ -19883,7 +20448,10 @@
       },
       "tags": {
         "network": "Transport Urbà de Castelló",
-        "network:short": "TUCS",
+        "network:short": "TUCs",
+        "network:wikidata": "Q10747168",
+        "operator": "Autotransportes Colectivos Castellonenses, Sociedad Anónima",
+        "operator:short": "ACCSA",
         "route": "bus"
       }
     },
@@ -20001,6 +20569,15 @@
       }
     },
     {
+      "displayName": "Transporte Urbano de Linares",
+      "id": "transporteurbanodelinares-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Transporte Urbano de Linares",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Transporte Urbano de Lorca",
       "id": "transporteurbanodelorca-143781",
       "locationSet": {
@@ -20039,6 +20616,7 @@
       "locationSet": {
         "include": ["pt-15.geojson"]
       },
+      "matchNames": ["ids zid"],
       "tags": {
         "network": "Transportes Coletivos do Barreiro",
         "network:short": "TCB",
@@ -20200,6 +20778,21 @@
         "network": "Transports Région Arlysère",
         "network:wikidata": "Q37043990",
         "operator": "Transdev Albertville",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Transports Urbans de Sabadell",
+      "id": "transportsurbansdesabadell-b0a08c",
+      "locationSet": {
+        "include": ["es-b.geojson"]
+      },
+      "matchNames": ["bus de sabadell"],
+      "tags": {
+        "network": "Transports Urbans de Sabadell",
+        "network:short": "TUS",
+        "network:wikidata": "Q39080976",
+        "operator": "TUS, SCCL",
         "route": "bus"
       }
     },
@@ -20368,20 +20961,6 @@
       }
     },
     {
-      "displayName": "Trieste Trasporti",
-      "id": "triestetrasporti-33afa1",
-      "locationSet": {
-        "include": ["it-36.geojson"]
-      },
-      "tags": {
-        "network": "Trieste Trasporti",
-        "network:wikidata": "Q3539115",
-        "operator": "TPL FVG",
-        "operator:wikidata": "Q109614879",
-        "route": "bus"
-      }
-    },
-    {
       "displayName": "TriMet",
       "id": "trimet-c66022",
       "locationSet": {
@@ -20475,13 +21054,12 @@
     },
     {
       "displayName": "TUB (Bretagne)",
-      "id": "tub-4dc520",
+      "id": "frtub-4dc520",
       "locationSet": {
         "include": ["fr-bre.geojson"]
       },
-      "matchNames": ["fr:tub"],
       "tags": {
-        "network": "TUB",
+        "network": "FR:TUB",
         "network:wikidata": "Q28493264",
         "route": "bus"
       }
@@ -20556,24 +21134,20 @@
       }
     },
     {
-      "displayName": "TUC Pamplona",
-      "id": "tucpamplona-1fc942",
+      "displayName": "TUC-EHG Pamplona/Iruña",
+      "id": "transporteurbanocomarcaldepamplona-1fc942",
       "locationSet": {
         "include": ["es-na.geojson"]
       },
+      "matchNames": ["tuc pamplona"],
       "tags": {
-        "network": "TUC Pamplona",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "TUC-EHG",
-      "id": "tucehg-1fc942",
-      "locationSet": {
-        "include": ["es-na.geojson"]
-      },
-      "tags": {
-        "network": "TUC-EHG",
+        "network": "Transporte Urbano Comarcal de Pamplona",
+        "network:eu": "Iruñeko Eskualdeko Hiri Garraioa",
+        "network:short": "TUC-EHG",
+        "network:wikidata": "Q7129449",
+        "operator": "Transports Ciutat Comtal",
+        "operator:short": "TCC",
+        "operator:wikidata": "Q11953002",
         "route": "bus"
       }
     },
@@ -20637,24 +21211,6 @@
       "tags": {
         "network": "Tulare County Regional Transit Agency",
         "network:wikidata": "Q110722692",
-        "route": "bus"
-      }
-    },
-    {
-      "displayName": "Tulsa Transit",
-      "id": "tulsatransit-f70821",
-      "locationSet": {
-        "include": [[-95.93, 36.12]]
-      },
-      "matchNames": [
-        "metropolitan tulsa transit authority"
-      ],
-      "tags": {
-        "network": "Tulsa Transit",
-        "network:short": "MTTA",
-        "network:wikidata": "Q6825293",
-        "operator": "MetroLink Tulsa",
-        "operator:wikidata": "Q6825293",
         "route": "bus"
       }
     },
@@ -20733,6 +21289,19 @@
         "network": "TUS",
         "network:wikidata": "Q97183354",
         "operator": "Les Courriers Automobiles Picards",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "TUSSA",
+      "id": "transportesurbanosdesantiagosa-b9e9f8",
+      "locationSet": {
+        "include": ["es-c.geojson"]
+      },
+      "tags": {
+        "network": "Transportes Urbanos de Santiago S. A.",
+        "network:short": "TUSSA",
+        "network:wikidata": "Q9090645",
         "route": "bus"
       }
     },
@@ -20914,6 +21483,16 @@
       "tags": {
         "network": "UMass Lowell",
         "network:wikidata": "Q15143",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "UMiG Skawina",
+      "id": "umigskawina-9340cc",
+      "locationSet": {"include": ["pl"]},
+      "note": "ISO 3166-2 PL-12",
+      "tags": {
+        "network": "UMiG Skawina",
         "route": "bus"
       }
     },
@@ -21147,6 +21726,7 @@
       },
       "tags": {
         "network": "UTJ Wołoszka",
+        "network:wikidata": "Q136650901",
         "route": "bus"
       }
     },
@@ -21161,6 +21741,28 @@
         "network:wikidata": "Q107900150",
         "operator": "Umpqua Public Transportation District",
         "operator:short": "UPTD",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Utrecht Binnen",
+      "id": "utrechtbinnen-2f3200",
+      "locationSet": {"include": ["nl"]},
+      "matchNames": ["regio utrecht"],
+      "tags": {
+        "network": "Utrecht Binnen",
+        "network:wikidata": "Q116159424",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Utrecht Buiten",
+      "id": "utrechtbuiten-2f3200",
+      "locationSet": {"include": ["nl"]},
+      "matchNames": ["provincie utrecht"],
+      "tags": {
+        "network": "Utrecht Buiten",
+        "network:wikidata": "Q116159423",
         "route": "bus"
       }
     },
@@ -21458,6 +22060,18 @@
       }
     },
     {
+      "displayName": "Verkehrsgemeinschaft Altötting",
+      "id": "verkehrsgemeinschaftaltotting-bfc089",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "tags": {
+        "network": "Verkehrsgemeinschaft Altötting",
+        "network:wikidata": "Q1269865",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Verkehrsgemeinschaft am Bayerischen Untermain",
       "id": "verkehrsgemeinschaftambayerischenuntermain-bfc089",
       "locationSet": {
@@ -21481,6 +22095,18 @@
         "network:guid": "DE-TH-VGLG",
         "network:short": "VGLG",
         "network:wikidata": "Q81440717",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Verkehrsgemeinschaft Garmisch-Partenkirchen",
+      "id": "verkehrsgemeinschaftgarmischpartenkirchen-bfc089",
+      "locationSet": {
+        "include": ["de-by.geojson"]
+      },
+      "tags": {
+        "network": "Verkehrsgemeinschaft Garmisch-Partenkirchen",
+        "network:wikidata": "Q1671508",
         "route": "bus"
       }
     },
@@ -22043,6 +22669,186 @@
       }
     },
     {
+      "displayName": "Vervoerregio Antwerpen",
+      "id": "vvrantwerpen-a315fc",
+      "locationSet": {"include": ["be", "nl"]},
+      "tags": {
+        "network": "VVR Antwerpen",
+        "network:wikidata": "Q136720015",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Brugge",
+      "id": "vvrbrugge-a315fc",
+      "locationSet": {"include": ["be", "nl"]},
+      "tags": {
+        "network": "VVR Brugge",
+        "network:wikidata": "Q136720035",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Dender",
+      "id": "vvrdender-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Dender",
+        "network:wikidata": "Q136716146",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Gent",
+      "id": "vvrgent-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Gent",
+        "network:wikidata": "Q136716137",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Kempen",
+      "id": "vvrkempen-a315fc",
+      "locationSet": {"include": ["be", "nl"]},
+      "tags": {
+        "network": "VVR Kempen",
+        "network:wikidata": "Q136720023",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Kortrijk",
+      "id": "vvrkortrijk-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Kortrijk",
+        "network:wikidata": "Q136720037",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Leuven",
+      "id": "vvrleuven-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Leuven",
+        "network:wikidata": "Q136673001",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Limburg",
+      "id": "vvrlimburg-a315fc",
+      "locationSet": {"include": ["be", "nl"]},
+      "tags": {
+        "network": "VVR Limburg",
+        "network:wikidata": "Q136720004",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Mechelen",
+      "id": "vvrmechelen-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Mechelen",
+        "network:wikidata": "Q136720022",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Midwest",
+      "id": "vvrmidwest-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Midwest",
+        "network:wikidata": "Q136720038",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Oostende",
+      "id": "vvroostende-a315fc",
+      "locationSet": {"include": ["be", "nl"]},
+      "tags": {
+        "network": "VVR Oostende",
+        "network:wikidata": "Q136720039",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Vlaamse Ardennen",
+      "id": "vvrvlaamseardennen-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Vlaamse Ardennen",
+        "network:wikidata": "Q136716147",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Vlaamse Rand",
+      "id": "vvrvlaamserand-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Vlaamse Rand",
+        "network:wikidata": "Q136673011",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Waasland",
+      "id": "vvrwaasland-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Waasland",
+        "network:wikidata": "Q136716145",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Vervoerregio Westhoek",
+      "id": "vvrwesthoek-6974a4",
+      "locationSet": {"include": ["be"]},
+      "tags": {
+        "network": "VVR Westhoek",
+        "network:wikidata": "Q136720040",
+        "operator": "De Lijn",
+        "operator:wikidata": "Q614819",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Veszprém helyijárat",
       "id": "veszpremhelyijarat-6ba633",
       "locationSet": {"include": ["hu"]},
@@ -22487,8 +23293,10 @@
     },
     {
       "displayName": "VWG des ÖPNV Sömmerda",
-      "id": "vwgdesopnvsommerda-3b9544",
-      "locationSet": {"include": ["de"]},
+      "id": "vwgdesopnvsommerda-d9bf75",
+      "locationSet": {
+        "include": ["de-th.geojson"]
+      },
       "tags": {
         "network": "VWG des ÖPNV Sömmerda",
         "route": "bus"
@@ -22658,7 +23466,7 @@
       },
       "tags": {
         "network": "West-Brabant",
-        "network:wikidata": "Q108742718",
+        "network:wikidata": "Q135235040",
         "route": "bus"
       }
     },
@@ -23029,6 +23837,15 @@
       }
     },
     {
+      "displayName": "Xe buýt Hải Phòng",
+      "id": "xebuythaiphong-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Xe buýt Hải Phòng",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Xe buýt Thành phố Hồ Chí Minh",
       "id": "xebuytthanhphohochiminh-2c1b52",
       "locationSet": {"include": ["vn"]},
@@ -23202,12 +24019,24 @@
       }
     },
     {
+      "displayName": "Zappalà & Torrisi",
+      "id": "zappalaandtorrisi-456b59",
+      "locationSet": {
+        "include": [[15.15757, 37.62833]]
+      },
+      "tags": {
+        "network": "Zappalà & Torrisi",
+        "network:wikidata": "Q136332646",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Zarząd Transportu Metropolitalnego",
       "id": "zarzadtransportumetropolitalnego-9340cc",
       "locationSet": {"include": ["pl"]},
-      "note": "ISO 3166-2 PL-12, PL-24",
       "tags": {
         "network": "Zarząd Transportu Metropolitalnego",
+        "network:short": "ZTM",
         "network:wikidata": "Q48862619",
         "route": "bus"
       }
@@ -23332,6 +24161,19 @@
       "tags": {
         "network": "ZET",
         "network:wikidata": "Q136060",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "ZID",
+      "id": "zlinskaintegrovanadoprava-acaf49",
+      "locationSet": {
+        "include": ["cz-72.geojson"]
+      },
+      "tags": {
+        "network": "Zlínská integrovaná doprava",
+        "network:short": "ZID",
+        "network:wikidata": "Q10861159",
         "route": "bus"
       }
     },
@@ -24125,6 +24967,15 @@
       }
     },
     {
+      "displayName": "Нижегородский транспорт",
+      "id": "97e8a2-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "Нижегородский транспорт",
+        "route": "bus"
+      }
+    },
+    {
       "displayName": "Обществен транспорт гр. Троян",
       "id": "9be39f-61eaf0",
       "locationSet": {"include": ["bg"]},
@@ -24297,6 +25148,16 @@
       "locationSet": {"include": ["ge"]},
       "tags": {
         "network": "ბათუმის ავტოტრანსპორტი",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "თბილისის სატრანსპორტო კომპანია",
+      "id": "c23d0f-6eac88",
+      "locationSet": {"include": ["ge"]},
+      "tags": {
+        "network": "თბილისის სატრანსპორტო კომპანია",
+        "network:wikidata": "Q61354702",
         "route": "bus"
       }
     },
@@ -24582,11 +25443,13 @@
     },
     {
       "displayName": "대전광역시 시내버스",
-      "id": "1f1a4e-776068",
+      "id": "daejeonbuses-776068",
       "locationSet": {"include": ["kr"]},
       "tags": {
         "network": "대전광역시 시내버스",
+        "network:en": "Daejeon Buses",
         "network:ko": "대전광역시 시내버스",
+        "network:wikidata": "Q12591717",
         "route": "bus"
       }
     },
@@ -24618,6 +25481,7 @@
       "tags": {
         "network": "서울특별시 시내버스",
         "network:ko": "서울특별시 시내버스",
+        "network:wikidata": "Q3724007",
         "route": "bus"
       }
     },
@@ -24628,6 +25492,7 @@
       "tags": {
         "network": "익산시 시내버스",
         "network:ko": "익산시 시내버스",
+        "network:wikidata": "Q12613314",
         "route": "bus"
       }
     },
@@ -24644,12 +25509,22 @@
     },
     {
       "displayName": "천안시",
-      "id": "bf6076-776068",
-      "locationSet": {"include": ["kr"]},
-      "note": "This is city name",
+      "id": "bf6076-a45453",
+      "locationSet": {"include": ["001"]},
       "tags": {
         "network": "천안시",
         "network:ko": "천안시",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "천안시 시내버스",
+      "id": "8d3e9f-776068",
+      "locationSet": {"include": ["kr"]},
+      "tags": {
+        "network": "천안시 시내버스",
+        "network:ko": "천안시 시내버스",
+        "network:wikidata": "Q12618920",
         "route": "bus"
       }
     },
@@ -24770,6 +25645,30 @@
         "network:en": "Tsuku Bus",
         "network:ja": "つくバス",
         "network:wikidata": "Q11272298",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "とよたおいでんバス",
+      "id": "toyotaoidenbus-6483d2",
+      "locationSet": {
+        "include": ["jp-23.geojson"]
+      },
+      "tags": {
+        "network": "とよたおいでんバス",
+        "network:en": "Toyota Oiden Bus",
+        "network:ja": "とよたおいでんバス",
+        "network:wikidata": "Q11273433",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "ばんけいバス",
+      "id": "80650a-a45453",
+      "locationSet": {"include": ["001"]},
+      "tags": {
+        "network": "ばんけいバス",
+        "network:ja": "ばんけいバス",
         "route": "bus"
       }
     },
@@ -25352,6 +26251,7 @@
       "id": "cityflyer-5398e8",
       "locationSet": {"include": ["hk"]},
       "tags": {
+        "colour": "#cc0000",
         "network": "城巴機場快線 Cityflyer",
         "network:en": "Cityflyer",
         "network:wikidata": "Q5124066",

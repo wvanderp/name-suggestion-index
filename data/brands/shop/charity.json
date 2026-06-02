@@ -63,6 +63,20 @@
       }
     },
     {
+      "displayName": "Blue Cross (Denmark)",
+      "id": "blakorsgenbrug-40689c",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Blå Kors",
+        "brand:wikidata": "Q123178402",
+        "name": "Blå Kors Genbrug",
+        "operator": "Blå Kors Danmark",
+        "operator:wikidata": "Q123178402",
+        "second_hand": "yes",
+        "shop": "charity"
+      }
+    },
+    {
       "displayName": "Brainwave",
       "id": "brainwave-b7b967",
       "locationSet": {"include": ["gb"]},
@@ -147,6 +161,20 @@
       }
     },
     {
+      "displayName": "Danmission",
+      "id": "danmissiongenbrug-40689c",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Danmission",
+        "brand:wikidata": "Q11964723",
+        "name": "Danmission Genbrug",
+        "operator": "Danmission",
+        "operator:wikidata": "Q11964723",
+        "second_hand": "yes",
+        "shop": "charity"
+      }
+    },
+    {
       "displayName": "Dansk Røde Kors Genbrug",
       "id": "danskrodekorsgenbrug-40689c",
       "locationSet": {"include": ["dk"]},
@@ -167,6 +195,19 @@
         "brand": "Debra",
         "brand:wikidata": "Q104535435",
         "name": "Debra Charity Shop",
+        "shop": "charity"
+      }
+    },
+    {
+      "displayName": "Dogs Trust",
+      "id": "dogstrust-4e8804",
+      "locationSet": {
+        "include": ["gb-eng", "gb-wls"]
+      },
+      "tags": {
+        "brand": "Dogs Trust",
+        "brand:wikidata": "Q5288441",
+        "name": "Dogs Trust",
         "shop": "charity"
       }
     },
@@ -194,6 +235,18 @@
         "name": "Frelsens Hær Genbrug",
         "ref:DK:cvr": "43417312",
         "second_hand": "only",
+        "shop": "charity"
+      }
+    },
+    {
+      "displayName": "Goodwill",
+      "id": "goodwill-fca2e3",
+      "issues": [11142],
+      "locationSet": {"include": ["us"]},
+      "tags": {
+        "brand": "Goodwill",
+        "brand:wikidata": "Q5583655",
+        "name": "Goodwill",
         "shop": "charity"
       }
     },
@@ -263,6 +316,9 @@
         "brand": "Kirkens Korshær Genbrug",
         "brand:wikidata": "Q12321915",
         "name": "Kirkens Korshær Genbrug",
+        "operator": "Kirkens Korshær Genbrug",
+        "operator:wikidata": "Q12321915",
+        "second_hand": "yes",
         "shop": "charity"
       }
     },
@@ -274,6 +330,17 @@
         "brand": "Lifeline",
         "brand:wikidata": "Q6545404",
         "name": "Lifeline Shop",
+        "shop": "charity"
+      }
+    },
+    {
+      "displayName": "Magasin du Monde",
+      "id": "magasindumonde-ea61d3",
+      "locationSet": {"include": ["ch"]},
+      "tags": {
+        "brand": "Magasin du Monde",
+        "brand:wikidata": "Q109044029",
+        "name": "Magasin du Monde",
         "shop": "charity"
       }
     },
@@ -308,6 +375,20 @@
         "brand": "Mind",
         "brand:wikidata": "Q3314763",
         "name": "Mind",
+        "shop": "charity"
+      }
+    },
+    {
+      "displayName": "Mission Afrika",
+      "id": "missionafrikagenbrug-40689c",
+      "locationSet": {"include": ["dk"]},
+      "tags": {
+        "brand": "Mission Afrika",
+        "brand:wikidata": "Q12327349",
+        "name": "Mission Afrika Genbrug",
+        "operator": "Mission Afrika",
+        "operator:wikidata": "Q12327349",
+        "second_hand": "yes",
         "shop": "charity"
       }
     },
@@ -574,6 +655,17 @@
         "brand": "The Salvation Army",
         "brand:wikidata": "Q188307",
         "name": "The Salvation Army",
+        "shop": "charity"
+      }
+    },
+    {
+      "displayName": "TRAID",
+      "id": "traid-b7b967",
+      "locationSet": {"include": ["gb"]},
+      "tags": {
+        "brand": "TRAID",
+        "brand:wikidata": "Q109717195",
+        "name": "TRAID",
         "shop": "charity"
       }
     },

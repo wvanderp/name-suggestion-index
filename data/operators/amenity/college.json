@@ -1,6 +1,7 @@
 {
   "properties": {
     "path": "operators/amenity/college",
+    "skipCollection": true,
     "exclude": {
       "generic": [
         "^((governo )?federal|federal government)$",
@@ -49,13 +50,27 @@
       }
     },
     {
+      "displayName": "Delhi University",
+      "id": "delhiuniversity-1aaf5f",
+      "locationSet": {
+        "include": ["in-dl.geojson"]
+      },
+      "tags": {
+        "amenity": "college",
+        "operator": "Delhi University",
+        "operator:type": "public",
+        "operator:wikidata": "Q665105"
+      }
+    },
+    {
       "displayName": "Dunamare onderwijs",
       "id": "dunamareonderwijs-e7dc64",
       "locationSet": {"include": ["nl"]},
       "tags": {
         "amenity": "college",
         "operator": "Dunamare onderwijs",
-        "operator:type": "private"
+        "operator:type": "private",
+        "operator:wikidata": "Q139555308"
       }
     },
     {
