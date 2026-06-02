@@ -2978,6 +2978,15 @@
         "route": "bus"
       }
     },
+        {
+      "displayName": "Deeltaxi West-Brabant",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "network": "Deeltaxi West-Brabant",
+        "network:wikidata": "Q140031265",
+        "route": "bus"
+      }
+    },
     {
       "displayName": "BUT",
       "id": "but-1b8593",
@@ -5454,6 +5463,15 @@
         "network:wikidata": "Q108716138",
         "operator": "Qbuzz",
         "operator:wikidata": "Q3146926",
+        "route": "bus"
+      }
+    },
+    {
+      "displayName": "Concessie FlexRRReis Flevoland",
+      "locationSet": {"include": ["nl"]},
+      "tags": {
+        "network": "Concessie FlexRRReis Flevoland",
+        "network:wikidata": "Q140031367",
         "route": "bus"
       }
     },
